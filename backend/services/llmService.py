@@ -87,7 +87,7 @@ def get_llm_client() -> SarvamAI:
             "LLM_API_KEY (or SARVAM_API_KEY) is missing or empty. Please set it in the root .env file."
         )
 
-    return SarvamAI(api_key=api_key)
+    return SarvamAI(api_subscription_key=api_key)
 
 
 def get_fast_emergency_response(query: str, lang: str = "ta-IN") -> str:
@@ -519,7 +519,7 @@ def generate_healthcare_response(
     is_symptom_only = intent in ("HEALTH_SYMPTOM", "HEALTH_QUERY", "GENERAL_HEALTH", "GENERAL_SUPPORTED_HEALTHCARE")
 
     search_query = clean_msg
-    if history and len(clean_msg.split()) <= 4:
+    if history and (len(clean_msg.split()) <= 10 or is_scheme_intent):
         prev_user_msgs = [m.get("content", "") for m in history if m.get("role") == "user"]
         if prev_user_msgs:
             search_query = f"{prev_user_msgs[-1]} {clean_msg}"

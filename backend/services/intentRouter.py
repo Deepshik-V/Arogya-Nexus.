@@ -292,6 +292,16 @@ def classify_intent(message: str, language_code: str = "en-IN", history: Optiona
                     "matched_pattern": "history_affirmative_hospital_prompt"
                 }
 
+            # Scheme follow-up detection
+            scheme_keywords = ["scheme", "cmchis", "pmjay", "pm-jay", "mrmbs", "coverage", "காப்பீடு", "திட்டம்", "pathakam", "yojana", "financial support", "card holder", "resident", "surgery"]
+            assistant_asked_schemes = any(sk in last_text for sk in scheme_keywords)
+            user_scheme_followup = any(w in norm_msg for w in ["resident", "card", "smart card", "yes", "holder", "income", "family", "bpl", "tamil nadu"])
+            if assistant_asked_schemes and (user_scheme_followup or is_affirmative):
+                return IntentString("GOVERNMENT_SCHEME"), {
+                    "is_followup": True,
+                    "matched_pattern": "history_scheme_followup"
+                }
+
     # 3. HEALTH_PHOTO (Visual analysis prompt)
     for pat in HEALTH_PHOTO_PATTERNS:
         if re.search(pat, norm_msg, re.IGNORECASE):

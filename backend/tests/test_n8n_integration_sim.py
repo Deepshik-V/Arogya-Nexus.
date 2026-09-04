@@ -30,7 +30,8 @@ if hasattr(sys.stdout, "reconfigure"):
 if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8")
 
-PUBLIC_BASE_URL = "https://charleston-hispanic-isolation-greeting.trycloudflare.com"
+import os
+PUBLIC_BASE_URL = os.environ.get("AROGYA_BACKEND_URL") or os.environ.get("PUBLIC_BASE_URL") or "http://127.0.0.1:8000"
 LOCAL_BASE_URL = "http://127.0.0.1:8000"
 
 WHITELISTED_DOMAINS = [

@@ -247,8 +247,8 @@ npx oxlint
 # 1. Start Backend Server
 python -m uvicorn main:app --app-dir backend --host 127.0.0.1 --port 8000
 
-# 2. In another terminal, start Public Cloudflare Tunnel (for n8n Cloud access)
-.\cloudflared.exe tunnel --protocol http2 --url http://127.0.0.1:8000
+# 2. (Optional) If exposing local backend to n8n Cloud via tunnel:
+cloudflared tunnel --protocol http2 --url http://127.0.0.1:8000
 
 # 3. In another terminal, start Frontend
 npm run dev
