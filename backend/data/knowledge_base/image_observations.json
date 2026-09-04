@@ -1,0 +1,263 @@
+[
+  {
+    "id": "obs-redness-irritation",
+    "category": "image_observation",
+    "pattern_id": "redness",
+    "title_en": "Superficial Redness and Mild Skin Irritation",
+    "title_ta": "மேற்பரப்பு சிவத்தல் மற்றும் லேசான தோல் எரிச்சல்",
+    "title_te": "చర్మం ఎర్రబడటం మరియు తేలికపాటి చికాకు",
+    "title_ml": "ചർമ്മത്തിലെ ചുവപ്പും നേരിയ അസ്വസ്ഥതയും",
+    "visible_features": {
+      "en": "Localized surface erythema (redness), mild irritation, and superficial inflammation without skin breakage or deep tissue involvement.",
+      "ta": "தோலின் மேற்பரப்பில் லேசான சிவத்தல் மற்றும் எரிச்சல்; ஆழமான காயம் இல்லை.",
+      "te": "చర్మంపై తేలికపాటి ఎరుపు మరియు చికాకు; లోతైన గాయం లేదు.",
+      "ml": "ചർമ്മത്തിൽ നേരിയ ചുവപ്പും അസ്വസ്ഥതയും; ആഴത്തിലുള്ള മുറിവുകളില്ല."
+    },
+    "possible_causes": {
+      "en": "Common causes include mild contact dermatitis, heat rash, light insect reaction, superficial friction, or mild allergy. Visual observation cannot establish a confirmed medical diagnosis.",
+      "ta": "ஒவ்வாமை, வெப்ப சளி, பூச்சிக்கடி அல்லது லேசான உராய்வு காரணமாக ஏற்படலாம். புகைப்படம் மட்டுமே உறுதிப்படுத்தப்பட்ட மருத்துவ நோயறிதலை வழங்க முடியாது.",
+      "te": "తేలికపాటి అలెర్జీ, వేడి దద్దుర్లు లేదా కీటకాల కాటు వల్ల సంభవించవచ్చు.",
+      "ml": "നേരിയ അലർജി, ചൂടുകുരു അല്ലെങ്കിൽ ഷഡ്പദങ്ങൾ കടിച്ചതുമൂലം ഉണ്ടാകാം."
+    },
+    "safe_immediate_care": {
+      "en": [
+        "Gently wash the area with clean, plain lukewarm water and mild, non-perfumed soap.",
+        "Pat gently dry with a clean cotton towel; do NOT vigorously rub or scratch.",
+        "Apply a cool, damp clean cloth for 10-15 minutes to soothe burning or itching.",
+        "Avoid applying harsh chemical ointments, unverified herbal pastes, or bleaching agents."
+      ],
+      "ta": [
+        "சுத்தமான குளிர்ந்த நீரால் மென்மையாக கழுவவும்.",
+        "சுத்தமான பருத்தி துணியால் மெதுவாக ஒற்றி எடுக்கவும்; நகங்களால் சொறிய வேண்டாம்.",
+        "எரிச்சல் தணிய சுத்தமான குளிர்ந்த துணியால் ஒத்தடம் கொடுக்கலாம்.",
+        "மருத்துவர் பரிந்துரைக்காத களிம்புகளையோ பச்சிலைகளையோ பூச வேண்டாம்."
+      ],
+      "te": [
+        "గోరువెచ్చని నీటితో సున్నితంగా కడగండి.",
+        "గోళ్లతో గోకవద్దు.",
+        "చల్లని తడి గుడ్డతో కాపడం పెట్టండి."
+      ],
+      "ml": [
+        "തണുത്ത വെള്ളത്തിൽ വൃത്തിയായി കഴുകുക.",
+        "നഖങ്ങൾ കൊണ്ട് ചൊറിയരുത്.",
+        "വൃത്തിയുള്ള നനഞ്ഞ തുണി ഉപയോഗിച്ച് ഒപ്പുക."
+      ]
+    },
+    "warning_signs": {
+      "en": [
+        "Rapidly spreading redness, increasing warmth, or marked tenderness (cellulitis warning).",
+        "Pus discharge, blisters, or foul odor.",
+        "Accompanying high fever or chills.",
+        "Difficulty breathing, facial swelling, or dizziness (anaphylaxis emergency — dial 108 immediately)."
+      ],
+      "ta": [
+        "சிவத்தல் வேகமாக பரவுதல், அதிக சூடு அல்லது தாங்க முடியாத வலி.",
+        "சீழ் பிடித்தல் அல்லது கொப்பளங்கள் தோன்றுதல்.",
+        "காய்ச்சல் அல்லது நடுக்கம் ஏற்படுதல்.",
+        "மூச்சுத்திணறல் அல்லது முகம் வீங்குதல் (108 ஆம்புலன்ஸை உடனடியாக அழைக்கவும்)."
+      ],
+      "te": [
+        "ఎరుపు వేగంగా వ్యాపించడం మరియు తీవ్రమైన నొప్పి.",
+        "చీము పట్టడం లేదా బొబ్బలు రావడం.",
+        "శ్వాస తీసుకోవడంలో ఇబ్బంది లేదా ముఖం వాపు (వెంటనే 108 కి కాల్ చేయండి)."
+      ],
+      "ml": [
+        "ചുവപ്പ് അതിവേഗം പടരുകയോ കഠിനമായ ചൂട് അനുഭവപ്പെടുകയോ ചെയ്യുക.",
+        "പഴുപ്പ് വരികയോ കുമിളകൾ ഉണ്ടാവുകയോ ചെയ്യുക.",
+        "ശ്വാസതടസ്സമുണ്ടായാൽ ഉടൻ 108 വിളിക്കുക."
+      ]
+    },
+    "when_to_seek_care": {
+      "en": [
+        "If redness does not improve within 48-72 hours of safe supportive care.",
+        "If the area becomes increasingly painful or begins spreading."
+      ],
+      "ta": [
+        "2-3 நாட்களில் சிவத்தல் குறையவில்லை என்றால் ஆரம்ப சுகாதார நிலையத்தை (PHC) அணுகவும்."
+      ],
+      "te": [
+        "2-3 రోజుల్లో తగ్గకపోతే ప్రాథమిక ఆరోగ్య కేంద్రాన్ని (PHC) సంప్రదించండి."
+      ],
+      "ml": [
+        "2-3 ദിവസത്തിനകം ഭേദമായില്ലെങ്കിൽ പിഎച്ച്സി ഡോക്ടറെ കാണിക്കുക."
+      ]
+    },
+    "source": "Standard Clinical Dermatology Guidelines for Primary Health Centres (MoHFW)",
+    "source_url": "https://mohfw.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Visual assistance only. Not a medical diagnosis. In-person clinical evaluation is recommended."
+  },
+  {
+    "id": "obs-superficial-wound",
+    "category": "image_observation",
+    "pattern_id": "superficial_wound",
+    "title_en": "Minor Superficial Wound and Abrasion Care",
+    "title_ta": "மேற்பரப்பு லேசான காயம் மற்றும் சிராய்ப்பு முதலுதவி",
+    "title_te": "తేలికపాటి పైపై గాయం మరియు గీతలు",
+    "title_ml": "ചെറിയ മുറിവുകളും ഉരച്ചിലുകളും - പ്രഥമശുശ്രൂഷ",
+    "visible_features": {
+      "en": "Minor superficial epidermal abrasion or scrape with minimal bleeding, no deep tendon/bone exposure, and no active pulsating arterial hemorrhage.",
+      "ta": "மேல் தோல் சிராய்ப்பு அல்லது லேசான காயம்; அதிக ரத்தப்போக்கு இல்லை.",
+      "te": "పైపై చర్మం గీసుకుపోవడం; అధిక రక్తస్రావం లేదు.",
+      "ml": "ചർമ്മത്തിലെ ചെറിയ മുറിവുകൾ; അമിത രക്തസ്രാവമില്ല."
+    },
+    "possible_causes": {
+      "en": "Usually results from minor mechanical scrapes, falls, or domestic friction. Image assessment cannot rule out foreign body contamination or tetanus risk.",
+      "ta": "சாதாரண உராய்வு அல்லது கீழே விழுந்ததால் ஏற்பட்ட சிராய்ப்பு.",
+      "te": "చిన్నపాటి రాపిడి లేదా జారిపడటం వల్ల వచ్చిన గీత.",
+      "ml": "വീഴ്ചയോ ഉരച്ചിലോ കാരണം ഉണ്ടായ ചെറിയ മുറിവ്."
+    },
+    "safe_immediate_care": {
+      "en": [
+        "Apply gentle, firm pressure with a sterile or clean cotton cloth for 3-5 minutes to stop minor bleeding.",
+        "Rinse thoroughly under clean running potable tap water to flush away dirt and debris.",
+        "Cover lightly with a sterile dry dressing or band-aid to keep clean.",
+        "Verify your Tetanus Toxoid (TT) vaccination status within the last 5-10 years at a local PHC."
+      ],
+      "ta": [
+        "சுத்தமான துணியால் 3-5 நிமிடங்கள் மிதமாக அழுத்தி ரத்தப்போக்கை நிறுத்தவும்.",
+        "சுத்தமான ஓடும் நீரில் அழுக்குகளை கழுவி விடவும்.",
+        "சுத்தமான பேண்டேஜ் கொண்டு மூடவும்.",
+        "அருகிலுள்ள ஆரம்ப சுகாதார நிலையத்தில் (PHC) டிடி (TT - Tetanus) ஊசி போடப்பட்டுள்ளதா என்பதை உறுதிப்படுத்தவும்."
+      ],
+      "te": [
+        "శుభ్రమైన గుడ్డతో 3-5 నిమిషాలు అదిమిపెట్టి రక్తం ఆపండి.",
+        "మంచి నీటితో శుభ్రంగా కడగండి.",
+        "ధనుర్వాతం (TT) ఇంజెక్షన్ కోసం పిహెచ్‌సిని సంప్రదించండి."
+      ],
+      "ml": [
+        "വൃത്തിയുള്ള തുണികൊണ്ട് അമർത്തിപ്പിടിച്ച് രക്തസ്രാവം നിർത്തുക.",
+        "ശുദ്ധജലത്തിൽ നന്നായി കഴുകുക.",
+        "ടിടി (TT) ഇഞ്ചക്ഷൻ എടുക്കുന്നതിനായി അടുത്തുള്ള പിഎച്ച്സി സന്ദർശിക്കുക."
+      ]
+    },
+    "warning_signs": {
+      "en": [
+        "Continuous bleeding that does not stop after 10 minutes of direct pressure.",
+        "Deep gaping wound requiring sutures/stitches.",
+        "Animal bite (dog, cat, monkey, snake) — requires immediate Rabies/Anti-Snake Venom emergency protocol.",
+        "Signs of wound infection: swelling, throbbing pain, yellow pus, or red streaks."
+      ],
+      "ta": [
+        "10 நிமிடங்களுக்கு மேலாக ரத்தம் நிற்காமல் வடிதல்.",
+        "தையல் போட வேண்டிய அளவு ஆழமான காயம்.",
+        "விலங்கு கடி (நாய், பூனை, பாம்பு) — உடனே ரேபிஸ்/விஷமுறிவு சிகிச்சை தேவை.",
+        "சீழ் பிடித்து வீக்கம் அதிகரித்தல்."
+      ],
+      "te": [
+        "10 నిమిషాలైనా రక్తం ఆగకపోతే.",
+        "కుట్లు వేయవలసిన లోతైన గాయం.",
+        "కుక్క లేదా జంతువు కాటు (వెంటనే ఆసుపత్రికి వెళ్లండి)."
+      ],
+      "ml": [
+        "10 മിനിറ്റിനുശേഷവും രക്തം നിൽക്കാതിരിക്കുക.",
+        "തുന്നൽ ആവശ്യമുള്ള ആഴത്തിലുള്ള മുറിവ്.",
+        "നായയോ മറ്റ് മൃഗങ്ങളോ കടിച്ചാൽ ഉടൻ ആശുപത്രിയിൽ പോകുക."
+      ]
+    },
+    "when_to_seek_care": {
+      "en": [
+        "If the wound was caused by dirty, rusty metal or soil and TT status is overdue.",
+        "If throbbing pain, warmth, or discharge develops."
+      ],
+      "ta": [
+        "துருப்பிடித்த இரும்பு அல்லது அழுக்கு மண்ணில் காயம் ஏற்பட்டால் உடனே ஆரம்ப சுகாதார நிலையத்திற்கு செல்லவும்."
+      ],
+      "te": [
+        "తుప్పు పట్టిన ఇనుము లేదా దుమ్ము వల్ల గాయమైతే వెంటనే పిహెచ్‌సికి వెళ్లండి."
+      ],
+      "ml": [
+        "തുരുമ്പിച്ച ഇരുമ്പോ മണ്ണോ തട്ടിയുണ്ടായ മുറിവാണെങ്കിൽ ഉടൻ പിഎച്ച്സിയിൽ കാണിക്കുക."
+      ]
+    },
+    "source": "Emergency Trauma and First Aid Protocols for Rural Health Workers (MoHFW)",
+    "source_url": "https://mohfw.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Visual observation only. Animal bites, deep punctures, and arterial bleeding require immediate emergency hospital care."
+  },
+  {
+    "id": "obs-localized-swelling",
+    "category": "image_observation",
+    "pattern_id": "swelling",
+    "title_en": "Mild Localized Swelling and Edema Observation",
+    "title_ta": "லேசான தசை வீக்கம் மற்றும் தடுப்பு முதலுதவி",
+    "title_te": "తేలికపాటి వాపు మరియు సంరక్షణ",
+    "title_ml": "നേരിയ വീക്കം - സുരക്ഷിത പരിചരണം",
+    "visible_features": {
+      "en": "Mild soft-tissue swelling or minor localized fluid retention without deformity, open fractures, or loss of distal sensation.",
+      "ta": "லேசான தசை வீக்கம் அல்லது நீர் கோர்த்தல்; எலும்பு முறிவு இல்லை.",
+      "te": "తేలికపాటి వాపు; ఎముక విరగడం వంటివి లేవు.",
+      "ml": "ചെറിയ തോതിലുള്ള വീക്കം; അസ്ഥിഭംഗം ഇല്ല."
+    },
+    "possible_causes": {
+      "en": "Common causes include minor soft-tissue sprain, blunt contusion, prolonged standing, insect sting, or mild localized fluid accumulation.",
+      "ta": "சுளுக்கு, தசை பிடிப்பு, அடிபடுதல் அல்லது பூச்சிக்கடி காரணமாக ஏற்படலாம்.",
+      "te": "బెణుకు, దెబ్బ తగలడం లేదా కీటకం కుట్టడం వల్ల రావచ్చు.",
+      "ml": "ഉളുക്ക്, ചതവ് അല്ലെങ്കിൽ പ്രാണികളുടെ കുത്ത് കാരണം ഉണ്ടാകാം."
+    },
+    "safe_immediate_care": {
+      "en": [
+        "Rest the affected limb and avoid bearing heavy weight.",
+        "Apply an ice pack wrapped in a clean towel for 10-15 minutes at a time (never put raw ice directly on skin).",
+        "Keep the swollen limb slightly elevated above heart level on a pillow when resting.",
+        "Apply a light, supportive crepe bandage if comfortable — do NOT wrap too tightly."
+      ],
+      "ta": [
+        "வீங்கிய உறுப்புக்கு முழு ஓய்வு அளிக்கவும்.",
+        "சுத்தமான துணியில் சுற்றிய ஐஸ் கட்டியால் 10-15 நிமிடங்கள் ஒத்தடம் கொடுக்கவும்.",
+        "படுக்கும் போது காலையோ கையையோ தலையணை மீது சற்று உயர்த்தி வைக்கவும்.",
+        "மென்மையான கிரீப் பேண்டேஜ் சுற்றலாம்; ரத்த ஓட்டம் தடைபடும் அளவுக்கு இறுக்கமாக கட்டக்கூடாது."
+      ],
+      "te": [
+        "వాపు ఉన్న భాగానికి విశ్రాంతి ఇవ్వండి.",
+        "ఐస్ ముక్కను గుడ్డలో చుట్టి కాపడం పెట్టండి.",
+        "కాలు లేదా చేతిని కాస్త ఎత్తుగా ఉంచండి."
+      ],
+      "ml": [
+        "വിശ്രമം നൽകുക.",
+        "ഐസ് തുണിയിൽ പൊതിഞ്ഞ് വെക്കുക.",
+        "വീക്കമുള്ള ഭാഗം തലയിണ വെച്ച് ഉയർത്തി വെക്കുക."
+      ]
+    },
+    "warning_signs": {
+      "en": [
+        "Inability to bear any weight or move the joint (fracture / ligament tear warning).",
+        "Severe numbness, coldness, or blue discoloration in fingers/toes.",
+        "Rapidly swelling face, tongue, or neck with difficulty breathing (dial 108 immediately).",
+        "Bilateral leg swelling with shortness of breath (cardiac/renal red flag)."
+      ],
+      "ta": [
+        "காலூன்றவோ மூட்டை அசைக்கவோ முடியாத நிலை (எலும்பு முறிவு அறிகுறி).",
+        "விரல்கள் மரத்துப்போதல் அல்லது நீல நிறமாதல்.",
+        "முகம் அல்லது நாக்கு வீங்கி மூச்சுத்திணறல் ஏற்படுதல் (உடனடியாக 108 அழைக்கவும்)."
+      ],
+      "te": [
+        "కాలు కింద పెట్టలేకపోవడం లేదా విపరీతమైన నొప్పి.",
+        "ముఖం లేదా గొంతు వాచి ఊపిరాడకపోవడం (వెంటనే 108 కి కాల్ చేయండి)."
+      ],
+      "ml": [
+        "കാലു നിലത്തു കുത്താൻ പറ്റാത്ത വിധം കഠിനമായ വേദന.",
+        "മുഖത്തോ തൊണ്ടയിലോ പെട്ടെന്നുണ്ടാകുന്ന വീക്കവും ശ്വാസതടസ്സവും (ഉടൻ 108 വിളിക്കുക)."
+      ]
+    },
+    "when_to_seek_care": {
+      "en": [
+        "If swelling increases significantly after 24 hours or if pain is severe.",
+        "Visit local PHC or District Hospital for physical examination and X-ray."
+      ],
+      "ta": [
+        "24 மணி நேரத்திற்கு மேலாக வீக்கம் அதிகரித்தால் எக்ஸ்-ரே எடுக்க ஆரம்ப சுகாதார நிலையத்திற்கு செல்லவும்."
+      ],
+      "te": [
+        "24 గంటల తర్వాత వాపు పెరిగితే ఎక్స్-రే కోసం ఆసుపత్రికి వెళ్ళండి."
+      ],
+      "ml": [
+        "24 മണിക്കൂറിനുശേഷവും വീക്കം കൂടിയാൽ എക്സ്-റേ എടുക്കാൻ ആശുപത്രിയിൽ കാണിക്കുക."
+      ]
+    },
+    "source": "Clinical Guidelines for Musculoskeletal Trauma and First Care at PHCs (MoHFW)",
+    "source_url": "https://mohfw.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Visual guidance only. X-ray and medical examination are required to rule out bone fractures or vascular injury."
+  }
+]

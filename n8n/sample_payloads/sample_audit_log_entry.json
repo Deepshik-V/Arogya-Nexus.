@@ -1,0 +1,22 @@
+{
+  "audit_id": "AUDIT-2026-08-24T22-41-47Z",
+  "workflow_execution_id": "n8n-exec-894120",
+  "trigger_type": "SCHEDULED_MONITOR",
+  "source_domain": "cmchistn.com",
+  "scheme_id": "cmchis-tamil-nadu",
+  "content_hash_previous": "a3f89d02c51e44bb",
+  "content_hash_new": "7e1208fb9401ddae",
+  "validation_result": "PASSED",
+  "human_approval_decision": "APPROVE",
+  "approved_by": "lead_health_knowledge_officer@arogyanexus.gov.in",
+  "refresh_api_endpoint": "https://improved-api-healing-microwave.trycloudflare.com/api/knowledge/refresh",
+  "refresh_http_status": 200,
+  "refresh_response_summary": {
+    "status": "success",
+    "total_cards": 18,
+    "scheme_cards_count": 9,
+    "healthcare_cards_count": 9,
+    "timestamp": "2026-08-24 22:41:47"
+  },
+  "pipeline_outcome": "KNOWLEDGE_BASE_UPDATED_AND_ACTIVE"
+}

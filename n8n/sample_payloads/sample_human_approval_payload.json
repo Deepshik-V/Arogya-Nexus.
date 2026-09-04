@@ -1,0 +1,30 @@
+{
+  "approval_request_id": "REQ-20260824-CMCHIS-01",
+  "timestamp": "2026-08-24T22:35:00Z",
+  "scheme_id": "cmchis-tamil-nadu",
+  "scheme_name": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)",
+  "official_source": "Government of Tamil Nadu, Health & Family Welfare Department",
+  "official_url": "https://www.cmchistn.com/",
+  "change_detection": {
+    "detected_modifications": [
+      "Updated required document checklist with Tahsildar online income certificate format",
+      "Refreshed empanelled hospital directory reference"
+    ],
+    "unchanged_core_rules": [
+      "Annual income ceiling remains ₹1,20,000 / year",
+      "Cashless hospital coverage remains ₹5,00,000 / family / year"
+    ],
+    "risk_level": "LOW_TO_MEDIUM"
+  },
+  "proposed_knowledge_card_patch": {
+    "last_verified": "2026-08-24",
+    "updated_at": "2026-08-24",
+    "source_status": "verified_active"
+  },
+  "action_options": ["APPROVE", "REJECT", "REVIEW_AGAIN"],
+  "admin_decision_payload": {
+    "decision": "APPROVE",
+    "approver": "lead_health_knowledge_officer@arogyanexus.gov.in",
+    "comments": "Verified against official gazette notification GO MS No. 2026-08."
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "vector-borne-prevention",
+    "category": "preventive_care",
+    "title_en": "Prevention of Mosquito-Borne Diseases (Dengue, Malaria, Chikungunya)",
+    "title_ta": "கொசுக்களால் பரவும் நோய்கள் தடுப்பு (டெங்கு, மலேரியா, சிக்குன்குனியா)",
+    "keywords_en": ["dengue", "malaria", "chikungunya", "mosquito", "stagnant water", "platelets", "mosquito bite", "fogging"],
+    "keywords_ta": ["டெங்கு", "மலேரியா", "சிக்குன்குனியா", "கொசு", "தேங்கிய நீர்", "கொசுக்கடி"],
+    "keywords_tanglish": ["dengue", "malaria", "kosu", "theingiya thanni", "chikungunya", "mosquito"],
+    "safe_home_care": {
+      "en": [
+        "Empty, clean, and cover all overhead tanks, drums, discarded tires, and coconut shells at least once a week (Dry Day practice).",
+        "Use mosquito bed nets, wire mesh on windows, and apply approved repellents.",
+        "Wear full-sleeved, light-colored clothing, especially during early morning and evening hours."
+      ],
+      "ta": [
+        "வீட்டைச் சுற்றிலும் தண்ணீர் தேங்காமல் பார்த்துக் கொள்ளவும்; மேல்நிலைத் தொட்டிகள் மற்றும் பாத்திரங்களை மூடி வைக்கவும்.",
+        "வாரத்திற்கு ஒருமுறை 'ட்ரை டே' (Dry Day) கடைப்பிடித்து தண்ணீர் சேகரிக்கும் தொட்டிகளை தேய்த்துக் கழுவவும்.",
+        "கொசுவலை பயன்படுத்தவும் மற்றும் முழுக்கை ஆடைகளை அணியவும்."
+      ]
+    },
+    "when_to_visit_phc": {
+      "en": [
+        "Sudden high fever accompanied by severe headache, pain behind the eyes, or joint pains.",
+        "Routine fever surveillance by village health workers."
+      ],
+      "ta": [
+        "திடீர் தீவிர காய்ச்சலுடன் கண்களுக்கு பின்னால் வலி மற்றும் மூட்டு வலி இருந்தால்.",
+        "ரத்த பரிசோதனை (NS1/Malaria slide) செய்து கொள்ள உடனடியாக ஆரம்ப சுகாதார நிலையத்திற்கு செல்லவும்."
+      ]
+    },
+    "emergency_red_flags": {
+      "en": [
+        "Severe abdominal pain with persistent vomiting.",
+        "Bleeding from gums, nose, or blood in vomit/stool.",
+        "Sudden drop in body temperature accompanied by cold, clammy skin and severe restlessness (Dengue Shock warning)."
+      ],
+      "ta": [
+        "கடுமையான வயிற்று வலி மற்றும் நிற்காத வாந்தி.",
+        "பல் ஈறுகள், மூக்கிலிருந்து ரத்தம் வடிதல்.",
+        "உடல் திடீரென குளிர்ந்து போதல், கடும் சோர்வு."
+      ]
+    },
+    "related_schemes": ["National Vector Borne Disease Control Programme (NVBDCP)", "Swachh Bharat Mission"],
+    "source": "National Centre for Vector Borne Diseases Control (NCVBDC) Guidelines",
+    "source_url": "https://ncvbdc.mohfw.gov.in/",
+    "last_verified": "2026-08-20",
+    "disclaimer": "Do NOT take aspirin, ibuprofen, or self-prescribed painkillers for fever without medical advice as they increase bleeding risk in dengue."
+  }
+]

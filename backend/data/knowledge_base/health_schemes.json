@@ -1,0 +1,2422 @@
+[
+  {
+    "id": "cmchis-tamil-nadu",
+    "category": "government_scheme",
+    "scheme_category": "health_insurance",
+    "title_en": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)",
+    "title_ta": "முதலமைச்சரின் விரிவான மருத்துவக் காப்பீட்டுத் திட்டம் (CMCHIS)",
+    "title_te": "ముఖ్యమంత్రి సమగ్ర ఆరోగ్య బీమా పథకం (CMCHIS)",
+    "title_ml": "മുഖ്യമന്ത്രിയുടെ സമഗ്ര ആരോഗ്യ ഇൻഷുറൻസ് പദ്ധതി (CMCHIS)",
+    "scheme_name": {
+      "en": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)",
+      "ta": "முதலமைச்சரின் விரிவான மருத்துவக் காப்பீட்டுத் திட்டம் (CMCHIS)",
+      "te": "ముఖ్యమంత్రి సమగ్ర ఆరోగ్య బీమా పథకం (CMCHIS - తమిళనాడు)",
+      "ml": "മുഖ്യമന്ത്രിയുടെ സമഗ്ര ആരോഗ്യ ഇൻഷുറൻസ് പദ്ധതി (CMCHIS - തമിഴ്നാട്)"
+    },
+    "short_description": {
+      "en": "Cashless secondary and tertiary hospital treatment up to ₹5 Lakh per family per year in Tamil Nadu.",
+      "ta": "தமிழ்நாட்டில் தகுதியான குடும்பங்களுக்கு ஆண்டுக்கு ₹5 லட்சம் வரை அரசு மற்றும் தனியார் மருத்துவமனைகளில் கட்டணமில்லா சிகிச்சை.",
+      "te": "తమిళనాడులో అర్హులైన కుటుంబాలకు సంవత్సరానికి ₹5 లక్షల వరకు ఉచిత ఆసుపత్రి చికిత్స.",
+      "ml": "തമിഴ്‌നാട്ടിൽ അർഹരായ കുടുംബങ്ങൾക്ക് പ്രതിവർഷം ₹5 ലക്ഷം രൂപ വരെ സൗജന്യ ആശുപത്രി ചികിത്സ."
+    },
+    "purpose": {
+      "en": "Universal financial health protection for low-income families in Tamil Nadu across 1,090+ procedures.",
+      "ta": "குறைந்த வருமானம் கொண்ட குடும்பங்களுக்கு தரமான மருத்துவ சிகிச்சையினை கட்டணமில்லாமல் உறுதி செய்தல்.",
+      "te": "తమిళనాడులోని పేద కుటుంబాలకు నగదు రహిత నాణ్యమైన వైద్య సేవలు అందించడం.",
+      "ml": "തമിഴ്‌നാട്ടിലെ താഴ്ന്ന വരുമാനമുള്ള കുടുംബങ്ങൾക്ക് സൗജന്യ ഗുണനിലവാരമുള്ള ചികിത്സ ഉറപ്പാക്കുക."
+    },
+    "eligibility": {
+      "en": [
+        "Resident of Tamil Nadu enrolled in a valid Tamil Nadu Smart Family Ration Card.",
+        "Annual family income below ₹1,20,000 per annum (certified by VAO / Revenue Department).",
+        "Includes registered welfare board members and Sri Lankan Tamil camp refugees."
+      ],
+      "ta": [
+        "தமிழ்நாடு குடும்ப அட்டை (Smart Ration Card) பெற்றுள்ள குடும்பங்கள்.",
+        "குடும்பத்தின் ஆண்டு வருமானம் ₹1,20,000-க்கு குறைவாக இருத்தல் வேண்டும்.",
+        "நல வாரிய உறுப்பினர்கள் மற்றும் இலங்கை தமிழர் முகாம் வாழ் மக்கள் தகுதியுடையவர்கள்."
+      ],
+      "te": [
+        "తమిళనాడు స్మార్ట్ రేషన్ కార్డు కలిగిన కుటుంబాలు.",
+        "వార్షిక కుటుంబ ఆదాయం ₹1,20,000 లోపు ఉండాలి.",
+        "సంక్షేమ బోర్డు కార్మికులు మరియు శరణార్థులు అర్హులు."
+      ],
+      "ml": [
+        "തമിഴ്‌നാട് സ്മാർട്ട് റേഷൻ കാർഡുള്ള കുടുംബങ്ങൾ.",
+        "വാർഷിക കുടുംബ വരുമാനം ₹1,20,000-ൽ താഴെയായിരിക്കണം.",
+        "ക്ഷേമനിധി ബോർഡ് അംഗങ്ങളും അഭയാർത്ഥികളും അർഹരാണ്."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Cashless coverage up to ₹5,00,000 per family per year on a family floater basis.",
+        "Covers 1,090 medical/surgical procedures, 8 specialized treatments, and 52 diagnostic packages.",
+        "Pre-hospitalization and post-discharge medications included."
+      ],
+      "ta": [
+        "குடும்பத்திற்கு ஆண்டுக்கு ₹5,00,000 வரை கட்டணமில்லா சிகிச்சை வசதி.",
+        "1,090 அறுவை சிகிச்சைகள் மற்றும் 52 பரிசோதனைகள் உள்ளடக்கம்.",
+        "அரசு மற்றும் அங்கீகரிக்கப்பட்ட தனியார் மருத்துவமனைகளில் செல்லுபடியாகும்."
+      ],
+      "te": [
+        "కుటుంబానికి ఏడాదికి ₹5,00,000 వరకు నగదు రహిత చికిత్స.",
+        "1,090 వైద్య విధానాలు మరియు 52 పరీక్షలు ఉచితం.",
+        "ఎంపిక చేసిన ప్రైవేట్ మరియు ప్రభుత్వ ఆసుపత్రులలో చెల్లుబాటు."
+      ],
+      "ml": [
+        "കുടുംബത്തിന് പ്രതിവർഷം ₹5,00,000 വരെ സൗജന്യ ചികിത്സ.",
+        "1,090 ചികിത്സാ രീതികളും 52 പരിശോധനകളും ലഭ്യമാണ്.",
+        "സർക്കാർ, എംപാനൽ ചെയ്ത സ്വകാര്യ ആശുപത്രികളിൽ സൗജന്യം."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "Tamil Nadu Smart Ration Card / Family Card.",
+        "Income Certificate from VAO / Revenue authority (Income < ₹1.2 Lakh).",
+        "Aadhaar Card of all family members."
+      ],
+      "ta": [
+        "தமிழ்நாடு ஸ்மார்ட் குடும்ப அட்டை.",
+        "வருமானச் சான்றிதழ் (ஆண்டு வருமானம் ₹1.2 லட்சத்திற்குள்).",
+        "குடும்ப உறுப்பினர்களின் ஆதார் அட்டைகள்."
+      ],
+      "te": [
+        "తమిళనాడు స్మార్ట్ రేషన్ కార్డు.",
+        "ఆదాయ ధృవీకరణ పత్రం (ఆదాయం < ₹1.2 లక్షలు).",
+        "కుటుంబ సభ్యుల ఆధార్ కార్డులు."
+      ],
+      "ml": [
+        "തമിഴ്‌നാട് സ്മാർട്ട് റേഷൻ കാർഡ്.",
+        "വരുമാന സർട്ടിഫിക്കറ്റ് (വരുമാനം < ₹1.2 ലക്ഷം).",
+        "ആധാർ കാർഡ്."
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "Step 1: Obtain an Income Certificate from your local VAO or e-Sevai centre.",
+        "Step 2: Visit CMCHIS Enrollment Kiosk at your District Collectorate or Taluk Hospital.",
+        "Step 3: Complete biometric registration to receive CMCHIS Smart Card."
+      ],
+      "ta": [
+        "படி 1: இ-சேவை மையம் அல்லது VAO மூலம் வருமானச் சான்றிதழ் பெறவும்.",
+        "படி 2: மாவட்ட ஆட்சியர் அலுவலகம் அல்லது தாலுகா மருத்துவமனை CMCHIS மையத்திற்கு செல்லவும்.",
+        "படி 3: பயோமெட்ரிக் பதிவு செய்து காப்பீட்டு அட்டை பெறவும்."
+      ],
+      "te": [
+        "దశ 1: ఇ-సేవ లేదా VAO నుండి ఆదాయ ధృవీకరణ పత్రం పొందండి.",
+        "దశ 2: కలెక్టరేట్ లేదా తాలూకా ఆసుపత్రిలోని CMCHIS కియోస్క్‌ను సందర్శించండి.",
+        "దశ 3: బయోమెట్రిక్ నమోదు చేసి స్మార్ట్ కార్డు పొందండి."
+      ],
+      "ml": [
+        "ഘട്ടം 1: ഇ-സേവാ കേന്ദ്രം വഴി വരുമാന സർട്ടിഫിക്കറ്റ് നേടുക.",
+        "ഘട്ടം 2: കളക്ടറേറ്റ് അല്ലെങ്കിൽ താലൂക്ക് ആശുപത്രിയിലെ CMCHIS കിയോസ്ക് സന്ദർശിക്കുക.",
+        "ഘട്ടം 3: ബയോമെട്രിക് രജിസ്ട്രേഷൻ പൂർത്തിയാക്കി കാർഡ് വാങ്ങുക."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "District Collectorate CMCHIS Helpdesk / Taluk Hospital Kiosk",
+        "Portal: cmchistn.com | Helpline: 1800 425 3993"
+      ],
+      "ta": [
+        "மாவட்ட ஆட்சியர் அலுவலகம் / தாலுகா அரசு தலைமை மருத்துவமனை CMCHIS மையம்",
+        "இணையதளம்: cmchistn.com | உதவி எண்: 1800 425 3993"
+      ],
+      "te": [
+        "కలెక్టరేట్ కార్యాలయం / తాలూకా ఆసుపత్రి CMCHIS సహాయ కేంద్రం",
+        "వెబ్‌సైట్: cmchistn.com | హెల్ప్‌లైన్: 1800 425 3993"
+      ],
+      "ml": [
+        "കളക്ടറേറ്റ് / താലൂക്ക് ആശുപത്രി CMCHIS ഹെൽപ്പ് ഡെസ്ക്",
+        "വെബ്‌സൈറ്റ്: cmchistn.com | ഹെൽപ്പ് ലൈൻ: 1800 425 3993"
+      ]
+    },
+    "state": "Tamil Nadu",
+    "official_source": "Government of Tamil Nadu, Health & Family Welfare Department",
+    "official_url": "https://www.cmchistn.com/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "cmchis",
+      "chief minister scheme",
+      "tamil nadu insurance",
+      "kalaignar insurance",
+      "5 lakh insurance",
+      "tamil nadu health insurance",
+      "cashless treatment"
+    ],
+    "keywords_ta": [
+      "முதலமைச்சர் காப்பீடு",
+      "கலைஞர் காப்பீடு",
+      "மருத்துவ காப்பீடு",
+      "5 லட்சம் காப்பீடு",
+      "தமிழ்நாடு காப்பீட்டு திட்டம்"
+    ],
+    "keywords_tanglish": [
+      "cmchis",
+      "chief minister insurance",
+      "kalaignar kaapeedu",
+      "5 lakh card",
+      "tamil nadu insurance",
+      "kaapeedu thittam"
+    ],
+    "keywords_te": [
+      "ముఖ్యమంత్రి సమగ్ర ఆరోగ్య బీమా",
+      "తమిళనాడు బీమా",
+      "5 లక్షల ఉచిత వైద్యం"
+    ],
+    "keywords_ml": [
+      "മുഖ്യമന്ത്രിയുടെ സമഗ്ര ആരോഗ്യ ഇൻഷുറൻസ്",
+      "തമിഴ്നാട് ഇൻഷുറൻസ്",
+      "5 ലക്ഷം ഇൻഷുറൻസ്"
+    ]
+  },
+  {
+    "id": "mrmbs-dr-muthulakshmi-reddy",
+    "category": "government_scheme",
+    "scheme_category": "maternal_welfare",
+    "title_en": "Dr. Muthulakshmi Reddy Maternity Benefit Scheme (MRMBS)",
+    "title_ta": "டாக்டர் முத்துலட்சுமி ரெட்டி மகப்பேறு நிதி உதவித் திட்டம் (MRMBS)",
+    "title_te": "డాక్టర్ ముత్తులక్ష్మి రెడ్డి ప్రసూతి ప్రయోజన పథకం (MRMBS)",
+    "title_ml": "ഡോ. മുത്തുലക്ഷ്മി റെഡ്ഡി മാതൃത്വ സഹായ പദ്ധതി (MRMBS)",
+    "scheme_name": {
+      "en": "Dr. Muthulakshmi Reddy Maternity Benefit Scheme (MRMBS)",
+      "ta": "டாக்டர் முத்துலட்சுமி ரெட்டி மகப்பேறு நிதி உதவித் திட்டம் (MRMBS)",
+      "te": "డాక్టర్ ముత్తులక్ష్మి రెడ్డి ప్రసూతి ప్రయోజన పథకం",
+      "ml": "ഡോ. മുത്തുലക്ഷ്മി റെഡ്ഡി മാതൃത്വ സഹായ പദ്ധതി"
+    },
+    "short_description": {
+      "en": "Financial assistance of ₹18,000 and 2 Amma Nutrition Kits for pregnant mothers in Tamil Nadu.",
+      "ta": "தமிழ்நாட்டில் கர்ப்பிணி தாய்மார்களுக்கு ₹18,000 நிதி உதவி மற்றும் 2 அம்மா ஊட்டச்சத்து பெட்டகங்கள்.",
+      "te": "తమిళనాడులో గర్భిణీ స్త్రీలకు ₹18,000 ఆర్థిక సహాయం మరియు 2 పోషకాహార కిట్లు.",
+      "ml": "തമിഴ്‌നാട്ടിൽ ഗർഭിണികൾക്ക് ₹18,000 സാമ്പത്തിക സഹായവും 2 പോഷകാഹാര കിറ്റുകളും."
+    },
+    "purpose": {
+      "en": "Provide nutritional support and wage loss compensation for safe institutional delivery in Tamil Nadu.",
+      "ta": "கர்ப்பிணித் தாய்மார்களுக்கு ஊட்டச்சத்து மற்றும் அரசு மருத்துவமனையில் பாதுகாப்பான பிரசவத்தை உறுதி செய்தல்.",
+      "te": "గర్భిణీలకు పోషకాహారం మరియు సురక్షిత ప్రసవం అందించడం.",
+      "ml": "ഗർഭിണികൾക്ക് പോഷകാഹാരവും സുരക്ഷിത പ്രസവവും ഉറപ്പാക്കൽ."
+    },
+    "eligibility": {
+      "en": [
+        "Pregnant mother aged 19 years and above residing in Tamil Nadu.",
+        "Must register pregnancy in PICME portal before 12 weeks of pregnancy to obtain 12-digit RCH ID.",
+        "Applicable for the first 2 deliveries only."
+      ],
+      "ta": [
+        "19 வயது மற்றும் அதற்கு மேற்பட்ட தமிழ்நாட்டில் வசிக்கும் கர்ப்பிணி தாய்மார்கள்.",
+        "கர்ப்பம் தரித்த 12 வாரங்களுக்குள் PICME போர்ட்டலில் பதிவு செய்து 12 இலக்க RCH ID பெற்றிருக்க வேண்டும்.",
+        "முதல் இரண்டு பிரசவங்களுக்கு மட்டுமே பொருந்தும்."
+      ],
+      "te": [
+        "19 సంవత్సరాలు పైబడిన తమిళనాడు నివాసి గర్భిణీలు.",
+        "12 వారాల లోపు PICME పోర్టల్‌లో నమోదు చేసి RCH ID పొందాలి.",
+        "మొదటి రెండు ప్రసవాలకు మాత్రమే వర్తిస్తుంది."
+      ],
+      "ml": [
+        "19 വയസ്സ് തികഞ്ഞ തമിഴ്‌നാട്ടിലെ ഗർഭിണികൾ.",
+        "12 ആഴ്ചയ്ക്കുള്ളിൽ PICME പോർട്ടലിൽ രജിസ്റ്റർ ചെയ്ത് RCH ID വാങ്ങണം.",
+        "ആദ്യ രണ്ട് പ്രസവങ്ങൾക്ക് മാത്രം ലഭ്യമാണ്."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Total financial benefit of ₹18,000 disbursed across 5 conditional cash installments.",
+        "2 Amma Maternity Nutrition Kits valued at ₹4,000 (Mothers Health Mix, Iron syrup, dates, IFA tablets, towel).",
+        "Free antenatal checkups and safe delivery in Government PHC / Hospital."
+      ],
+      "ta": [
+        "மொத்தம் ₹18,000 நிதி உதவி 5 தவணைகளாக வங்கி கணக்கில் செலுத்தப்படுகிறது.",
+        "₹4,000 மதிப்பிலான 2 அம்மா ஊட்டச்சத்து பெட்டகங்கள் வழங்கப்படுகின்றன.",
+        "அரசு ஆரம்ப சுகாதார நிலையத்தில் இலவச மருத்துவ பரிசோதனைகள் மற்றும் பிரசவம்."
+      ],
+      "te": [
+        "మొత్తం ₹18,000 ఆర్థిక సహాయం 5 విడతల్లో బ్యాంకు ఖాతాలో జమ.",
+        "₹4,000 విలువైన 2 పోషకాహార కిట్లు ఉచితం.",
+        "ప్రభుత్వ ఆసుపత్రులలో ఉచిత పరీక్షలు మరియు ప్రసవం."
+      ],
+      "ml": [
+        "ആകെ ₹18,000 രൂപ 5 ഗഡുക്കളായി ബാങ്ക് അക്കൗണ്ടിലേക്ക്.",
+        "₹4,000 വിലമതിക്കുന്ന 2 അമ്മാ ന്യൂട്രീഷൻ കിറ്റുകൾ.",
+        "സർക്കാർ ആശുപത്രികളിൽ സൗജന്യ പരിശോധനയും പ്രസവവും."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "PICME 12-digit RCH ID",
+        "Mother Aadhaar Card",
+        "Bank Passbook linked with Aadhaar",
+        "Tamil Nadu Smart Ration Card"
+      ],
+      "ta": [
+        "12 இலக்க PICME RCH எண்",
+        "தாயின் ஆதார் அட்டை",
+        "ஆதாருடன் இணைக்கப்பட்ட வங்கிக் கணக்கு புத்தகம்",
+        "ஸ்மார்ட் குடும்ப அட்டை"
+      ],
+      "te": [
+        "PICME 12 అంకెల RCH ID",
+        "తల్లి ఆధార్ కార్డు",
+        "బ్యాంక్ పాస్‌బుక్",
+        "స్మార్ట్ రేషన్ కార్డు"
+      ],
+      "ml": [
+        "PICME 12 അക്ക RCH ID",
+        "ആധാർ കാർഡ്",
+        "ബാങ്ക് പാസ്ബുക്ക്",
+        "സ്മാർട്ട് റേഷൻ കാർഡ്"
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "Visit local Village Health Nurse (VHN) or Urban PHC within 12 weeks of pregnancy to complete PICME registration."
+      ],
+      "ta": [
+        "கர்ப்பம் தரித்த 12 வாரங்களுக்குள் கிராம சுகாதார செவிலியர் (VHN) அல்லது ஆரம்ப சுகாதார நிலையத்தை அணுகி PICME பதிவு செய்யவும்."
+      ],
+      "te": [
+        "గర్భం దాల్చిన 12 వారాల్లోపు స్థానిక VHN లేదా PHC వద్ద PICME నమోదు చేసుకోండి."
+      ],
+      "ml": [
+        "12 ആഴ്ചയ്ക്കുള്ളിൽ വിഎച്ച്എൻ (VHN) വഴിയോ പിഎച്ച്സി വഴിയോ PICME രജിസ്ട്രേഷൻ നടത്തുക."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "Primary Health Centre (PHC) / Village Health Nurse (VHN)",
+        "Portal: picme.tn.gov.in"
+      ],
+      "ta": [
+        "அரசு ஆரம்ப சுகாதார நிலையம் (PHC) / கிராம சுகாதார செவிலியர் (VHN)",
+        "இணையதளம்: picme.tn.gov.in"
+      ],
+      "te": [
+        "ప్రాథమిక ఆరోగ్య కేంద్రం (PHC) / గ్రామ ఆరోగ్య నర్సు (VHN)",
+        "వెబ్‌సైట్: picme.tn.gov.in"
+      ],
+      "ml": [
+        "പ്രാഥമിക ആരോഗ്യ കേന്ദ്രം (PHC) / വില്ലേജ് ഹെൽത്ത് നഴ്സ് (VHN)",
+        "വെബ്‌സൈറ്റ്: picme.tn.gov.in"
+      ]
+    },
+    "state": "Tamil Nadu",
+    "official_source": "Directorate of Public Health and Preventive Medicine, Tamil Nadu",
+    "official_url": "https://picme.tn.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "mrmbs",
+      "muthulakshmi reddy",
+      "maternity benefit",
+      "pregnancy assistance",
+      "18000 scheme",
+      "amma nutrition kit",
+      "pregnant mother",
+      "maternal assistance"
+    ],
+    "keywords_ta": [
+      "டாக்டர் முத்துலட்சுமி ரெட்டி",
+      "மகப்பேறு நிதி உதவி",
+      "கர்ப்பிணி உதவி",
+      "18000 ரூபாய் திட்டம்",
+      "அம்மா ஊட்டச்சத்து பெட்டகம்",
+      "பிரசவ நிதி"
+    ],
+    "keywords_tanglish": [
+      "mrmbs",
+      "muthulakshmi reddy",
+      "prasava kaasu",
+      "18000 scheme",
+      "karpini thittam",
+      "amma nutrition kit"
+    ],
+    "keywords_te": [
+      "ముత్తులక్ష్మి రెడ్డి ప్రసూతి పథకం",
+      "గర్భిణీ స్త్రీల ఆర్థిక సహాయం",
+      "18000 పథకం"
+    ],
+    "keywords_ml": [
+      "മുത്തുലക്ഷ്മി റെഡ്ഡി മാതൃത്വ സഹായം",
+      "ഗർഭിണികൾക്കുള്ള സഹായം",
+      "18000 പദ്ധതി"
+    ]
+  },
+  {
+    "id": "makkalai-thedi-maruthuvam",
+    "category": "government_scheme",
+    "scheme_category": "doorstep_healthcare",
+    "title_en": "Makkalai Thedi Maruthuvam (MTM) - Doorstep Healthcare",
+    "title_ta": "மக்களைத் தேடி மருத்துவம் (MTM) - இல்லம் தேடி மருத்துவ சேவை",
+    "title_te": "మక్కలై తేడి మరుత్తువం (MTM) - ఇంటి వద్దకే వైద్యం",
+    "title_ml": "മക്കളെ തേടി മരുത്വം (MTM) - വീട്ടുപടിക്കൽ ചികിത്സ",
+    "scheme_name": {
+      "en": "Makkalai Thedi Maruthuvam (MTM) - Doorstep Healthcare",
+      "ta": "மக்களைத் தேடி மருத்துவம் (MTM) - இல்லம் தேடி மருத்துவ சேவை",
+      "te": "మక్కలై తేడి మరుత్తువం (ఇంటి వద్దకే వైద్య సేవలు)",
+      "ml": "മക്കളെ തേടി മരുത്വം (ഭവന സന്ദർശന ചികിത്സ)"
+    },
+    "short_description": {
+      "en": "Doorstep screening and free monthly delivery of essential medicines for Hypertension and Diabetes in Tamil Nadu.",
+      "ta": "தமிழ்நாட்டில் உயர் ரத்த அழுத்தம் மற்றும் நீரிழிவு நோயாளிகளுக்கு வீடு தேடி மருந்து வழங்கும் முன்னோடித் திட்டம்.",
+      "te": "తమిళనాడులో బీపీ మరియు షుగర్ రోగుల ఇంటికే ఉచిత మందులు అందించే పథకం.",
+      "ml": "തമിഴ്‌നാട്ടിൽ രക്തസമ്മർദ്ദവും പ്രമേഹവുമുള്ളവർക്ക് വീട്ടുപടിക്കൽ സൗജന്യ മരുന്ന് വിതരണം."
+    },
+    "purpose": {
+      "en": "Early detection and routine community management of Non-Communicable Diseases (NCDs) at citizen doorsteps.",
+      "ta": "தொற்றா நோய்களை ஆரம்ப நிலையிலேயே கண்டறிந்து வீடு தேடி தொடர் சிகிச்சை மற்றும் மருந்துகள் வழங்குதல்.",
+      "te": "దీర్ఘకాలిక వ్యాధులను గుర్తించి ఇంటి వద్దే నిరంతర చికిత్స అందించడం.",
+      "ml": "ജീവിതശൈലീ രോഗങ്ങൾ മുൻകൂട്ടി കണ്ടെത്തി വീട്ടിലെത്തി മരുന്ന് നൽകുക."
+    },
+    "eligibility": {
+      "en": [
+        "All residents of Tamil Nadu aged 45 years and above (or individuals with hypertension/diabetes).",
+        "Bedridden patients requiring palliative care and physiotherapy.",
+        "Chronic kidney disease patients needing continuous ambulatory peritoneal dialysis."
+      ],
+      "ta": [
+        "தமிழ்நாட்டில் வசிக்கும் 45 வயது மற்றும் அதற்கு மேற்பட்ட நபர்கள்.",
+        "உயர் ரத்த அழுத்தம் / சர்க்கரை நோய் உள்ளவர்கள்.",
+        "படுக்கையில் உள்ள முதியவர்கள் மற்றும் பிசியோதெரபி தேவைப்படுவோர்."
+      ],
+      "te": [
+        "తమిళనాడులోని 45 సంవత్సరాలు పైబడిన వ్యక్తులు లేదా బీపీ/షుగర్ రోగులు.",
+        "మంచం పట్టిన రోగులు మరియు ఫిజియోథెరపీ అవసరమైన వారు."
+      ],
+      "ml": [
+        "തമിഴ്‌നാട്ടിലെ 45 വയസ്സിന് മുകളിലുള്ളവർ അല്ലെങ്കിൽ ബിപി/പ്രമേഹ രോഗികൾ.",
+        "കിടപ്പുരോഗികളും ഫിസിയോതെറാപ്പി ആവശ്യമുള്ളവരും."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Free monthly supply of quality antihypertensive and antidiabetic medicines delivered at home.",
+        "Home-based BP and blood glucose testing by Women Health Volunteers (WHVs).",
+        "Doorstep palliative care and supportive physiotherapy."
+      ],
+      "ta": [
+        "மாதந்தோறும் வீடு தேடி இலவச உயர் ரத்த அழுத்தம் மற்றும் சர்க்கரை நோய் மருந்துகள்.",
+        "மகளிர் சுகாதார தன்னார்வலர்கள் மூலம் வீட்டிலேயே ரத்த அழுத்தம் மற்றும் சர்க்கரை பரிசோதனை.",
+        "படுக்கை நோயாளிகளுக்கு வலி நிவாரண மற்றும் பிசியோதெரபி சிகிச்சை."
+      ],
+      "te": [
+        "ఇంటి వద్దకే ప్రతినెలా ఉచిత బీపీ మరియు షుగర్ మందులు.",
+        "ఇంటి వద్దే రక్తపోటు మరియు గ్లూకోజ్ పరీక్షలు."
+      ],
+      "ml": [
+        "പ്രതിമാസം വീട്ടിലെത്തിക്കുന്ന സൗജന്യ ബിപി, പ്രമേഹ മരുന്നുകൾ.",
+        "വീടുകളിൽ ബിപി, പ്രമേഹ പരിശോധനകൾ."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar Card or Smart Ration Card",
+        "Previous medical prescriptions if diagnosed"
+      ],
+      "ta": [
+        "ஆதார் அட்டை அல்லது ஸ்மார்ட் குடும்ப அட்டை",
+        "மருத்துவ சீட்டு (ஏற்கனவே இருந்தால்)"
+      ],
+      "te": [
+        "ఆధార్ లేదా రేషన్ కార్డు",
+        "పాత ప్రిస్క్రిప్షన్"
+      ],
+      "ml": [
+        "ആധാർ അല്ലെങ്കിൽ റേഷൻ കാർഡ്",
+        "പഴയ മെഡിക്കൽ കുറിപ്പടി"
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "No complex application required. Women Health Volunteers (WHVs) screen residents during door-to-door community visits."
+      ],
+      "ta": [
+        "தனியாக விண்ணப்பிக்க தேவையில்லை. மகளிர் சுகாதார தன்னார்வலர்கள் வீடு தேடி வரும்போது பதிவு செய்து கொள்ளலாம்."
+      ],
+      "te": [
+        "ప్రత్యేక దరఖాస్తు అక్కర్లేదు. మహిళా ఆరోగ్య కార్యకర్తలు ఇంటికి వచ్చినప్పుడు నమోదు చేస్తారు."
+      ],
+      "ml": [
+        "പ്രത്യേക അപേക്ഷ ആവശ്യമില്ല. ആരോഗ്യ പ്രവർത്തകർ വീടുകൾ സന്ദർശിക്കുമ്പോൾ പരിശോധിക്കും."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "Local Primary Health Centre (PHC) / Health Sub-Centre (HSC)",
+        "Portal: tnhsp.tn.gov.in"
+      ],
+      "ta": [
+        "அருகிலுள்ள அரசு ஆரம்ப சுகாதார நிலையம் (PHC) / துணை சுகாதார நிலையம்",
+        "இணையதளம்: tnhsp.tn.gov.in"
+      ],
+      "te": [
+        "స్థానిక ప్రాథమిక ఆరోగ్య కేంద్రం (PHC)",
+        "వెబ్‌సైట్: tnhsp.tn.gov.in"
+      ],
+      "ml": [
+        "പ്രാഥമിക ആരോഗ്യ കേന്ദ്രം (PHC)",
+        "വെബ്‌സൈറ്റ്: tnhsp.tn.gov.in"
+      ]
+    },
+    "state": "Tamil Nadu",
+    "official_source": "National Health Mission & Health Department, Government of Tamil Nadu",
+    "official_url": "https://nhm.tn.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "makkalai thedi maruthuvam",
+      "mtm",
+      "doorstep medicine",
+      "bp sugar medicine",
+      "home healthcare",
+      "hypertension diabetes doorstep",
+      "physiotherapy"
+    ],
+    "keywords_ta": [
+      "மக்களைத் தேடி மருத்துவம்",
+      "இல்லம் தேடி மருத்துவம்",
+      "சர்க்கரை மாத்திரை",
+      "பிபி மாத்திரை",
+      "வீடு தேடி மருந்து"
+    ],
+    "keywords_tanglish": [
+      "makkalai thedi maruthuvam",
+      "mtm scheme",
+      "doorstep medicine",
+      "sugar mathirai",
+      "bp mathirai"
+    ],
+    "keywords_te": [
+      "మక్కలై తేడి మరుత్తువం",
+      "ఇంటి వద్దకే మందులు",
+      "బీపీ షుగర్ మందులు"
+    ],
+    "keywords_ml": [
+      "മക്കളെ തേടി മരുത്വം",
+      "വീട്ടുപടിക്കൽ മരുന്ന്",
+      "പ്രമേഹ മരുന്നുകൾ"
+    ]
+  },
+  {
+    "id": "nammai-kaakkum-48-innisaikarangal",
+    "category": "government_scheme",
+    "scheme_category": "emergency_trauma",
+    "title_en": "Innuyir Kaappom - Nammai Kaakkum 48 (Road Accident Emergency Scheme)",
+    "title_ta": "இன்னுயிர் காப்போம் - நம்மை காக்கும் 48 (சாலை விபத்து அவசர சிகிச்சை திட்டம்)",
+    "title_te": "ఇన్నుయిర్ కాప్పోమ్ - నమ్మై కాక్కుమ్ 48 (రోడ్డు ప్రమాద అత్యవసర పథకం)",
+    "title_ml": "ഇന്നുയിർ കാപ്പോം - നമ്മെ കാക്കും 48 (റോഡപകട അടിയന്തിര ചികിത്സാ പദ്ധതി)",
+    "scheme_name": {
+      "en": "Innuyir Kaappom - Nammai Kaakkum 48 (Road Accident Emergency Scheme)",
+      "ta": "இன்னுயிர் காப்போம் - நம்மை காக்கும் 48 (சாலை விபத்து அவசர சிகிச்சை திட்டம்)",
+      "te": "ఇన్నుయిర్ కాప్పోమ్ - నమ్మై కాక్కుమ్ 48 (తమిళనాడు)",
+      "ml": "ഇന്നുയിർ കാപ്പോം - നമ്മെ കാക്കും 48 (തമിഴ്‌നാട്)"
+    },
+    "short_description": {
+      "en": "Free emergency treatment up to ₹1,00,000 for the first 48 hours for road accident victims in Tamil Nadu.",
+      "ta": "தமிழ்நாட்டில் சாலை விபத்தில் காயமடைந்தவர்களுக்கு முதல் 48 மணி நேரத்திற்கு ₹1 லட்சம் வரை கட்டணமில்லா அவசர சிகிச்சை.",
+      "te": "తమిళనాడులో రోడ్డు ప్రమాద బాధితులకు మొదటి 48 గంటల్లో ₹1 లక్ష వరకు ఉచిత అత్యవసర చికిత్స.",
+      "ml": "തമിഴ്‌നാട്ടിൽ റോഡപകടത്തിൽപ്പെടുന്നവർക്ക് ആദ്യ 48 മണിക്കൂറിൽ ₹1 ലക്ഷം രൂപ വരെ സൗജന്യ അടിയന്തിര ചികിത്സ."
+    },
+    "purpose": {
+      "en": "Save lives during the critical golden hour post-accident, irrespective of victim nationality, state origin, or income.",
+      "ta": "விபத்து நடந்த உடனடி பொன்னான நேரத்தில் (Golden Hour) கட்டணமில்லா அவசர சிகிச்சை அளித்து உயிர் காத்தல்.",
+      "te": "గోల్డెన్ అవర్‌లో ప్రాణాలు కాపాడేందుకు ఉచిత అత్యవసర వైద్య సహాయం.",
+      "ml": "ഗോൾഡൻ അവറിൽ അടിയന്തിര ചികിത്സ നൽകി ജീവൻ രക്ഷിക്കുക."
+    },
+    "eligibility": {
+      "en": [
+        "Any person involved in a road traffic accident occurring within Tamil Nadu.",
+        "Applicable to residents of Tamil Nadu, other Indian states, and foreign nationals alike.",
+        "Zero income or domicile restriction."
+      ],
+      "ta": [
+        "தமிழ்நாட்டு எல்லைக்குள் சாலை விபத்தில் சிக்கும் அனைத்து நபர்களும்.",
+        "பிற மாநிலத்தவர் மற்றும் வெளிநாட்டினருக்கும் பொருந்தும்.",
+        "வருமான வரம்பு அல்லது இருப்பிடச் சான்றிதழ் தேவையில்லை."
+      ],
+      "te": [
+        "తమిళనాడు రోడ్లపై ప్రమాదానికి గురైన ఎవరైనా.",
+        "ఇతర రాష్ట్రాల వారు మరియు విదేశీయులకు కూడా వర్తిస్తుంది.",
+        "ఆదాయ పరిమితి లేదు."
+      ],
+      "ml": [
+        "തമിഴ്‌നാട്ടിൽ റോഡപകടത്തിൽപ്പെടുന്ന ആർക്കും.",
+        "മറ്റ് സംസ്ഥാനക്കാർക്കും വിദേശികൾക്കും ലഭ്യമാണ്.",
+        "വരുമാന പരിധിയില്ല."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Free cashless emergency medical and surgical care up to ₹1,00,000 for the first 48 hours.",
+        "Covers 81 designated emergency and life-saving trauma procedures.",
+        "Empanelled network of 680+ government and private trauma hospitals."
+      ],
+      "ta": [
+        "முதல் 48 மணி நேரத்திற்கு ₹1,00,000 வரை கட்டணமில்லா அவசர சிகிச்சை.",
+        "81 வகையான அவசர மற்றும் அறுவை சிகிச்சை முறைகள் உள்ளடக்கம்.",
+        "அரசு மற்றும் தனியார் அங்கீகரிக்கப்பட்ட மருத்துவமனைகளில் உடனடி சிகிச்சை."
+      ],
+      "te": [
+        "మొదటి 48 గంటల్లో ₹1,00,000 వరకు నగదు రహిత చికిత్స.",
+        "81 రకాల అత్యవసర శస్త్రచికిత్సలు ఉచితం."
+      ],
+      "ml": [
+        "ആദ്യ 48 മണിക്കൂറിൽ ₹1,00,000 വരെ സൗജന്യ ചികിത്സ.",
+        "81 ജീവൻരക്ഷാ ചികിത്സകൾ സൗജന്യം."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "Zero documents required at admission. Admission granted instantly upon trauma arrival."
+      ],
+      "ta": [
+        "மருத்துவமனையில் அனுமதிக்க ஆவணங்கள் தேவையில்லை. விபத்து நடந்த உடனடி சிகிச்சை வழங்கப்படும்."
+      ],
+      "te": [
+        "చేరే సమయంలో ఎటువంటి పత్రాలు అవసరం లేదు."
+      ],
+      "ml": [
+        "അഡ്മിഷൻ സമയത്ത് രേഖകൾ ആവശ്യമില്ല."
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "Dial 108 Emergency Ambulance. The victim is taken to the nearest empanelled NK48 hospital."
+      ],
+      "ta": [
+        "108 அவசர ஆம்புலன்ஸை அழைக்கவும். நோயாளி உடனடியாக அருகிலுள்ள NK48 அங்கீகரிக்கப்பட்ட மருத்துவமனைக்கு கொண்டு செல்லப்படுவார்."
+      ],
+      "te": [
+        "108 అంబులెన్స్ ద్వారా సమీపంలోని NK48 ఆసుపత్రికి తరలిస్తారు."
+      ],
+      "ml": [
+        "108 ആംബുലൻസ് വിളിച്ച് അടുത്തുള്ള NK48 ആശുപത്രിയിൽ എത്തിക്കുക."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "680+ Empanelled Government & Private Trauma Hospitals in Tamil Nadu | Helpline: 108 / 104"
+      ],
+      "ta": [
+        "தமிழ்நாட்டிலுள்ள 680-க்கும் மேற்பட்ட அரசு மற்றும் தனியார் அவசர சிகிச்சை மருத்துவமனைகள் | உதவி எண்: 108 / 104"
+      ],
+      "te": [
+        "తమిళనాడులోని 680+ నెట్‌వర్క్ ఆసుపత్రులు | హెల్ప్‌లైన్: 108"
+      ],
+      "ml": [
+        "തമിഴ്‌നാട്ടിലെ 680+ അംഗീകൃത ആശുപത്രികൾ | ഹെൽപ്പ് ലൈൻ: 108"
+      ]
+    },
+    "state": "Tamil Nadu",
+    "official_source": "Tamil Nadu Health System Project (TNHSP), Govt of Tamil Nadu",
+    "official_url": "https://tnhsp.tn.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "innuyir kaappom",
+      "nammai kaakkum 48",
+      "nk48",
+      "accident emergency",
+      "road accident 48 hours",
+      "1 lakh trauma cover"
+    ],
+    "keywords_ta": [
+      "இன்னுயிர் காப்போம்",
+      "நம்மை காக்கும் 48",
+      "சாலை விபத்து சிகிச்சை",
+      "அவசர சிகிச்சை",
+      "1 லட்சம் விபத்து சிகிச்சை"
+    ],
+    "keywords_tanglish": [
+      "nammai kaakkum 48",
+      "innuyir kaappom",
+      "vibhathu scheme",
+      "accident treatment 48 hours"
+    ],
+    "keywords_te": [
+      "ఇన్నుయిర్ కాప్పోమ్",
+      "నమ్మై కాక్కుమ్ 48",
+      "రోడ్డు ప్రమాద అత్యవసర చికిత్స"
+    ],
+    "keywords_ml": [
+      "ഇന്നുയിർ കാപ്പോം",
+      "നമ്മെ കാക്കും 48",
+      "റോഡപകട അടിയന്തിര ചികിത്സ"
+    ]
+  },
+  {
+    "id": "ysr-aarogyasri-andhra-pradesh",
+    "category": "government_scheme",
+    "scheme_category": "health_insurance",
+    "title_en": "Dr. YSR Aarogyasri Scheme",
+    "title_ta": "டாக்டர் ஒய்.எஸ்.ஆர் ஆரோக்கியஸ்ரீ திட்டம் (ஆந்திரப் பிரதேசம்)",
+    "title_te": "డాక్టర్ వై.ఎస్.ఆర్ ఆరోగ్యశ్రీ పథకం",
+    "title_ml": "ഡോ. വൈ.എസ്.ആർ ആരോഗ്യശ്രീ പദ്ധതി (ആന്ധ്രാപ്രദേശ്)",
+    "scheme_name": {
+      "en": "Dr. YSR Aarogyasri Scheme (Andhra Pradesh)",
+      "ta": "டாக்டர் ஒய்.எஸ்.ஆர் ஆரோக்கியஸ்ரீ திட்டம் (ஆந்திரப் பிரதேசம்)",
+      "te": "డాక్టర్ వై.ఎస్.ఆర్ ఆరోగ్యశ్రీ పథకం (ఆంధ్రప్రదేశ్)",
+      "ml": "ഡോ. വൈ.എസ്.ആർ ആരോഗ്യശ്രീ പദ്ധതി (ആന്ധ്രാപ്രദേശ്)"
+    },
+    "short_description": {
+      "en": "Universal cashless secondary and tertiary hospitalization up to ₹25 Lakh for eligible families in Andhra Pradesh across 3,257 procedures.",
+      "ta": "ஆந்திரப் பிரதேசத்தில் தகுதியான குடும்பங்களுக்கு ஆண்டுக்கு ₹25 லட்சம் வரை கட்டணமில்லா அறுவை சிகிச்சை மற்றும் மருத்துவ காப்பீடு.",
+      "te": "ఆంధ్రప్రదేశ్‌లోని అర్హులైన కుటుంబాలకు సంవత్సరానికి ₹25 లక్షల వరకు 3,257 చికిత్సలకు పూర్తి ఉచిత నగదు రహిత వైద్య సేవలు.",
+      "ml": "ആന്ധ്രാപ്രദേശിലെ അർഹരായ കുടുംബങ്ങൾക്ക് പ്രതിവർഷം ₹25 ലക്ഷം രൂപ വരെ 3,257 ചികിത്സകൾക്ക് സൗജന്യ ആശുപത്രി പരിരക്ഷ."
+    },
+    "purpose": {
+      "en": "Provide catastrophic health expenditure protection and quality cashless specialty healthcare to BPL and middle-class families in AP.",
+      "ta": "ஆந்திராவில் உள்ள ஏழை மற்றும் எளிய மக்களுக்கு உயர்தர மருத்துவ சிகிச்சையினை கட்டணமில்லாமல் வழங்குதல்.",
+      "te": "పేద మరియు మధ్యతరగతి ప్రజలకు అత్యున్నత వైద్య చికిత్సలను ఉచితంగా అందించడం.",
+      "ml": "താഴ്ന്ന-ഇടത്തരം കുടുംബങ്ങൾക്ക് സൗജന്യ ഗുണനിലവാരമുള്ള സൂപ്പർ സ്പെഷ്യാലിറ്റി ചികിത്സ ഉറപ്പാക്കുക."
+    },
+    "eligibility": {
+      "en": [
+        "Permanent resident of Andhra Pradesh holding a valid Rice Card (BPL Ration Card) or YSR Aarogyasri Card.",
+        "Annual family income below ₹5,00,000 per annum (includes landholding thresholds < 12 acres wetland / 35 acres dry land).",
+        "Includes sanitation workers, auto drivers, and welfare pension holders in Andhra Pradesh."
+      ],
+      "ta": [
+        "ஆந்திரப் பிரதேசத்தில் வசிக்கும் அரிசி அட்டை (Rice Card) அல்லது ஆரோக்கியஸ்ரீ அட்டை பெற்ற குடும்பங்கள்.",
+        "ஆண்டு குடும்ப வருமானம் ₹5,00,000-க்குள் இருத்தல் வேண்டும்.",
+        "தூய்மைப் பணியாளர்கள், ஆட்டோ ஓட்டுநர்கள் மற்றும் ஓய்வூதியதாரர்கள் தகுதியுடையவர்கள்."
+      ],
+      "te": [
+        "ఆంధ్రప్రదేశ్ నివాసి అయి చెల్లుబాటు అయ్యే రైస్ కార్డ్ (బిపిఎల్ రేషన్ కార్డ్) లేదా ఆరోగ్యశ్రీ కార్డ్ ఉండాలి.",
+        "వార్షిక కుటుంబ ఆదాయం ₹5,00,000 లోపు ఉండాలి.",
+        "పారిశుధ్య కార్మికులు, ఆటో డ్రైవర్లు, పెన్షనర్లు అర్హులు."
+      ],
+      "ml": [
+        "ആന്ധ്രാപ്രദേശ് റൈസ് കാർഡുള്ള (BPL) സ്ഥിരതാമസക്കാർ.",
+        "വാർഷിക കുടുംബ വരുമാനം ₹5,00,000-ൽ താഴെയായിരിക്കണം.",
+        "ശുചീകരണ തൊഴിലാളികൾ, ഓട്ടോ ഡ്രൈവർമാർ എന്നിവർ അർഹരാണ്."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Comprehensive cashless hospitalization up to ₹25 Lakh per family per year.",
+        "Covers 3,257 super-specialty, surgical, medical, and oncology procedures.",
+        "Free medicines, diagnostic tests, and post-discharge consultations included.",
+        "Aarogya Mithra assistance in all network hospitals."
+      ],
+      "ta": [
+        "குடும்பத்திற்கு ஆண்டுக்கு ₹25 லட்சம் வரை கட்டணமில்லா மருத்துவ சிகிச்சை.",
+        "3,257 அறுவை சிகிச்சை மற்றும் மருத்துவ முறைகள் உள்ளடக்கம்.",
+        "அரசு மற்றும் அங்கீகரிக்கப்பட்ட தனியார் நெட்வொர்க் மருத்துவமனைகளில் செல்லுபடியாகும்.",
+        "மருத்துவமனைகளில் ஆரோக்கிய மித்ரா உதவி சேவை."
+      ],
+      "te": [
+        "కుటుంబానికి ఏడాదికి ₹25,00,000 వరకు నగదు రహిత సూపర్ స్పెషాలిటీ చికిత్స.",
+        "3,257 ఆపరేషన్లు మరియు వైద్య చికిత్సలు ఉచితం.",
+        "ఆసుపత్రులలో ఆరోగ్య మిత్ర సహాయం అందుబాటులో ఉంటుంది."
+      ],
+      "ml": [
+        "കുടുംബത്തിന് പ്രതിവർഷം ₹25 ലക്ഷം രൂപ വരെ സൗജന്യ ചികിത്സ.",
+        "3,257 സർജറികളും ചികിത്സകളും ലഭ്യമാണ്.",
+        "ആശുപത്രികളിൽ ആരോഗ്യ മിത്ര സഹായം ലഭ്യമാണ്."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "AP Rice Card / YSR Aarogyasri Card",
+        "Aadhaar Card of all family members",
+        "Income Certificate (if Rice card not available)"
+      ],
+      "ta": [
+        "ஆந்திர ரைஸ் கார்டு (Rice Card) அல்லது ஆரோக்கியஸ்ரீ அட்டை",
+        "ஆதார் அட்டை",
+        "வருமானச் சான்றிதழ்"
+      ],
+      "te": [
+        "ఆంధ్రప్రదేశ్ రైస్ కార్డు / ఆరోగ్యశ్రీ కార్డు",
+        "కుటుంబ సభ్యుల ఆధార్ కార్డులు",
+        "ఆదాయ ధృవీకరణ పత్రం"
+      ],
+      "ml": [
+        "റൈസ് കാർഡ് / ആരോഗ്യശ്രീ കാർഡ്",
+        "ആധാർ കാർഡ്",
+        "വരുമാന സർട്ടിഫിക്കറ്റ്"
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "Step 1: Automatic coverage for all AP Rice Card holders through Grama/Ward Sachivalayam.",
+        "Step 2: Approach Aarogya Mithra helpdesk at any network hospital with your Rice Card/Aadhaar."
+      ],
+      "ta": [
+        "படி 1: கிராம/வார்டு செயலகம் மூலம் ரைஸ் கார்டு உள்ளவர்கள் தானாக இணைக்கப்படுவர்.",
+        "படி 2: நெட்வொர்க் மருத்துவமனையிலுள்ள ஆரோக்கிய மித்ரா மையத்தை அணுகவும்."
+      ],
+      "te": [
+        "దశ 1: గ్రామ/వార్డు సచివాలయం ద్వారా రైస్ కార్డుదారులకు ఆటోమేటిక్ రిజిస్ట్రేషన్.",
+        "దశ 2: నెట్‌వర్క్ ఆసుపత్రిలోని ఆరోగ్య మిత్ర హెల్ప్‌డెస్క్‌ను సంప్రదించండి."
+      ],
+      "ml": [
+        "ഘട്ടം 1: ഗ്രാമ/വാർഡ് സചിവാലയം വഴി റൈസ് കാർഡുള്ളവർക്ക് ഓട്ടോമാറ്റിക് രജിസ്ട്രേഷൻ.",
+        "ഘട്ടം 2: നെറ്റ്വർക്ക് ആശുപത്രിയിലെ ആരോഗ്യ മിത്ര കൗണ്ടറിൽ ബന്ധപ്പെടുക."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "Grama / Ward Sachivalayam (Village Secretariats) in Andhra Pradesh | Portal: ysraarogyasri.ap.gov.in | Helpline: 104"
+      ],
+      "ta": [
+        "ஆந்திர கிராம / வார்டு செயலகம் | இணையதளம்: ysraarogyasri.ap.gov.in | உதவி எண்: 104"
+      ],
+      "te": [
+        "గ్రామ / వార్డు సచివాలయం | పోర్టల్: ysraarogyasri.ap.gov.in | టోల్ ఫ్రీ: 104"
+      ],
+      "ml": [
+        "ഗ്രാമ / വാർഡ് സചിവാലയം | വെബ്‌സൈറ്റ്: ysraarogyasri.ap.gov.in | ഹെൽപ്പ് ലൈൻ: 104"
+      ]
+    },
+    "state": "Andhra Pradesh",
+    "official_source": "Dr. YSR Aarogyasri Health Care Trust, Government of Andhra Pradesh",
+    "official_url": "https://ysraarogyasri.ap.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "ysr aarogyasri",
+      "aarogyasri",
+      "andhra pradesh health insurance",
+      "25 lakh hospital cover",
+      "rice card insurance",
+      "ap free treatment"
+    ],
+    "keywords_ta": [
+      "ஆரோக்கியஸ்ரீ",
+      "ஆந்திரா மருத்துவ காப்பீடு",
+      "25 லட்சம் சிகிச்சை",
+      "ரைஸ் கார்டு காப்பீடு"
+    ],
+    "keywords_tanglish": [
+      "aarogyasri",
+      "ysr aarogyasri",
+      "ap 25 lakh scheme",
+      "rice card hospital"
+    ],
+    "keywords_te": [
+      "వైఎస్సార్ ఆరోగ్యశ్రీ",
+      "ఆరోగ్యశ్రీ",
+      "25 లక్షల ఉచిత వైద్యం",
+      "రైస్ కార్డ్ బీమా",
+      "ఆంధ్రప్రదేశ్ ఆరోగ్య పథకం"
+    ],
+    "keywords_ml": [
+      "വൈ.എസ്.ആർ ആരോഗ്യശ്രീ",
+      "ആന്ധ്രാപ്രദേശ് ഇൻഷുറൻസ്",
+      "25 ലക്ഷം സൗജന്യ ചികിത്സ"
+    ]
+  },
+  {
+    "id": "ysr-aarogya-asara-andhra-pradesh",
+    "category": "government_scheme",
+    "scheme_category": "post_op_allowance",
+    "title_en": "Dr. YSR Aarogya Asara Scheme",
+    "title_ta": "டாக்டர் ஒய்.எஸ்.ஆர் ஆரோக்கிய ஆசரா திட்டம் (ஆந்திரப் பிரதேசம்)",
+    "title_te": "డాక్టర్ వై.ఎస్.ఆర్ ఆరోగ్య ఆసరా పథకం",
+    "title_ml": "ഡോ. വൈ.എസ്.ആർ ആരോഗ്യ ആസര പദ്ധതി (ആന്ധ്രാപ്രദേശ്)",
+    "scheme_name": {
+      "en": "Dr. YSR Aarogya Asara Scheme (Andhra Pradesh)",
+      "ta": "டாக்டர் ஒய்.எஸ்.ஆர் ஆரோக்கிய ஆசரா திட்டம் (ஆந்திரப் பிரதேசம்)",
+      "te": "డాక్టర్ వై.ఎస్.ఆర్ ఆరోగ్య ఆసరా పథకం (ఆంధ్రప్రదేశ్)",
+      "ml": "ഡോ. വൈ.എസ്.ആർ ആരോഗ്യ ആസര പദ്ധതി (ആന്ധ്രാപ്രദേശ്)"
+    },
+    "short_description": {
+      "en": "Post-operative subsistence financial aid of ₹225/day up to ₹5,000/month for patients recuperating from surgery under Aarogyasri in AP.",
+      "ta": "ஆரோக்கியஸ்ரீ திட்டத்தில் அறுவை சிகிச்சை முடிந்து ஓய்வில் இருக்கும் நோயாளிகளுக்கு தினசரி ₹225 (மாதம் ₹5,000 வரை) நிதி உதவி.",
+      "te": "ఆరోగ్యశ్రీ కింద ఆపరేషన్ చేయించుకున్న రోగులకు కోలుకునే సమయంలో రోజుకు ₹225 (నెలకు ₹5,000 వరకు) జీవనోపాధి సహాయం.",
+      "ml": "ആരോഗ്യശ്രീയിൽ ശസ്ത്രക്രിയ കഴിഞ്ഞ രോഗികൾക്ക് വിശ്രമവേളയിൽ പ്രതിദിനം ₹225 (പ്രതിമാസം ₹5,000 വരെ) സാമ്പത്തിക സഹായം."
+    },
+    "purpose": {
+      "en": "Compensate wage loss during post-operative rest period so poor families do not face poverty after medical discharge.",
+      "ta": "அறுவை சிகிச்சைக்குப் பின் பணிக்கு செல்ல முடியாத காலத்தில் ஏற்படும் வருமான இழப்பை ஈடுகட்ட நிதி உதவி.",
+      "te": "ఆపరేషన్ తర్వాత రోగి విశ్రాంతి తీసుకునే సమయంలో రోజువారీ వేతన నష్టాన్ని భర్తీ చేయడం.",
+      "ml": "ശസ്ത്രക്രിയക്ക് ശേഷമുള്ള വിശ്രമകാലത്ത് വേതന നഷ്ടം പരിഹരിക്കുന്നതിനുള്ള സാമ്പത്തിക സഹായം."
+    },
+    "eligibility": {
+      "en": [
+        "Patient must have undergone an approved surgical or medical procedure under Dr. YSR Aarogyasri in Andhra Pradesh.",
+        "Prescribed bed rest period by treating physician."
+      ],
+      "ta": [
+        "ஆந்திரா ஆரோக்கியஸ்ரீ திட்டத்தின் கீழ் அறுவை சிகிச்சை பெற்ற நோயாளிகள்.",
+        "மருத்துவரிடம் இருந்து ஓய்வு காலம் பரிந்துரைக்கப்பட்டிருக்க வேண்டும்."
+      ],
+      "te": [
+        "వై.ఎస్.ఆర్ ఆరోగ్యశ్రీ పథకం కింద నమోదిత శస్త్రచికిత్స చేయించుకున్న రోగి.",
+        "వైద్యుడు సూచించిన విశ్రాంతి కాలం ఉండాలి."
+      ],
+      "ml": [
+        "ആരോഗ്യശ്രീ പദ്ധതിയിൽ രജിസ്റ്റർ ചെയ്ത സർജറി കഴിഞ്ഞ രോഗികൾ.",
+        "ഡോക്ടറുടെ വിശ്രമ കുറിപ്പടി ഉണ്ടായിരിക്കണം."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "₹225 per day up to a maximum of ₹5,000 per month credited directly to the patient bank account on discharge.",
+        "Prevents relapse due to premature return to heavy labor."
+      ],
+      "ta": [
+        "தினசரி ₹225 வீதம் மாதம் ₹5,000 வரை நோயாளியின் வங்கிக் கணக்கில் நேரடியாக செலுத்தப்படுகிறது.",
+        "விரைந்து உடல்நலம் தேற ஊட்டச்சத்து உதவி."
+      ],
+      "te": [
+        "డిశ్చార్జ్ సమయంలో రోజుకు ₹225 చొప్పున గరిష్టంగా నెలకు ₹5,000 నేరుగా బ్యాంక్ ఖాతాలో జమ."
+      ],
+      "ml": [
+        "ഡിസ്ചാർജ്ജ് സമയത്ത് പ്രതിദിനം ₹225 വീതം പരമാവധി പ്രതിമാസം ₹5,000 ബാങ്ക് അക്കൗണ്ടിലേക്ക്."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar Card",
+        "Aarogyasri Case ID / Discharge Summary",
+        "Bank Account Passbook"
+      ],
+      "ta": [
+        "ஆதார் அட்டை",
+        "டிஸ்சார்ஜ் சம்மரி மற்றும் ஆரோக்கியஸ்ரீ எண்",
+        "வங்கிக் கணக்கு புத்தகம்"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "డిశ్చార్జ్ సమ్మరీ & ఆరోగ్యశ్రీ ఐడీ",
+        "బ్యాంక్ పాస్‌బుక్"
+      ],
+      "ml": [
+        "ആധാർ കാർഡ്",
+        "ഡിസ്ചാർജ് സമ്മറി",
+        "ബാങ്ക് പാസ്ബുക്ക്"
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "Aarogya Mithra at network hospital automatically initiates Aarogya Asara benefit processing upon discharge."
+      ],
+      "ta": [
+        "மருத்துவமனையிலிருந்து டிஸ்சார்ஜ் ஆகும் போது ஆரோக்கிய மித்ரா மூலம் தானாகவே செயல்படுத்தப்படும்."
+      ],
+      "te": [
+        "డిశ్చార్జ్ సమయంలో ఆసుపత్రిలోని ఆరోగ్య మిత్ర ద్వారా దరఖాస్తు చేయబడుతుంది."
+      ],
+      "ml": [
+        "ഡിസ്ചാർജ്ജ് സമയത്ത് ആരോഗ്യ മിത്ര വഴി അപേക്ഷ സ്വമേധയാ നൽകുന്നു."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "Aarogya Mithra Counter at Empanelled Network Hospitals in AP | Portal: ysraarogyasri.ap.gov.in"
+      ],
+      "ta": [
+        "ஆந்திர நெட்வொர்க் மருத்துவமனை ஆரோக்கிய மித்ரா மையம் | இணையதளம்: ysraarogyasri.ap.gov.in"
+      ],
+      "te": [
+        "నెట్‌వర్క్ ఆసుపత్రిలోని ఆరోగ్య మిత్ర కౌంటర్ | పోర్టల్: ysraarogyasri.ap.gov.in"
+      ],
+      "ml": [
+        "നെറ്റ്വർക്ക് ആശുപത്രിയിലെ ആരോഗ്യ മിത്ര കൗണ്ടർ | വെബ്‌സൈറ്റ്: ysraarogyasri.ap.gov.in"
+      ]
+    },
+    "state": "Andhra Pradesh",
+    "official_source": "Government of Andhra Pradesh, Health Medical & Family Welfare",
+    "official_url": "https://ysraarogyasri.ap.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "ysr aarogya asara",
+      "aarogya asara",
+      "post operative allowance",
+      "surgery rest allowance",
+      "225 per day",
+      "ap wage loss compensation"
+    ],
+    "keywords_ta": [
+      "ஆரோக்கிய ஆசரா",
+      "அறுவை சிகிச்சைக்குப் பின் நிதி உதவி",
+      "தினசரி 225 ரூபாய்"
+    ],
+    "keywords_tanglish": [
+      "aarogya asara",
+      "post surgery allowance",
+      "225 rupees per day ap"
+    ],
+    "keywords_te": [
+      "వైఎస్సార్ ఆరోగ్య ఆసరా",
+      "ఆరోగ్య ఆసరా",
+      "ఆపరేషన్ తర్వాత ఆర్థిక సహాయం",
+      "రోజుకు 225 రూపాయలు"
+    ],
+    "keywords_ml": [
+      "ആരോഗ്യ ആസര",
+      "ശസ്ത്രക്രിയക്ക് ശേഷമുള്ള സാമ്പത്തിക സഹായം"
+    ]
+  },
+  {
+    "id": "ysr-thalli-bidda-express-andhra-pradesh",
+    "category": "government_scheme",
+    "scheme_category": "maternal_transport",
+    "title_en": "Dr. YSR Thalli Bidda Express & Matru Seva",
+    "title_ta": "டாக்டர் ஒய்.எஸ்.ஆர் தல்லி பிட்டா எக்ஸ்பிரஸ் (ஆந்திரப் பிரதேசம்)",
+    "title_te": "డాక్టర్ వై.ఎస్.ఆర్ తల్లి బిడ్డ ఎక్స్‌ప్రెస్ & మాతృ సేవ",
+    "title_ml": "ഡോ. വൈ.എസ്.ആർ തള്ളി ബിദ്ദ എക്സ്പ്രസ്സ് (ആന്ധ്രാപ്രദേശ്)",
+    "scheme_name": {
+      "en": "Dr. YSR Thalli Bidda Express & Matru Seva (Andhra Pradesh)",
+      "ta": "டாக்டர் ஒய்.எஸ்.ஆர் தல்லி பிட்டா எக்ஸ்பிரஸ் (ஆந்திரப் பிரதேசம்)",
+      "te": "డాక్టర్ వై.ఎస్.ఆర్ తల్లి బిడ్డ ఎక్స్‌ప్రెస్ (ఆంధ్రప్రదేశ్)",
+      "ml": "ഡോ. വൈ.എസ്.ആർ തള്ളി ബിദ്ദ എക്സ്പ്രസ്സ് (ആന്ധ്രാപ്രദേശ്)"
+    },
+    "short_description": {
+      "en": "Free dedicated air-conditioned 102 emergency drop-back transport, newborn baby care kits, and maternal nutrition support in Andhra Pradesh.",
+      "ta": "ஆந்திராவில் அரசு மருத்துவமனைகளில் பிரசவித்த தாய் மற்றும் சேயை வீட்டிற்கு பாதுகாப்பாக அழைத்துச் செல்ல 102 இலவச வாகன சேவை மற்றும் குழந்தை நலப் பெட்டகம்.",
+      "te": "ప్రభుత్వ ఆసుపత్రులలో ప్రసవించిన బాలింతలను మరియు నవజాత శిశువులను సురక్షితంగా ఇంటికి చేర్చే ఉచిత 102 వాహన సేవ & బేబీ కేర్ కిట్.",
+      "ml": "സർക്കാർ ആശുപത്രികളിൽ പ്രസവം കഴിഞ്ഞ അമ്മയെയും കുഞ്ഞിനെയും സുരക്ഷിതമായി വീട്ടിലെത്തിക്കുന്ന സൗജന്യ 102 യാത്രാ സേവനവും ബേബി കിറ്റും."
+    },
+    "purpose": {
+      "en": "Promote 100% safe institutional deliveries, reduce infant/maternal mortality, and ensure post-natal comfort for mothers in AP.",
+      "ta": "பாதுகாப்பான பிரசவத்தை ஊக்குவிக்கவும், பிரசவித்த தாய் மற்றும் குழந்தையை பாதுகாப்பாக வீடு சேர்க்கவும்.",
+      "te": "సురక్షిత ప్రసవాలను ప్రోత్సహించడం మరియు తల్లి, బిడ్డల ఆరోగ్య భద్రతను కాపాడడం.",
+      "ml": "സുരക്ഷിത പ്രസവം പ്രോത്സാഹിപ്പിക്കുകയും അമ്മയ്ക്കും കുഞ്ഞിനും സൗജന്യ യാത്രാ സൗകര്യം നൽകുകയും ചെയ്യുക."
+    },
+    "eligibility": {
+      "en": [
+        "All mothers delivering at Government Hospitals, Community Health Centres (CHCs), or Area Hospitals in Andhra Pradesh.",
+        "Zero income bar."
+      ],
+      "ta": [
+        "ஆந்திர அரசு ஆரம்ப சுகாதார நிலையங்கள், CHC அல்லது அரசு மருத்துவமனைகளில் பிரசவித்த அனைத்து தாய்மார்கள்.",
+        "வருமான வரம்பு இல்லை."
+      ],
+      "te": [
+        "ఆంధ్రప్రదేశ్ ప్రభుత్వ ఆసుపత్రులలో ప్రసవించిన తల్లులందరూ అర్హులు.",
+        "ఆదాయ పరిమితి లేదు."
+      ],
+      "ml": [
+        "ആന്ധ്രാപ്രദേശ് സർക്കാർ ആശുപത്രികളിൽ പ്രസവിക്കുന്ന എല്ലാ അമ്മമാരും.",
+        "വരുമാന പരിധിയില്ല."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Free hygienic vehicle drop-back from government hospital directly to the mother residence.",
+        "Free Newborn Baby Kit (baby bed, clothes, soap, thermometer, baby oil, mosquito net).",
+        "Integration with 102 toll-free call centre."
+      ],
+      "ta": [
+        "மருத்துவமனையிலிருந்து தாய் வீட்டிற்கு இலவச 102 வாகனப் போக்குவரத்து.",
+        "இலவச குழந்தை நலப் பெட்டகம் (உடைகள், படுக்கை, சோப், வெப்பமானி, கொசுவலை).",
+        "102 கட்டணமில்லா உதவி எண் வசதி."
+      ],
+      "te": [
+        "ఆసుపత్రి నుండి ఇంటి వరకు ఉచిత 102 ఏసీ వాహన రవాణా.",
+        "ఉచిత బేబీ కేర్ కిట్ (బేబీ బెడ్, దుస్తులు, సోప్, దోమతెర తదితరాలు)."
+      ],
+      "ml": [
+        "ആശുപത്രിയിൽ നിന്ന് വീട്ടിലേക്ക് സൗജന്യ 102 വാഹന യാത്ര.",
+        "സൗജന്യ ബേബി കെയർ കിറ്റ്."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "Hospital Delivery Discharge Slip",
+        "Mother Aadhaar Card"
+      ],
+      "ta": [
+        "பிரசவ மருத்துவமனை டிஸ்சார்ஜ் சீட்டு",
+        "தாயின் ஆதார் அட்டை"
+      ],
+      "te": [
+        "ఆసుపత్రి ప్రసవ డిశ్చార్జ్ రసీదు",
+        "తల్లి ఆధార్ కార్డు"
+      ],
+      "ml": [
+        "ആശുപത്രി ഡിസ്ചാർജ്ജ് സ്ലിപ്പ്",
+        "ആധാർ കാർഡ്"
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "Hospital staff / ANM books 102 Thalli Bidda Express automatically prior to discharge."
+      ],
+      "ta": [
+        "மருத்துவமனையிலிருந்து புறப்படுவதற்கு முன் செவிலியர் மூலமாக 102 பதிவு செய்யப்படும்."
+      ],
+      "te": [
+        "డిశ్చార్జ్ సమయంలో ఆసుపత్రి సిబ్బంది 102 వాహనాన్ని బుక్ చేస్తారు."
+      ],
+      "ml": [
+        "ഡിസ്ചാർജ്ജ് സമയത്ത് ആശുപത്രി അധികൃതർ 102 വാഹനം ബുക്ക് ചെയ്യുന്നു."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "All Government Hospitals in Andhra Pradesh | Toll-Free: 102"
+      ],
+      "ta": [
+        "ஆந்திரா அரசு மருத்துவமனைகள் | உதவி எண்: 102"
+      ],
+      "te": [
+        "ఆంధ్రప్రదేశ్‌లోని అన్ని ప్రభుత్వ ఆసుపత్రులు | టోల్ ఫ్రీ: 102"
+      ],
+      "ml": [
+        "എല്ലാ സർക്കാർ ആശുപത്രികളും | ടോൾ ഫ്രീ: 102"
+      ]
+    },
+    "state": "Andhra Pradesh",
+    "official_source": "Department of Health & Family Welfare, Govt of Andhra Pradesh",
+    "official_url": "https://cfw.ap.nic.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "thalli bidda express",
+      "102 ambulance",
+      "maternal drop back vehicle",
+      "newborn baby kit",
+      "andhra pregnancy transport"
+    ],
+    "keywords_ta": [
+      "தல்லி பிட்டா எக்ஸ்பிரஸ்",
+      "102 இலவச வாகனம்",
+      "குழந்தை நல பெட்டகம்"
+    ],
+    "keywords_tanglish": [
+      "thalli bidda express",
+      "102 vehicle ap",
+      "maternity transport"
+    ],
+    "keywords_te": [
+      "తల్లి బిడ్డ ఎక్స్‌ప్రెస్",
+      "102 ఉచిత వాహనం",
+      "బేబీ కేర్ కిట్",
+      "గర్భిణీ రవాణా సేవ"
+    ],
+    "keywords_ml": [
+      "തള്ളി ബിദ്ദ എക്സ്പ്രസ്സ്",
+      "102 സൗജന്യ വാഹനം",
+      "ബേബി കെയർ കിറ്റ്"
+    ]
+  },
+  {
+    "id": "kasp-karunya-arogya-suraksha-padhathi-kerala",
+    "category": "government_scheme",
+    "scheme_category": "health_insurance",
+    "title_en": "Karunya Arogya Suraksha Padhathi (KASP) & Karunya Benevolent Fund",
+    "title_ta": "காருண்யா ஆரோக்கிய சுரக்ஷா திட்டம் (KASP - கேரளா)",
+    "title_te": "కారుణ్య ఆరోగ్య సురక్ష పద్ధతి (KASP - కేరళ)",
+    "title_ml": "കാരുണ്യ ആരോഗ്യ സുരക്ഷാ പദ്ധതി (KASP) & കാരുണ്യ ബെനവലന്റ് ഫണ്ട്",
+    "scheme_name": {
+      "en": "Karunya Arogya Suraksha Padhathi (KASP) & Karunya Benevolent Fund (Kerala)",
+      "ta": "காருண்யா ஆரோக்கிய சுரக்ஷா திட்டம் (KASP - கேரளா)",
+      "te": "కారుణ్య ఆరోగ్య సురక్ష పద్ధతి (KASP - కేరళ)",
+      "ml": "കാരുണ്യ ആരോഗ്യ സുരക്ഷാ പദ്ധതി (KASP - കേരളം)"
+    },
+    "short_description": {
+      "en": "Comprehensive cashless secondary and tertiary hospitalization up to ₹5 Lakh per family per year for 42+ Lakh poor families in Kerala.",
+      "ta": "கேரளாவில் தகுதியான 42 லட்சத்திற்கும் மேற்பட்ட குடும்பங்களுக்கு ஆண்டுக்கு ₹5 லட்சம் வரை கட்டணமில்லா மருத்துவ சிகிச்சை.",
+      "te": "కేరళలోని 42 లక్షల పేద కుటుంబాలకు సంవత్సరానికి ₹5 లక్షల వరకు ఉచిత ఆసుపత్రి చికిత్స.",
+      "ml": "കേരളത്തിലെ 42 ലക്ഷത്തിലധികം കുടുംബങ്ങൾക്ക് പ്രതിവർഷം ₹5 ലക്ഷം രൂപ വരെ സൗജന്യ ആശുപത്രി ചികിത്സ."
+    },
+    "purpose": {
+      "en": "Universal health coverage integrating Ayushman Bharat PM-JAY and state Karunya funds to prevent catastrophic health expenditure in Kerala.",
+      "ta": "கேரளாவில் எளிய மக்களுக்கு உயர்தர மருத்துவ சிகிச்சையினை கட்டணமில்லாமல் வழங்குதல்.",
+      "te": "కేరళలోని పేదలకు నగదు రహిత వైద్య సహాయం అందించడం.",
+      "ml": "കേരളത്തിലെ സാധാരണക്കാർക്ക് സൗജന്യവും ഗുണനിലവാരമുള്ളതുമായ ആശുപത്രി ചികിത്സ ഉറപ്പാക്കുക."
+    },
+    "eligibility": {
+      "en": [
+        "Resident of Kerala holding a valid Pink or Yellow Ration Card (Priority / AAY Card).",
+        "Families listed in SECC 2011 or enrolled under previous RSBY/CHIS schemes.",
+        "Karunya Benevolent Fund covers non-KASP low-income families with annual income < ₹3,00,000 for critical ailments (kidney, heart, cancer)."
+      ],
+      "ta": [
+        "கேரளாவில் வசிக்கும் மஞ்சள் அல்லது இளஞ்சிவப்பு ரேஷன் அட்டை (AAY / Priority) வைத்துள்ள குடும்பங்கள்.",
+        "ஆண்டு வருமானம் ₹3 லட்சத்திற்குள் உள்ள கடுமையான நோயாளிகள் காருண்யா பெனவலன்ட் நிதி மூலம் பலன் பெறலாம்."
+      ],
+      "te": [
+        "కేరళ నివాసి అయి పసుపు లేదా పింక్ రేషన్ కార్డు (బిపిఎల్) ఉన్నవారు.",
+        "తీవ్ర వ్యాధుల ఉన్న వార్షిక ఆదాయం ₹3 లక్షల లోపు గలవారు."
+      ],
+      "ml": [
+        "കേരളത്തിലെ മഞ്ഞ, പിങ്ക് റേഷൻ കാർഡുള്ള (BPL/AAY) കുടുംബങ്ങൾ.",
+        "മുൻ ആർ.എസ്.ബി.വൈ കാർഡുള്ളവരും വാർഷിക വരുമാനം ₹3 ലക്ഷത്തിൽ താഴെയുള്ള ഗുരുതര രോഗികളും."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Cashless inpatient treatment up to ₹5,00,000 per family per year on floater basis.",
+        "Covers 1,900+ procedures across government and empanelled private hospitals.",
+        "Dedicated cancer, kidney dialysis, neurosurgery, and cardiac care packages."
+      ],
+      "ta": [
+        "குடும்பத்திற்கு ஆண்டுக்கு ₹5,00,000 வரை கட்டணமில்லா சிகிச்சை.",
+        "1,900-க்கும் மேற்பட்ட மருத்துவ மற்றும் அறுவை சிகிச்சைகள் உள்ளடக்கம்.",
+        "அரசு மற்றும் தனியார் அங்கீகரிக்கப்பட்ட மருத்துவமனைகளில் செல்லுபடியாகும்."
+      ],
+      "te": [
+        "కుటుంబానికి ఏడాదికి ₹5 లక్షల వరకు నగదు రహిత చికిత్స.",
+        "1,900 వైద్య విధానాలు అందుబాటులో ఉన్నాయి."
+      ],
+      "ml": [
+        "കുടുംബത്തിന് പ്രതിവർഷം ₹5,00,000 വരെ സൗജന്യ കിടത്തിച്ചികിത്സ.",
+        "1,900-ലധികം ചികിത്സകളും ശസ്ത്രക്രിയകളും ലഭ്യമാണ്.",
+        "സർക്കാർ, എംപാനൽ ചെയ്ത സ്വകാര്യ ആശുപത്രികളിൽ സൗജന്യം."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "Kerala Ration Card (Pink/Yellow)",
+        "Aadhaar Card of all family members",
+        "Income Certificate (for Karunya Benevolent Fund)"
+      ],
+      "ta": [
+        "கேரள ரேஷன் அட்டை",
+        "ஆதார் அட்டை",
+        "வருமானச் சான்றிதழ்"
+      ],
+      "te": [
+        "కేరళ రేషన్ కార్డు",
+        "ఆధార్ కార్డు",
+        "ఆదాయ ధృవీకరణ పత్రం"
+      ],
+      "ml": [
+        "റേഷൻ കാർഡ് (മഞ്ഞ/പിങ്ക്)",
+        "ആധാർ കാർഡ്",
+        "വരുമാന സർട്ടിഫിക്കറ്റ്"
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "Step 1: Check eligibility online at sha.kerala.gov.in using Ration card number.",
+        "Step 2: Approach KASP Kiosk at any empanelled hospital with Ration card and Aadhaar for instant empanelment."
+      ],
+      "ta": [
+        "படி 1: sha.kerala.gov.in தளத்தில் ரேஷன் கார்டு எண் மூலம் தகுதியை சரிபார்க்கவும்.",
+        "படி 2: மருத்துவமனையிலுள்ள KASP உதவி மையத்தில் பதிவு செய்து சிகிச்சை பெறவும்."
+      ],
+      "te": [
+        "దశ 1: sha.kerala.gov.in లో మీ రేషన్ కార్డు నంబర్ ద్వారా అర్హతను తనిఖీ చేయండి.",
+        "దశ 2: ఆసుపత్రిలోని KASP కియోస్క్‌ను సంప్రదించండి."
+      ],
+      "ml": [
+        "ഘട്ടം 1: sha.kerala.gov.in വഴി റേഷൻ കാർഡ് നമ്പർ നൽകി യോഗ്യത പരിശോധിക്കുക.",
+        "ഘട്ടം 2: ആശുപത്രിയിലെ KASP കിയോസ്കിൽ റേഷൻ കാർഡും ആധാറുമായി രജിസ്റ്റർ ചെയ്യുക."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "KASP Helpdesks at Empanelled Government & Private Hospitals in Kerala | Portal: sha.kerala.gov.in | DISHA: 1056"
+      ],
+      "ta": [
+        "கேரள அரசு மற்றும் தனியார் KASP உதவி மையங்கள் | இணையதளம்: sha.kerala.gov.in | திஷா: 1056"
+      ],
+      "te": [
+        "కేరళలోని KASP నెట్‌వర్క్ ఆసుపత్రులు | పోర్టల్: sha.kerala.gov.in | దిశ: 1056"
+      ],
+      "ml": [
+        "കേരളത്തിലെ KASP എംപാനൽ ചെയ്ത ആശുപത്രി കിയോസ്കുകൾ | വെബ്‌സൈറ്റ്: sha.kerala.gov.in | ദിശ: 1056"
+      ]
+    },
+    "state": "Kerala",
+    "official_source": "State Health Agency (SHA), Government of Kerala",
+    "official_url": "https://sha.kerala.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "kasp",
+      "karunya",
+      "karunya arogya suraksha padhathi",
+      "kerala health insurance",
+      "5 lakh hospital cover kerala",
+      "pink ration card scheme"
+    ],
+    "keywords_ta": [
+      "காருண்யா திட்டம்",
+      "KASP கேரளா",
+      "கேரளா மருத்துவ காப்பீடு",
+      "5 லட்சம் காப்பீடு"
+    ],
+    "keywords_tanglish": [
+      "kasp scheme",
+      "karunya health scheme",
+      "kerala 5 lakh insurance"
+    ],
+    "keywords_te": [
+      "కారుణ్య ఆరోగ్య సురక్ష",
+      "కేరళ ఆరోగ్య బీమా",
+      "5 లక్షల చికిత్స"
+    ],
+    "keywords_ml": [
+      "കാരുണ്യ ആരോഗ്യ സുരക്ഷാ പദ്ധതി",
+      "കാസ്പ്",
+      "KASP",
+      "കാരുണ്യ ഫണ്ട്",
+      "കേരള ആരോഗ്യ ഇൻഷുറൻസ്",
+      "5 ലക്ഷം സൗജന്യ ചികിത്സ"
+    ]
+  },
+  {
+    "id": "medisep-kerala",
+    "category": "government_scheme",
+    "scheme_category": "employee_insurance",
+    "title_en": "MEDISEP (Medical Insurance for State Employees and Pensioners - Kerala)",
+    "title_ta": "மெடிசெப் திட்டம் (MEDISEP - கேரளா அரசு ஊழியர் & ஓய்வூதியர் காப்பீடு)",
+    "title_te": "మెడిసెప్ (కేరళ ప్రభుత్వ ఉద్యోగులు మరియు పెన్షనర్ల బీమా)",
+    "title_ml": "മെഡിസെപ് (MEDISEP - ജീവനക്കാർക്കും പെൻഷൻകാർക്കുമുള്ള ആരോഗ്യ ഇൻഷുറൻസ്)",
+    "scheme_name": {
+      "en": "MEDISEP - Medical Insurance for State Employees and Pensioners (Kerala)",
+      "ta": "மெடிசெப் திட்டம் (கேரளா அரசு ஊழியர் மற்றும் ஓய்வூதியர் காப்பீடு)",
+      "te": "మెడిసెప్ పథకం (కేరళ)",
+      "ml": "മെഡിസെപ് (MEDISEP - കേരള സർക്കാർ ജീവനക്കാർക്കും പെൻഷൻകാർക്കും)"
+    },
+    "short_description": {
+      "en": "Comprehensive cashless medical insurance up to ₹3 Lakh/year (plus catastrophic corpus up to ₹18 Lakh) for Kerala state employees and pensioners.",
+      "ta": "கேரள அரசு ஊழியர்கள் மற்றும் ஓய்வூதியதாரர்களுக்கு ஆண்டுக்கு ₹3 லட்சம் வரை கட்டணமில்லா மருத்துவ சிகிச்சை.",
+      "te": "కేరళ ప్రభుత్వ ఉద్యోగులు మరియు పెన్షనర్లకు సంవత్సరానికి ₹3 లక్షల వరకు నగదు రహిత చికిత్స.",
+      "ml": "കേരള സർക്കാർ ജീവനക്കാർക്കും പെൻഷൻകാർക്കും പ്രതിവർഷം ₹3 ലക്ഷം രൂപ വരെ സൗജന്യ ആശുപത്രി ചികിത്സ."
+    },
+    "purpose": {
+      "en": "Provide universal cashless health coverage for all serving employees, teachers, and pensioners of Kerala state government.",
+      "ta": "கேரள அரசு ஊழியர்கள் மற்றும் குடும்பத்தினருக்கு கட்டணமில்லா மருத்துவ பாதுகாப்பு.",
+      "te": "కేరళ ఉద్యోగులు మరియు పెన్షనర్లకు నాణ్యమైన వైద్య భద్రత.",
+      "ml": "കേരള സർക്കാർ ജീവനക്കാർക്കും പെൻഷൻകാർക്കും സമഗ്ര ആരോഗ്യ സുരക്ഷ."
+    },
+    "eligibility": {
+      "en": [
+        "Serving state government employees, aided school/college staff, and service pensioners of Kerala.",
+        "Covers spouse, dependent children, and dependent parents."
+      ],
+      "ta": [
+        "கேரள அரசு ஊழியர்கள், அரசு உதவிபெறும் பள்ளி/கல்லூரி ஆசிரியர்கள் மற்றும் ஓய்வூதியதாரர்கள்.",
+        "துணைவர், சார்ந்திருக்கும் குழந்தைகள் மற்றும் பெற்றோர் உள்ளடக்கம்."
+      ],
+      "te": [
+        "కేరళ రాష్ట్ర ప్రభుత్వ ఉద్యోగులు, ఉపాధ్యాయులు మరియు పెన్షనర్లు."
+      ],
+      "ml": [
+        "കേരള സർക്കാർ ജീവനക്കാർ, അധ്യാപകർ, സർവീസ് പെൻഷൻകാർ, കുടുംബ പെൻഷൻകാർ."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Basic floater coverage of ₹3,00,000 per family per year.",
+        "Catastrophic illness package up to ₹18,00,000 for organ transplants, cardiac, and oncology.",
+        "1,920+ approved treatment packages across empanelled hospitals."
+      ],
+      "ta": [
+        "ஆண்டுக்கு ₹3,00,000 வரை அடிப்படை கட்டணமில்லா சிகிச்சை.",
+        "அறுவை சிகிச்சை மற்றும் உறுப்பு மாற்று சிகிச்சைக்கு ₹18 லட்சம் வரை கூடுதல் நிதி வசதி."
+      ],
+      "te": [
+        "సంవత్సరానికి ₹3 లక్షల వరకు ప్రాథమిక బీమా, తీవ్ర వ్యాధులకు ₹18 లక్షల వరకు ప్రత్యేక నిధి."
+      ],
+      "ml": [
+        "പ്രതിവർഷം ₹3 ലക്ഷം രൂപയുടെ അടിസ്ഥാന പരിരക്ഷ.",
+        "അവയവമാറ്റം തുടങ്ങിയ ഗുരുതര രോഗങ്ങൾക്ക് ₹18 ലക്ഷം രൂപ വരെയുള്ള കാറ്റസ്ട്രോഫിക് പാക്കേജ്."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "MEDISEP ID Card / PEN Number (Permanent Employee Number)",
+        "Aadhaar Card"
+      ],
+      "ta": [
+        "மெடிசெப் அடையாள அட்டை / PEN எண்",
+        "ஆதார் அட்டை"
+      ],
+      "te": [
+        "మెడిసెప్ ఐడీ కార్డు / PEN నంబర్",
+        "ఆధార్ కార్డు"
+      ],
+      "ml": [
+        "മെഡിസെപ് കാർഡ് / PEN നമ്പർ",
+        "ആധാർ കാർഡ്"
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "Employees and pensioners are auto-enrolled via SPARK / treasury portal. Download card from medisep.kerala.gov.in."
+      ],
+      "ta": [
+        "SPARK போர்ட்டல் மூலம் தானாக பதியப்படும். medisep.kerala.gov.in தளத்திலிருந்து அட்டை பதிவிறக்கம் செய்யலாம்."
+      ],
+      "te": [
+        "SPARK పోర్టల్ ద్వారా ఆటోమేటిక్ ఎన్‌రోల్‌మెంట్."
+      ],
+      "ml": [
+        "SPARK / ട്രഷറി വഴി ഓട്ടോമാറ്റിക് രജിസ്ട്രേഷൻ. medisep.kerala.gov.in വഴി കാർഡ് ഡൗൺലോഡ് ചെയ്യാം."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "Treasury Department / DDO / Portal: medisep.kerala.gov.in | Helpline: 1800 425 1857"
+      ],
+      "ta": [
+        "கருவூலத் துறை / இணையதளம்: medisep.kerala.gov.in | உதவி எண்: 1800 425 1857"
+      ],
+      "te": [
+        "ట్రెజరీ డిపార్ట్‌మెంట్ / పోర్టల్: medisep.kerala.gov.in"
+      ],
+      "ml": [
+        "ട്രഷറി വകുപ്പ് / ഡിഡിഒ / വെബ്‌സൈറ്റ്: medisep.kerala.gov.in | ടോൾ ഫ്രീ: 1800 425 1857"
+      ]
+    },
+    "state": "Kerala",
+    "official_source": "Finance Department, Government of Kerala",
+    "official_url": "https://medisep.kerala.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "medisep",
+      "kerala govt employees insurance",
+      "pensioners medical insurance",
+      "spark portal insurance",
+      "3 lakh cover kerala"
+    ],
+    "keywords_ta": [
+      "மெடிசெப்",
+      "கேரள அரசு ஊழியர் காப்பீடு",
+      "ஓய்வூதியர் மருத்துவ காப்பீடு"
+    ],
+    "keywords_tanglish": [
+      "medisep kerala",
+      "govt employee insurance",
+      "pensioner medical scheme"
+    ],
+    "keywords_te": [
+      "మెడిసెప్",
+      "కేరళ ప్రభుత్వ ఉద్యోగుల బీమా",
+      "పెన్షనర్ల ఆరోగ్య పథకం"
+    ],
+    "keywords_ml": [
+      "മെഡിസെപ്",
+      "MEDISEP",
+      "സർക്കാർ ജീവനക്കാരുടെ ഇൻഷുറൻസ്",
+      "പെൻഷൻകാരുടെ ആരോഗ്യ ഇൻഷുറൻസ്",
+      "സ്പാർക്ക് മെഡിസെപ്"
+    ]
+  },
+  {
+    "id": "thalolam-scheme-kerala",
+    "category": "government_scheme",
+    "scheme_category": "child_welfare",
+    "title_en": "Thalolam Scheme (Free Treatment for Children with Severe Ailments - Kerala)",
+    "title_ta": "தாலோலம் திட்டம் (குழந்தைகளுக்கான இலவச சிறப்பு சிகிச்சை - கேரளா)",
+    "title_te": "తాలోలం పథకం (చిన్న పిల్లల ఉచిత శస్త్రచికిత్స పథకం - కేరళ)",
+    "title_ml": "താലോലം പദ്ധതി (ഗുരുതര രോഗമുള്ള കുട്ടികൾക്കുള്ള സൗജന്യ ചികിത്സ - കേരളം)",
+    "scheme_name": {
+      "en": "Thalolam Scheme - Child Healthcare (Kerala)",
+      "ta": "தாலோலம் திட்டம் (கேரளா)",
+      "te": "తాలోలం పథకం (కేరళ)",
+      "ml": "താലോലം പദ്ധതി (കേരള സാമൂഹ്യ സുരക്ഷാ മിഷൻ)"
+    },
+    "short_description": {
+      "en": "Free medical treatment and financial aid up to ₹1,00,000 for children under 18 years suffering from major illnesses in Kerala.",
+      "ta": "கேரளாவில் கடுமையான நோய்களால் பாதிக்கப்பட்ட 18 வயதிற்குட்பட்ட குழந்தைகளுக்கு ₹1 லட்சம் வரை இலவச சிகிச்சை.",
+      "te": "కేరళలో తీవ్ర వ్యాధులతో బాధపడుతున్న 18 సంవత్సరాల లోపు పిల్లలకు ₹1 లక్ష వరకు ఉచిత వైద్య సహాయం.",
+      "ml": "ഗുരുതര രോഗങ്ങൾ ബാധിച്ച 18 വയസ്സിൽ താഴെയുള്ള കുട്ടികൾക്ക് ₹1 ലക്ഷം രൂപ വരെ സൗജന്യ ചികിത്സ."
+    },
+    "purpose": {
+      "en": "Financial assistance for underprivileged children suffering from congenital heart disease, cerebral palsy, oncology, kidney failure, and neuro disorders.",
+      "ta": "ஏழைக் குழந்தைகளின் இதய நோய், சிறுநீரக பாதிப்பு மற்றும் நரம்பியல் குறைபாடுகளுக்கு இலவச மருத்துவ உதவி.",
+      "te": "పిల్లల్లో గుండె సమస్యలు, క్యాన్సర్ మరియు కిడ్నీ సమస్యలకు ఉచిత చికిత్స.",
+      "ml": "കുട്ടികളിലെ ഹൃദ്രോഗം, കാൻസർ, വൃക്കരോഗം എന്നിവയ്ക്ക് സൗജന്യ വിദഗ്ദ്ധ ചികിത്സ."
+    },
+    "eligibility": {
+      "en": [
+        "Children aged below 18 years residing in Kerala.",
+        "Family annual income below ₹1,00,000 (relaxed in government medical colleges)."
+      ],
+      "ta": [
+        "கேரளாவில் வசிக்கும் 18 வயதிற்குட்பட்ட குழந்தைகள்.",
+        "குடும்ப ஆண்டு வருமானம் ₹1 லட்சத்திற்குள் இருத்தல் வேண்டும்."
+      ],
+      "te": [
+        "కేరళలోని 18 సంవత్సరాల లోపు పిల్లలు, వార్షిక ఆదాయం ₹1 లక్ష లోపు."
+      ],
+      "ml": [
+        "18 വയസ്സ് തികയാത്ത കേരളത്തിലെ കുട്ടികൾ, കുടുംബ വാർഷിക വരുമാനം ₹1 ലക്ഷത്തിൽ താഴെ."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Initial grant of ₹50,000 to ₹1,00,000 directly to government medical college hospital for medicines, implants, and surgery.",
+        "Additional assistance granted based on superintendent recommendation."
+      ],
+      "ta": [
+        "அரசு மருத்துவக் கல்லூரி மூலம் ₹50,000 முதல் ₹1,00,000 வரை இலவச மருந்துகள் மற்றும் அறுவை சிகிச்சை."
+      ],
+      "te": [
+        "ప్రభుత్వ వైద్య కళాశాలల్లో ₹50,000 నుండి ₹1 లక్ష వరకు ఉచిత శస్త్రచికిత్స."
+      ],
+      "ml": [
+        "സർക്കാർ മെഡിക്കൽ കോളേജുകളിൽ ₹50,000 മുതൽ ₹1 ലക്ഷം രൂപ വരെ സൗജന്യ മരുന്നുകളും ശസ്ത്രക്രിയയും."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "Birth Certificate / Age proof of child",
+        "Income Certificate",
+        "Hospital Treatment Estimate Certificate"
+      ],
+      "ta": [
+        "பிறப்புச் சான்றிதழ்",
+        "வருமானச் சான்றிதழ்",
+        "மருத்துவமனை சிகிச்சை சான்றிதழ்"
+      ],
+      "te": [
+        "జనన ధృవీకరణ పత్రం",
+        "ఆదాయ ధృవీకరణ పత్రం",
+        "ఆసుపత్రి పత్రాలు"
+      ],
+      "ml": [
+        "ജനന സർട്ടിഫിക്കറ്റ്",
+        "വരുമാന സർട്ടിഫിക്കറ്റ്",
+        "ചികിത്സാ എസ്റ്റിമേറ്റ് സർട്ടിഫിക്കറ്റ്"
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "Submit application directly to the Superintendent / Social Work Officer at Government Medical Colleges in Kerala."
+      ],
+      "ta": [
+        "கேரள அரசு மருத்துவக் கல்லூரி கண்காணிப்பாளரிடம் விண்ணப்பிக்கவும்."
+      ],
+      "te": [
+        "ప్రభుత్వ వైద్య కళాశాల సూపరింటెండెంట్ వద్ద దరఖాస్తు చేయండి."
+      ],
+      "ml": [
+        "സർക്കാർ മെഡിക്കൽ കോളേജ് സൂപ്രണ്ട് / സോഷ്യൽ വർക്ക് ഓഫീസർക്ക് അപേക്ഷ നൽകുക."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "Government Medical Colleges & SAT Hospitals in Kerala | Portal: socialsecuritymission.kerala.gov.in"
+      ],
+      "ta": [
+        "கேரள அரசு மருத்துவக் கல்லூரிகள் | இணையதளம்: socialsecuritymission.kerala.gov.in"
+      ],
+      "te": [
+        "ప్రభుత్వ వైద్య కళాశాలలు | పోర్టల్: socialsecuritymission.kerala.gov.in"
+      ],
+      "ml": [
+        "സർക്കാർ മെഡിക്കൽ കോളേജുകൾ | വെബ്‌സൈറ്റ്: socialsecuritymission.kerala.gov.in"
+      ]
+    },
+    "state": "Kerala",
+    "official_source": "Kerala Social Security Mission (KSSM), Government of Kerala",
+    "official_url": "http://socialsecuritymission.kerala.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "thalolam scheme",
+      "child free treatment kerala",
+      "congenital heart disease children",
+      "kidney cancer children kerala",
+      "1 lakh grant children"
+    ],
+    "keywords_ta": [
+      "தாலோலம் திட்டம்",
+      "குழந்தைகளுக்கான இலவச சிகிச்சை கேரளா"
+    ],
+    "keywords_tanglish": [
+      "thalolam scheme",
+      "kerala child illness grant",
+      "thalolam 1 lakh"
+    ],
+    "keywords_te": [
+      "తాలోలం పథకం",
+      "చిన్న పిల్లల ఉచిత శస్త్రచికిత్స కేరళ"
+    ],
+    "keywords_ml": [
+      "താലോലം പദ്ധതി",
+      "കുട്ടികളുടെ സൗജന്യ ചികിത്സ",
+      "ഹൃദ്രോഗമുള്ള കുട്ടികൾക്കുള്ള സഹായം",
+      "സാമൂഹ്യ സുരക്ഷാ മിഷൻ താലോലം"
+    ]
+  },
+  {
+    "id": "janani-janmaraksha-kerala",
+    "category": "government_scheme",
+    "scheme_category": "maternal_welfare",
+    "title_en": "Janani Janmaraksha Scheme (Maternal Assistance for Tribal Mothers - Kerala)",
+    "title_ta": "ஜனனி ஜன்மரக்ஷா திட்டம் (பழங்குடியின தாய்மார்களுக்கான நிதி உதவி - கேரளா)",
+    "title_te": "జననీ జన్మరక్ష పథకం (గిరిజన తల్లుల పోషకాహార పథకం - కేరళ)",
+    "title_ml": "ജനനി ജന്മരക്ഷ പദ്ധതി (പട്ടികവർഗ്ഗ ഗർഭിണികൾക്കുള്ള പോഷകാഹാര സഹായം - കേരളം)",
+    "scheme_name": {
+      "en": "Janani Janmaraksha Scheme - Tribal Maternal Care (Kerala)",
+      "ta": "ஜனனி ஜன்மரக்ஷா திட்டம் (கேரளா)",
+      "te": "జననీ జన్మరక్ష పథకం (కేరళ)",
+      "ml": "ജനനി ജന്മരക്ഷ പദ്ധതി (പട്ടികവർഗ്ഗ വികസന വകുപ്പ് - കേരളം)"
+    },
+    "short_description": {
+      "en": "Monthly financial grant of ₹1,000 from 3rd month of pregnancy to delivery (total ₹18,000) for vulnerable tribal mothers in Kerala.",
+      "ta": "கேரளாவில் பழங்குடியின கர்ப்பிணி தாய்மார்களுக்கு ஊட்டச்சத்திற்காக மாதம் ₹1,000 நிதி உதவி.",
+      "te": "కేరళలోని గిరిజన గర్భిణీ స్త్రీలకు నెలకు ₹1,000 పోషకాహార ఆర్థిక సహాయం.",
+      "ml": "പട്ടികവർഗ്ഗ വിഭാഗത്തിലെ ഗർഭിണികൾക്ക് മൂന്നാം മാസം മുതൽ പ്രതിമാസം ₹1,000 രൂപ പോഷകാഹാര സഹായം."
+    },
+    "purpose": {
+      "en": "Eradicate maternal anemia, infant malnutrition, and ensure 100% institutional deliveries in tribal hamlets of Kerala.",
+      "ta": "பழங்குடியின தாய்மார்களின் ஊட்டச்சத்துக் குறைபாட்டைப் போக்கி பாதுகாப்பான பிரசவத்தை உறுதி செய்தல்.",
+      "te": "గిరిజన ప్రాంతాల్లో రక్తహీనత నివారణ మరియు సురక్షిత ప్రసవం.",
+      "ml": "പട്ടികവർഗ്ഗ മേഖലകളിൽ പോഷകാഹാരക്കുറവ് തടയലും സുരക്ഷിത പ്രസവവും ഉറപ്പാക്കൽ."
+    },
+    "eligibility": {
+      "en": [
+        "Pregnant tribal mothers residing in Scheduled Tribe settlements in Kerala.",
+        "Registered with local Primary Health Centre (PHC) / ASHA worker."
+      ],
+      "ta": [
+        "கேரளாவில் பழங்குடியினர் பகுதியில் வசிக்கும் கர்ப்பிணித் தாய்மார்கள்."
+      ],
+      "te": [
+        "కేరళలోని గిరిజన తెగల గర్భిణీలు."
+      ],
+      "ml": [
+        "കേരളത്തിലെ പട്ടികവർഗ്ഗ വിഭാഗത്തിൽപ്പെട്ട ഗർഭിണികളായ അമ്മമാർ."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Direct monthly financial assistance of ₹1,00,000 for nutrition and medicines.",
+        "Free hospital stay, transportation, and dedicated food assistance."
+      ],
+      "ta": [
+        "ஊட்டச்சத்துக்காக மாதம் ₹1,000 நேரடி வங்கிப் பரிமாற்றம்.",
+        "இலவச மருத்துவ பரிசோதனைகள் மற்றும் பிரசவ உதவி."
+      ],
+      "te": [
+        "పోషకాహారం కోసం నెలకు ₹1,000 బ్యాంక్ బదిలీ."
+      ],
+      "ml": [
+        "പോഷകാഹാരത്തിനായി പ്രതിമാസം ₹1,000 ബാങ്ക് അക്കൗണ്ടിലേക്ക്.",
+        "സൗജന്യ ആശുപത്രി പരിചരണവും യാത്രാ സൗകര്യവും."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "Community/Tribe Certificate",
+        "Mother Bank Passbook",
+        "MCP Card from PHC"
+      ],
+      "ta": [
+        "பழங்குடியின சான்றிதழ்",
+        "வங்கிக் கணக்கு புத்தகம்",
+        "தாய்-சேய் நல அட்டை (MCP Card)"
+      ],
+      "te": [
+        "కుల ధృవీకరణ పత్రం",
+        "బ్యాంక్ పాస్‌బుక్",
+        "MCP కార్డ్"
+      ],
+      "ml": [
+        "ജാതി സർട്ടിഫിക്കറ്റ്",
+        "ബാങ്ക് പാസ്ബുക്ക്",
+        "എംസിപി (MCP) കാർഡ്"
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "Register through Tribal Extension Officer (TEO) or local Promoters/ASHA workers at the PHC."
+      ],
+      "ta": [
+        "பழங்குடியினர் விரிவாக்க அலுவலர் (TEO) அல்லது ஆஷா பணியாளர் மூலம் பதியவும்."
+      ],
+      "te": [
+        "గిరిజన విస్తరణ అధికారి (TEO) లేదా ఆశా వర్కర్ ద్వారా దరఖాస్తు చేయండి."
+      ],
+      "ml": [
+        "ട്രൈബൽ എക്സ്റ്റൻഷൻ ഓഫീസർ (TEO) വഴിയോ ആശാ പ്രവർത്തകർ വഴിയോ അപേക്ഷിക്കുക."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "Tribal Development Office / Primary Health Centre (PHC) in Kerala | Portal: stdd.kerala.gov.in"
+      ],
+      "ta": [
+        "பழங்குடியினர் நல அலுவலகம் / ஆரம்ப சுகாதார நிலையம் | இணையதளம்: stdd.kerala.gov.in"
+      ],
+      "te": [
+        "ట్రైబల్ డెవలప్‌మెంట్ ఆఫీస్ / పిహెచ్‌సి | వెబ్‌సైట్: stdd.kerala.gov.in"
+      ],
+      "ml": [
+        "ട്രൈബൽ ഡെവലപ്‌മെന്റ് ഓഫീസ് / പിഎച്ച്സി | വെബ്‌സൈറ്റ്: stdd.kerala.gov.in"
+      ]
+    },
+    "state": "Kerala",
+    "official_source": "Scheduled Tribes Development Department, Government of Kerala",
+    "official_url": "https://stdd.kerala.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "janani janmaraksha",
+      "tribal maternal nutrition",
+      "kerala scheduled tribe pregnancy",
+      "1000 per month tribal mother",
+      "18000 tribal assistance"
+    ],
+    "keywords_ta": [
+      "ஜனனி ஜன்மரக்ஷா",
+      "பழங்குடியின கர்ப்பிணி நிதி உதவி கேரளா"
+    ],
+    "keywords_tanglish": [
+      "janani janmaraksha",
+      "tribal pregnancy scheme kerala",
+      "1000 per month"
+    ],
+    "keywords_te": [
+      "జననీ జన్మరక్ష పథకం",
+      "గిరిజన తల్లుల పోషకాహార పథకం"
+    ],
+    "keywords_ml": [
+      "ജനനി ജന്മരക്ഷ പദ്ധതി",
+      "പട്ടികവർഗ്ഗ ഗർഭിണികൾക്കുള്ള സഹായം",
+      "മാസം 1000 രൂപ ഗർഭിണി സഹായം",
+      "ഗോത്രവർഗ്ഗ മാതൃ പദ്ധതി"
+    ]
+  },
+  {
+    "id": "ayushman-bharat-pmjay",
+    "category": "government_scheme",
+    "scheme_category": "health_insurance",
+    "title_en": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY) & ABHA",
+    "title_ta": "ஆயுஷ்மான் பாரத் - பிரதான் மந்திரி ஜன் ஆரோக்கிய யோஜனா (PM-JAY) & ABHA",
+    "title_te": "ఆయుష్మాన్ భారత్ - ప్రధాన్ మంత్రి జన్ ఆరోగ్య యోజన (PM-JAY) & ఆభా",
+    "title_ml": "ആയുഷ്മാൻ ഭാരത് - പ്രധാൻ മന്ത്രി ജൻ ആരോഗ്യ യോജന (PM-JAY) & ആഭ",
+    "scheme_name": {
+      "en": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY) & ABHA",
+      "ta": "ஆயுஷ்மான் பாரத் - பிரதான் மந்திரி ஜன் ஆரோக்கிய யோஜனா (PM-JAY)",
+      "te": "ఆయుష్మాన్ భారత్ - ప్రధాన మంత్రి జన్ ఆరోగ్య యోజన (PM-JAY)",
+      "ml": "ആയുഷ്മാൻ ഭാരത് - പ്രധാൻ മന്ത്രി ജൻ ആരോഗ്യ യോജന (PM-JAY)"
+    },
+    "short_description": {
+      "en": "National flagship health assurance scheme providing up to ₹5 Lakh per family per year for secondary and tertiary hospital care across India.",
+      "ta": "இந்தியாவெங்கும் உள்ள ஏழைக் குடும்பங்களுக்கு ஆண்டுக்கு ₹5 லட்சம் வரை கட்டணமில்லா மருத்துவ காப்பீடு.",
+      "te": "భారతదేశంలోని పేద కుటుంబాలకు సంవత్సరానికి ₹5 లక్షల వరకు ఉచిత జాతీయ ఆరోగ్య బీమా.",
+      "ml": "ഇന്ത്യയിലെ നിർധന കുടുംബങ്ങൾക്ക് പ്രതിവർഷം ₹5 ലക്ഷം രൂപ വരെ സൗജന്യ ആശുപത്രി ചികിത്സ."
+    },
+    "purpose": {
+      "en": "Provide universal healthcare access and reduce out-of-pocket medical expenditure across 27,000+ empanelled hospitals nationwide.",
+      "ta": "நாடு முழுவதும் உள்ள ஏழை எளிய மக்களுக்கு கட்டணமில்லா மருத்துவ சிகிச்சை வழங்கி வறுமை நிலையிலிருந்து பாதுகாத்தல்.",
+      "te": "దేశవ్యాప్తంగా పేద ప్రజలకు నగదు రహిత ఆసుపత్రి సేవలు అందించడం.",
+      "ml": "രാജ്യമെമ്പാടും പാവപ്പെട്ടവർക്ക് സൗജന്യ വിദഗ്ദ്ധ ചികിത്സ ഉറപ്പാക്കുക."
+    },
+    "eligibility": {
+      "en": [
+        "Families identified in Socio-Economic Caste Census (SECC 2011) database (D1 to D7 deprivation criteria).",
+        "Active beneficiaries of RSBY and PM-JAY verified state ration lists.",
+        "Senior citizens aged 70+ now eligible for universal Ayushman coverage under PM-JAY expanded guidelines."
+      ],
+      "ta": [
+        "SECC 2011 மக்கள் தொகை கணக்கெடுப்பில் இடம்பெற்றுள்ள குடும்பங்கள்.",
+        "70 வயதுக்கு மேற்பட்ட முதியவர்களுக்கு விரிவுபடுத்தப்பட்ட ஆயுஷ்மான் அட்டை வசதி."
+      ],
+      "te": [
+        "SECC 2011 జాబితాలో ఉన్న కుటుంబాలు మరియు 70 ఏళ్లు పైబడిన వృద్ధులు."
+      ],
+      "ml": [
+        "SECC 2011 ഡാറ്റാബേസിലുള്ള കുടുംബങ്ങളും 70 വയസ്സിന് മുകളിലുള്ള മുതിർന്ന പൗരന്മാരും."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Cashless coverage up to ₹5,00,000 per family per year on a floater basis.",
+        "Covers 1,949 medical and surgical procedures.",
+        "Portability across all 27,000+ empanelled hospitals anywhere in India."
+      ],
+      "ta": [
+        "குடும்பத்திற்கு ஆண்டுக்கு ₹5,00,000 வரை கட்டணமில்லா சிகிச்சை.",
+        "1,949 மருத்துவ மற்றும் அறுவை சிகிச்சைகள் உள்ளடக்கம்.",
+        "இந்தியாவில் எந்தவொரு அங்கீகரிக்கப்பட்ட மருத்துவமனையிலும் செல்லுபடியாகும் (National Portability)."
+      ],
+      "te": [
+        "సంవత్సరానికి ₹5 లక్షల వరకు నగదు రహిత చికిత్స.",
+        "భారతదేశంలోని 27,000+ ఆసుపత్రులలో ఎక్కడైనా చెల్లుబాటు అవుతుంది."
+      ],
+      "ml": [
+        "പ്രതിവർഷം ₹5 ലക്ഷം രൂപ വരെ സൗജന്യ ചികിത്സ.",
+        "ഇന്ത്യയിലെമ്പാടുമുള്ള 27,000+ ആശുപത്രികളിൽ ഉപയോഗിക്കാം."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar Card",
+        "Ration Card / PM-JAY Letter / ABHA Card",
+        "Active Mobile Number"
+      ],
+      "ta": [
+        "ஆதார் அட்டை",
+        "குடும்ப அட்டை / ஆயுஷ்மான் கடிதம் / ABHA அட்டை",
+        "மொபைல் எண்"
+      ],
+      "te": [
+        "ఆధార్ కార్డు",
+        "రేషన్ కార్డు / ఆభా కార్డు",
+        "మొబైల్ నంబర్"
+      ],
+      "ml": [
+        "ആധാർ കാർഡ്",
+        "റേഷൻ കാർഡ് / ആഭ കാർഡ്",
+        "മൊബൈൽ നമ്പർ"
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "Step 1: Check eligibility on beneficiary.nha.gov.in using Aadhaar/Ration Card.",
+        "Step 2: Generate Ayushman Card online or at Ayushman Mitra counter in any empanelled hospital."
+      ],
+      "ta": [
+        "படி 1: beneficiary.nha.gov.in தளத்தில் ஆதார் எண் மூலம் தகுதியை சரிபார்க்கவும்.",
+        "படி 2: அரசு மருத்துவமனையில் உள்ள ஆயுஷ்மான் மித்ரா மையத்தில் ஆயுஷ்மான் அட்டை பெறவும்."
+      ],
+      "te": [
+        "దశ 1: beneficiary.nha.gov.in లో ఆధార్ ద్వారా అర్హతను తనిఖీ చేయండి.",
+        "దశ 2: ఆసుపత్రిలోని ఆయుష్మాన్ మిత్ర వద్ద కార్డు పొందండి."
+      ],
+      "ml": [
+        "ഘട്ടം 1: beneficiary.nha.gov.in വഴി ആധാർ നൽകി പരിശോധിക്കുക.",
+        "ഘട്ടം 2: ആയുഷ്മാൻ മിത്ര കൗണ്ടറിൽ നിന്ന് കാർഡ് വാങ്ങുക."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "Common Service Centres (CSC) / Empanelled Hospitals | Portal: beneficiary.nha.gov.in | Helpline: 14555"
+      ],
+      "ta": [
+        "பொது சேவை மையம் (CSC) / அங்கீகரிக்கப்பட்ட மருத்துவமனைகள் | இணையதளம்: beneficiary.nha.gov.in | உதவி எண்: 14555"
+      ],
+      "te": [
+        "కామన్ సర్వీస్ సెంటర్లు (CSC) / నెట్‌వర్క్ ఆసుపత్రులు | పోర్టల్: beneficiary.nha.gov.in | టోల్ ఫ్రీ: 14555"
+      ],
+      "ml": [
+        "അക്ഷയ കേന്ദ്രങ്ങൾ / സി.എസ്.സി / ആശുപത്രികൾ | വെബ്‌സൈറ്റ്: beneficiary.nha.gov.in | ഹെൽപ്പ് ലൈൻ: 14555"
+      ]
+    },
+    "state": "National",
+    "official_source": "National Health Authority (NHA), Ministry of Health & Family Welfare, Govt of India",
+    "official_url": "https://pmjay.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "ayushman bharat",
+      "pmjay",
+      "pm-jay",
+      "pradhan mantri jan arogya",
+      "5 lakh national health insurance",
+      "national health authority",
+      "abha card",
+      "senior 70+ insurance"
+    ],
+    "keywords_ta": [
+      "ஆயுஷ்மான் பாரத்",
+      "பிரதான் மந்திரி ஜன் ஆரோக்கிய யோஜனா",
+      "PM-JAY",
+      "5 லட்சம் தேசிய காப்பீடு",
+      "ABHA அட்டை"
+    ],
+    "keywords_tanglish": [
+      "ayushman bharat",
+      "pmjay card",
+      "ayushman card",
+      "5 lakh central insurance",
+      "pm-jay apply"
+    ],
+    "keywords_te": [
+      "ఆయుష్మాన్ భారత్",
+      "ప్రధాన్ మంత్రి జన్ ఆరోగ్య యోజన",
+      "PM-JAY",
+      "5 లక్షల జాతీయ బీమా",
+      "ఆభా కార్డు"
+    ],
+    "keywords_ml": [
+      "ആയുഷ്മാൻ ഭാരത്",
+      "പ്രധാൻ മന്ത്രി ജൻ ആരോഗ്യ യോജന",
+      "PM-JAY",
+      "5 ലക്ഷം ദേശീയ ഇൻഷുറൻസ്",
+      "ആഭ കാർഡ്"
+    ]
+  },
+  {
+    "id": "janani-suraksha-yojana-jsy",
+    "category": "government_scheme",
+    "scheme_category": "maternal_welfare",
+    "title_en": "Janani Suraksha Yojana (JSY) & Maternity Support",
+    "title_ta": "ஜனனி சுரக்ஷா யோஜனா (JSY) - தாய்மார்களுக்கான நிதி உதவி",
+    "title_te": "జననీ సురక్ష యోజన (JSY)",
+    "title_ml": "ജനനി സുരക്ഷാ യോജന (JSY)",
+    "scheme_name": {
+      "en": "Janani Suraksha Yojana (JSY)",
+      "ta": "ஜனனி சுரக்ஷா யோஜனா (JSY)",
+      "te": "జననీ సురక్ష యోజన (JSY)",
+      "ml": "ജനനി സുരക്ഷാ യോജന (JSY)"
+    },
+    "short_description": {
+      "en": "National conditional cash transfer of ₹700 (Urban) to ₹1,400 (Rural) for pregnant women undergoing safe institutional delivery.",
+      "ta": "அரசு மருத்துவமனையில் பிரசவிக்கும் தாய்மார்களுக்கு கிராமப்புறங்களில் ₹1,400, நகர்ப்புறங்களில் ₹700 நிதி உதவி.",
+      "te": "ప్రభుత్వ ఆసుపత్రులలో ప్రసవించే గర్భిణీలకు ₹700 నుండి ₹1,400 నగదు సహాయం.",
+      "ml": "സർക്കാർ ആശുപത്രികളിൽ പ്രസവിക്കുന്ന സ്ത്രീകൾക്ക് ₹700 മുതൽ ₹1,400 വരെ സാമ്പത്തിക സഹായം."
+    },
+    "purpose": {
+      "en": "Reduce maternal and neonatal mortality by promoting institutional deliveries among low-income pregnant mothers nationwide.",
+      "ta": "தாய் மற்றும் சேய் இறப்பு விகிதத்தைக் குறைத்து, அரசு மருத்துவமனைகளில் பாதுகாப்பான பிரசவத்தை உறுதி செய்தல்.",
+      "te": "తల్లి మరియు శిశు మరణాలను తగ్గించడానికి సురక్షిత ప్రసవాలను ప్రోత్సహించడం.",
+      "ml": "മാതൃ-ശിശു മരണനിരക്ക് കുറയ്ക്കാനും സുരക്ഷിത പ്രസവം ഉറപ്പാക്കാനും."
+    },
+    "eligibility": {
+      "en": [
+        "Pregnant mothers aged 19 years and above registered at local Government PHC / CHC.",
+        "Covers BPL and SC/ST mothers in High Performing States; universal BPL in Low Performing States."
+      ],
+      "ta": [
+        "19 வயது மற்றும் அதற்கு மேற்பட்ட அரசு ஆரம்ப சுகாதார நிலையத்தில் பதிவு செய்த கர்ப்பிணித் தாய்மார்கள்."
+      ],
+      "te": [
+        "ప్రభుత్వ ఆసుపత్రిలో ప్రసవించే 19 సంవత్సరాలు పైబడిన గర్భిణీలు."
+      ],
+      "ml": [
+        "19 വയസ്സ് തികഞ്ഞ, സർക്കാർ ആശുപത്രിയിൽ പ്രസവിക്കുന്ന ഗർഭിണികൾ."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Direct cash assistance of ₹1,400 for rural mothers and ₹700 for urban mothers.",
+        "Free delivery, C-section if required, medicines, and food at government hospitals."
+      ],
+      "ta": [
+        "கிராமப்புற தாய்மார்களுக்கு ₹1,400, நகர்ப்புற தாய்மார்களுக்கு ₹700 நேரடி பண உதவி.",
+        "அரசு மருத்துவமனையில் இலவச பிரசவம் மற்றும் மருந்துகள்."
+      ],
+      "te": [
+        "గ్రామీణ ప్రాంతాల్లో ₹1,400, పట్టణ ప్రాంతాల్లో ₹700 నగదు సహాయం."
+      ],
+      "ml": [
+        "ഗ്രാമപ്രദേശങ്ങളിൽ ₹1,400, നഗരങ്ങളിൽ ₹700 സാമ്പത്തിക സഹായം."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "MCP / Mother Child Protection Card",
+        "Aadhaar Card",
+        "Bank Account details"
+      ],
+      "ta": [
+        "தாய் சேய் நல அட்டை (MCP Card)",
+        "ஆதார் அட்டை",
+        "வங்கிக் கணக்கு புத்தகம்"
+      ],
+      "te": [
+        "MCP కార్డు",
+        "ఆధార్ కార్డు",
+        "బ్యాంక్ వివరాలు"
+      ],
+      "ml": [
+        "എം.സി.പി കാർഡ്",
+        "ആധാർ കാർഡ്",
+        "ബാങ്ക് അക്കൗണ്ട്"
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "Register pregnancy with local ASHA worker or Village Health Nurse at Primary Health Centre."
+      ],
+      "ta": [
+        "கிராம சுகாதார செவிலியர் (VHN) அல்லது ஆஷா பணியாளர் மூலம் PHC-யில் பதிவு செய்யவும்."
+      ],
+      "te": [
+        "ఆశా వర్కర్ లేదా ప్రాథమిక ఆరోగ్య కేంద్రంలో నమోదు చేసుకోండి."
+      ],
+      "ml": [
+        "ആശാ പ്രവർത്തകർ വഴിയോ പിഎച്ച്സി വഴിയോ രജിസ്റ്റർ ചെയ്യുക."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "Primary Health Centre (PHC) / Community Health Centre (CHC) | Portal: nhm.gov.in"
+      ],
+      "ta": [
+        "அரசு ஆரம்ப சுகாதார நிலையம் (PHC) / CHC | இணையதளம்: nhm.gov.in"
+      ],
+      "te": [
+        "ప్రాథమిక ఆరోగ్య కేంద్రం (PHC) | పోర్టల్: nhm.gov.in"
+      ],
+      "ml": [
+        "പ്രാഥമിക ആരോഗ്യ കേന്ദ്രം (PHC) | വെബ്‌സൈറ്റ്: nhm.gov.in"
+      ]
+    },
+    "state": "National",
+    "official_source": "National Health Mission (NHM), Ministry of Health & Family Welfare, Govt of India",
+    "official_url": "https://nhm.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "janani suraksha yojana",
+      "jsy",
+      "maternity cash transfer",
+      "institutional delivery incentive",
+      "1400 rural mother",
+      "700 urban mother",
+      "safe institutional delivery"
+    ],
+    "keywords_ta": [
+      "ஜனனி சுரக்ஷா யோஜனா",
+      "JSY",
+      "அரசு பிரசவ நிதி",
+      "கிராமப்புற தாய் உதவி 1400"
+    ],
+    "keywords_tanglish": [
+      "janani suraksha yojana",
+      "jsy scheme",
+      "prasava kaasu govt hospital",
+      "1400 scheme"
+    ],
+    "keywords_te": [
+      "జననీ సురక్ష యోజన",
+      "JSY",
+      "ప్రభుత్వ ఆసుపత్రి ప్రసవ ప్రోత్సాహకం",
+      "1400 గ్రామీణ సహాయం"
+    ],
+    "keywords_ml": [
+      "ജനനി സുരക്ഷാ യോജന",
+      "JSY",
+      "സർക്കാർ ആശുപത്രി പ്രസവ സഹായം",
+      "1400 രൂപ പദ്ധതി"
+    ]
+  },
+  {
+    "id": "pmmvy-pradhan-mantri-matru-vandana",
+    "category": "government_scheme",
+    "scheme_category": "maternal_welfare",
+    "title_en": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+    "title_ta": "பிரதான் மந்திரி மாத்ரு வந்தனா யோஜனா (PMMVY)",
+    "title_te": "ప్రధాన మంత్రి మాతృ వందన యోజన (PMMVY)",
+    "title_ml": "പ്രധാൻ മന്ത്രി മാതൃ വന്ദന യോജന (PMMVY)",
+    "scheme_name": {
+      "en": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+      "ta": "பிரதான் மந்திரி மாத்ரு வந்தனா யோஜனா (PMMVY)",
+      "te": "ప్రధాన మంత్రి మాతృ వందన యోజన (PMMVY)",
+      "ml": "പ്രധാൻ മന്ത്രി മാതൃ വന്ദന യോജന (PMMVY)"
+    },
+    "short_description": {
+      "en": "Direct benefit transfer of ₹5,000 for first child and ₹6,000 for second child (if girl) for pregnant & lactating mothers across India.",
+      "ta": "கர்ப்பிணி தாய்மார்களுக்கு முதல் குழந்தைக்கு ₹5,000 மற்றும் இரண்டாவது பெண் குழந்தைக்கு ₹6,000 நேரடி வங்கி நிதி உதவி.",
+      "te": "గర్భిణీలకు మొదటి బిడ్డకు ₹5,000, రెండో ఆడబిడ్డకు ₹6,000 నేరుగా బ్యాంక్ ఖాతాలో జమ.",
+      "ml": "ഗർഭിണികൾക്ക് ആദ്യ കുഞ്ഞിന് ₹5,000, രണ്ടാമത്തെ പെൺകുഞ്ഞിന് ₹6,000 സാമ്പത്തിക സഹായം."
+    },
+    "purpose": {
+      "en": "Provide compensation for wage loss before and after delivery to ensure adequate rest and maternal nutrition.",
+      "ta": "கர்ப்ப காலத்தில் கூலி இழப்பை ஈடுகட்டவும், ஊட்டச்சத்தை மேம்படுத்தவும் நிதி உதவி.",
+      "te": "గర్భిణీలకు వేతన నష్ట పరిహారం మరియు సరైన పోషకాహారం అందించడం.",
+      "ml": "വേതന നഷ്ടം പരിഹരിക്കുന്നതിനും അമ്മയ്ക്കും കുഞ്ഞിനും പോഷകാഹാരം ഉറപ്പാക്കുന്നതിനും."
+    },
+    "eligibility": {
+      "en": [
+        "Pregnant women and lactating mothers for 1st live birth (₹5,000).",
+        "Second live birth eligible for ₹6,000 if the newborn child is a girl.",
+        "Excludes regular central/state government employees."
+      ],
+      "ta": [
+        "முதல் பிரசவம் மற்றும் இரண்டாவது பெண் குழந்தையைப் பெற்றெடுக்கும் தாய்மார்கள்.",
+        "அரசு நிரந்தர ஊழியர்கள் அல்லாத ஏழை மற்றும் உழைக்கும் பெண்கள்."
+      ],
+      "te": [
+        "మొదటి సంతానం పొందిన గర్భిణీలు మరియు రెండో ఆడపిల్ల పుట్టిన తల్లులు."
+      ],
+      "ml": [
+        "ആദ്യ പ്രസവം കഴിയുന്ന അമ്മമാർ, രണ്ടാമത്തെ പെൺകുഞ്ഞിന് ജന്മം നൽകുന്നവർ."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "First Child: ₹5,000 paid in 2 installments (₹3,000 on ANC registration + ₹2,000 after child birth & 1st immunization).",
+        "Second Child (Girl): Single installment of ₹6,000 post-birth immunization.",
+        "Direct Benefit Transfer (DBT) into Aadhaar-seeded bank account."
+      ],
+      "ta": [
+        "முதல் குழந்தைக்கு: ₹5,000 இரண்டு தவணைகளாக வங்கி கணக்கில் செலுத்தப்படும்.",
+        "இரண்டாவது பெண் குழந்தைக்கு: ₹6,000 ஒரே தவணையாக வழங்கப்படும்."
+      ],
+      "te": [
+        "మొదటి బిడ్డకు ₹5,000 రెండు విడతల్లో, రెండో ఆడపిల్లకు ₹6,000 ఒకే విడతలో DBT ద్వారా జమ."
+      ],
+      "ml": [
+        "ആദ്യ കുഞ്ഞിന് ₹5,000 രൂപയും രണ്ടാമത്തെ പെൺകുഞ്ഞിന് ₹6,000 രൂപയും ബാങ്കിലേക്ക്."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar Card of Mother and Husband",
+        "Mother Bank Account Passbook (Aadhaar linked)",
+        "MCP Card with ANC dates"
+      ],
+      "ta": [
+        "தாய் மற்றும் கணவரின் ஆதார் அட்டை",
+        "ஆதாருடன் இணைக்கப்பட்ட வங்கிக் கணக்கு புத்தகம்",
+        "MCP அட்டை"
+      ],
+      "te": [
+        "తల్లి మరియు భర్త ఆధార్ కార్డులు",
+        "బ్యాంక్ పాస్‌బుక్",
+        "MCP కార్డ్"
+      ],
+      "ml": [
+        "അമ്മയുടെയും ഭർത്താവിന്റെയും ആധാർ കാർഡ്",
+        "ബാങ്ക് പാസ്ബുക്ക്",
+        "എംസിപി കാർഡ്"
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "Apply through local Anganwadi Worker (AWW) / ASHA or online at pmmvy.wcd.gov.in."
+      ],
+      "ta": [
+        "அங்கன்வாடி பணியாளர் (AWW) அல்லது ஆஷா மூலம் pmmvy.wcd.gov.in தளத்தில் விண்ணப்பிக்கலாம்."
+      ],
+      "te": [
+        "అంగన్‌వాడీ కేంద్రం లేదా pmmvy.wcd.gov.in ద్వారా దరఖాస్తు చేసుకోండి."
+      ],
+      "ml": [
+        "അങ്കണവാടി വർക്കർ വഴിയോ pmmvy.wcd.gov.in വഴിയോ അപേക്ഷിക്കുക."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "Anganwadi Centre / Primary Health Centre | Portal: pmmvy.wcd.gov.in"
+      ],
+      "ta": [
+        "அங்கன்வாடி மையம் / அரசு ஆரம்ப சுகாதார நிலையம் | இணையதளம்: pmmvy.wcd.gov.in"
+      ],
+      "te": [
+        "అంగన్‌వాడీ కేంద్రం / పిహెచ్‌సి | పోర్టల్: pmmvy.wcd.gov.in"
+      ],
+      "ml": [
+        "അങ്കണവാടി കേന്ദ്രം / പിഎച്ച്സി | വെബ്‌സൈറ്റ്: pmmvy.wcd.gov.in"
+      ]
+    },
+    "state": "National",
+    "official_source": "Ministry of Women and Child Development, Government of India",
+    "official_url": "https://pmmvy.wcd.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "pmmvy",
+      "pradhan mantri matru vandana yojana",
+      "5000 first child",
+      "6000 second girl child",
+      "maternity dbt",
+      "wage loss compensation mother",
+      "anganwadi maternity"
+    ],
+    "keywords_ta": [
+      "பிரதான் மந்திரி மாத்ரு வந்தனா யோஜனா",
+      "PMMVY",
+      "5000 தாய் உதவி",
+      "6000 பெண் குழந்தை உதவி",
+      "அங்கன்வாடி கர்ப்பிணி நிதி"
+    ],
+    "keywords_tanglish": [
+      "pmmvy scheme",
+      "matru vandana yojana",
+      "5000 rupees pregnant mother",
+      "6000 girl child"
+    ],
+    "keywords_te": [
+      "ప్రధాన మంత్రి మాతృ వందన యోజన",
+      "PMMVY",
+      "మొదటి బిడ్డకు 5000",
+      "రెండో ఆడపిల్లకు 6000"
+    ],
+    "keywords_ml": [
+      "പ്രധാൻ മന്ത്രി മാതൃ വന്ദന യോജന",
+      "PMMVY",
+      "ആദ്യ കുഞ്ഞിന് 5000",
+      "രണ്ടാമത്തെ പെൺകുഞ്ഞിന് 6000",
+      "മാതൃ വന്ദന"
+    ]
+  },
+  {
+    "id": "rbsk-rashtriya-bal-swasthya",
+    "category": "government_scheme",
+    "scheme_category": "child_screening",
+    "title_en": "Rashtriya Bal Swasthya Karyakram (RBSK) - Child Health Screening",
+    "title_ta": "ராஷ்ட்ரிய பால சுவஸ்திய காரியக்ரம் (RBSK) - குழந்தைகள் நல பரிசோதனை திட்டம்",
+    "title_te": "రాష్ట్రీయ బాల స్వాస్థ్య కార్యక్రమం (RBSK)",
+    "title_ml": "രാഷ്ട്രീയ ബാല സ്വാസ്ഥ്യ കാര്യക്രം (RBSK)",
+    "scheme_name": {
+      "en": "Rashtriya Bal Swasthya Karyakram (RBSK)",
+      "ta": "ராஷ்ட்ரிய பால சுவஸ்திய காரியக்ரம் (RBSK)",
+      "te": "రాష్ట్రీయ బాల స్వాస్థ్య కార్యక్రమం (RBSK)",
+      "ml": "രാഷ്ട്രീയ ബാല സ്വാസ്ഥ്യ കാര്യക്രം (RBSK)"
+    },
+    "short_description": {
+      "en": "Comprehensive free screening and early intervention treatment for children (0 to 18 years) covering 4Ds: Defects at birth, Diseases, Deficiencies, and Developmental delays.",
+      "ta": "0 முதல் 18 வயது வரையிலான அனைத்து குழந்தைகளுக்கும் பிறவிக் குறைபாடுகள் மற்றும் நோய்களைக் கண்டறிந்து இலவச சிகிச்சை அளிக்கும் திட்டம்.",
+      "te": "0 నుండి 18 సంవత్సరాల పిల్లలకు పుట్టుకతో వచ్చే లోపాలు, వ్యాధులు మరియు లోపాలను గుర్తించి ఉచిత వైద్యం అందించే పథకం.",
+      "ml": "0 മുതൽ 18 വയസ്സ് വരെയുള്ള കുട്ടികളിലെ ജന്മനായുള്ള വൈകല്യങ്ങളും രോഗങ്ങളും കണ്ടെത്തി സൗജന്യ ചികിത്സ നൽകുന്ന പദ്ധതി."
+    },
+    "purpose": {
+      "en": "Early identification and completely free secondary/tertiary surgical management for 30 selected child health conditions.",
+      "ta": "குழந்தைகளின் பிறவிக் குறைபாடுகளை ஆரம்பத்திலேயே கண்டறிந்து இலவச அறுவை சிகிச்சை அளித்தல்.",
+      "te": "పిల్లల్లో పుట్టుకతో వచ్చే సమస్యలను ముందుగా గుర్తించి ఉచిత శస్త్రచికిత్సలు అందించడం.",
+      "ml": "കുട്ടികളിലെ വൈകല്യങ്ങളും രോഗങ്ങളും മുൻകൂട്ടി കണ്ടെത്തി സൗജന്യ ശസ്ത്രക്രിയയും ചികിത്സയും നൽകുക."
+    },
+    "eligibility": {
+      "en": [
+        "All children aged 0 to 6 years attending Anganwadi Centres.",
+        "All children aged 6 to 18 years enrolled in Government and Government-aided schools."
+      ],
+      "ta": [
+        "அங்கன்வாடி மையங்களுக்குச் செல்லும் 0 முதல் 6 வயது குழந்தைகள்.",
+        "அரசு மற்றும் அரசு உதவிபெறும் பள்ளிகளில் படிக்கும் 6 முதல் 18 வயது மாணவ-மாணவிகள்."
+      ],
+      "te": [
+        "అంగన్‌వాడీ పిల్లలు (0-6 ఏళ్లు) మరియు ప్రభుత్వ పాఠశాల విద్యార్థులు (6-18 ఏళ్లు)."
+      ],
+      "ml": [
+        "അങ്കണവാടി കുട്ടികളും (0-6) സർക്കാർ/എയ്ഡഡ് സ്കൂൾ വിദ്യാർത്ഥികളും (6-18)."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Free screening by dedicated Mobile Health Teams (MHTs) twice a year.",
+        "100% free surgical treatment for Congenital Heart Disease, Cleft lip/palate, Clubfoot, Cataract, and Neural Tube defects at District Early Intervention Centres (DEICs)."
+      ],
+      "ta": [
+        "நடமாடும் மருத்துவக் குழு மூலம் இலவச பரிசோதனை.",
+        "இதய நோய், உதட்டுப் பிளவு, கண் புரை மற்றும் நரம்பியல் குறைபாடுகளுக்கு இலவச அறுவை சிகிச்சை."
+      ],
+      "te": [
+        "మొబైల్ హెల్త్ టీమ్స్ ద్వారా ఉచిత స్క్రీనింగ్ మరియు DEIC లో ఉచిత శస్త్రచికిత్సలు."
+      ],
+      "ml": [
+        "മൊബൈൽ മെഡിക്കൽ ടീം വഴി സൗജന്യ പരിശോധനയും ഡിസ്ട്രിക്റ്റ് ഏർലി ഇന്റർവെൻഷൻ സെന്ററുകളിൽ സൗജന്യ സർജറിയും."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "Student ID / School Enrolment details or Anganwadi card",
+        "Aadhaar Card of Child/Parent"
+      ],
+      "ta": [
+        "பள்ளி அடையாள அட்டை அல்லது அங்கன்வாடி பதிவு எண்",
+        "ஆதார் அட்டை"
+      ],
+      "te": [
+        "పాఠశాల ఐడీ లేదా అంగన్‌వాడీ కార్డ్",
+        "ఆధార్ కార్డు"
+      ],
+      "ml": [
+        "സ്കൂൾ ഐഡി അല്ലെങ്കിൽ അങ്കണവാടി കാർഡ്",
+        "ആധാർ കാർഡ്"
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "RBSK Mobile Health Teams conduct visits directly at schools and Anganwadis. Parents can also visit District DEIC."
+      ],
+      "ta": [
+        "பள்ளிகளில் நடமாடும் மருத்துவக் குழு வரும்போது பரிசோதிக்கப்படும். நேரடியாக மாவட்ட DEIC மையத்திற்கும் செல்லலாம்."
+      ],
+      "te": [
+        "పాఠశాలల్లో స్క్రీనింగ్ నిర్వహిస్తారు లేదా జిల్లా DEIC సెంటర్‌ను సంప్రదించవచ్చు."
+      ],
+      "ml": [
+        "സ്കൂളുകളിൽ മൊബൈൽ ഹെൽത്ത് ടീം സന്ദർശിക്കുമ്പോഴോ ജില്ലാ DEIC കേന്ദ്രങ്ങൾ വഴിയോ ലഭ്യമാണ്."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "District Early Intervention Centres (DEIC) at District Hospitals | Portal: rbsk.gov.in"
+      ],
+      "ta": [
+        "மாவட்ட அரசு தலைமை மருத்துவமனை DEIC மையம் | இணையதளம்: rbsk.gov.in"
+      ],
+      "te": [
+        "జిల్లా ఆసుపత్రి DEIC కేంద్రం | పోర్టల్: rbsk.gov.in"
+      ],
+      "ml": [
+        "ജില്ലാ ആശുപത്രികളിലെ ഡി.ഇ.ഐ.സി (DEIC) കേന്ദ്രങ്ങൾ | വെബ്‌സൈറ്റ്: rbsk.gov.in"
+      ]
+    },
+    "state": "National",
+    "official_source": "Ministry of Health and Family Welfare (MoHFW), Government of India",
+    "official_url": "https://rbsk.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "rashtriya bal swasthya karyakram",
+      "rbsk",
+      "child health screening",
+      "4ds defects birth",
+      "deic centre",
+      "free surgery child",
+      "school health screening"
+    ],
+    "keywords_ta": [
+      "ராஷ்ட்ரிய பால சுவஸ்திய காரியக்ரம்",
+      "RBSK",
+      "குழந்தைகள் நல பரிசோதனை",
+      "பிறவிக் குறைபாடு அறுவை சிகிச்சை",
+      "பள்ளி மருத்துவ முகாம்"
+    ],
+    "keywords_tanglish": [
+      "rbsk scheme",
+      "child health screening",
+      "deic centre",
+      "kulanthai surgery free"
+    ],
+    "keywords_te": [
+      "రాష్ట్రీయ బాల స్వాస్థ్య కార్యక్రమం",
+      "RBSK",
+      "పిల్లల ఆరోగ్య పరీక్షలు",
+      "ఉచిత బాలల శస్త్రచికిత్స"
+    ],
+    "keywords_ml": [
+      "രാഷ്ട്രീയ ബാല സ്വാസ്ഥ്യ കാര്യക്രം",
+      "RBSK",
+      "കുട്ടികളുടെ ആരോഗ്യ പരിശോധന",
+      "ഡി.ഇ.ഐ.സി കേന്ദ്രം"
+    ]
+  },
+  {
+    "id": "nphce-elderly-care",
+    "category": "government_scheme",
+    "scheme_category": "elderly_care",
+    "title_en": "National Programme for Health Care of the Elderly (NPHCE)",
+    "title_ta": "முதியோர் நல்வாழ்வுக்கான தேசிய சுகாதாரத் திட்டம் (NPHCE)",
+    "title_te": "వృద్ధుల ఆరోగ్య సంరక్షణ జాతీయ కార్యక్రమం (NPHCE)",
+    "title_ml": "മുതിർന്ന പൗരന്മാരുടെ ആരോഗ്യ സംരക്ഷണത്തിനായുള്ള ദേശീയ പദ്ധതി (NPHCE)",
+    "scheme_name": {
+      "en": "National Programme for Health Care of the Elderly (NPHCE)",
+      "ta": "முதியோர் நல்வாழ்வுக்கான தேசிய சுகாதாரத் திட்டம் (NPHCE)",
+      "te": "వృద్ధుల ఆరోగ్య సంరక్షణ జాతీయ కార్యక్రమం (NPHCE)",
+      "ml": "മുതിർന്ന പൗരന്മാരുടെ ആരോഗ്യ സംരക്ഷണത്തിനായുള്ള ദേശീയ പദ്ധതി (NPHCE)"
+    },
+    "short_description": {
+      "en": "Dedicated geriatric clinics, free medicines, weekly checkups, assistive devices, and physiotherapy for senior citizens aged 60+ across India.",
+      "ta": "60 வயதுக்கு மேற்பட்ட முதியவர்களுக்கு ஆரம்ப சுகாதார நிலையங்களில் பிரத்யேக முதியோர் மருத்துவ சேவை மற்றும் இலவச மருந்துகள்.",
+      "te": "60 సంవత్సరాలు పైబడిన వృద్ధులకు ప్రత్యేక జెరియాట్రిక్ క్లినిక్‌లు, ఉచిత మందులు మరియు ఫిజియోథెరపీ సేవలు.",
+      "ml": "60 വയസ്സിന് മുകളിലുള്ള മുതിർന്ന പൗരന്മാർക്ക് പ്രത്യേക വയോജന ക്ലിനിക്കുകൾ, സൗജന്യ മരുന്നുകൾ, ഫിസിയോതെറാപ്പി എന്നിവ."
+    },
+    "purpose": {
+      "en": "Provide accessible, specialized, and dignified geriatric healthcare for chronic non-communicable diseases and age-related ailments.",
+      "ta": "முதியோர்களுக்கு எளிதில் கிடைக்கும் சிறப்பு மருத்துவ சிகிச்சை மற்றும் பராமரிப்பு வழங்குதல்.",
+      "te": "వృద్ధాప్య సమస్యలు మరియు దీర్ఘకాలిక వ్యాధులకు ప్రత్యేక వైద్య సేవలు అందించడం.",
+      "ml": "വാർദ്ധക്യസഹജമായ രോഗങ്ങൾക്ക് വിദഗ്ദ്ധ പരിചരണവും സൗജന്യ ചികിത്സയും നൽകുക."
+    },
+    "eligibility": {
+      "en": [
+        "All senior citizens aged 60 years and above.",
+        "Zero income restriction; universal access across Government PHCs and District Hospitals."
+      ],
+      "ta": [
+        "60 வயது மற்றும் அதற்கு மேற்பட்ட அனைத்து முதியவர்கள்.",
+        "வருமான வரம்பு இல்லை."
+      ],
+      "te": [
+        "60 సంవత్సరాలు పైబడిన సీనియర్ సిటిజన్లు అందరూ అర్హులు."
+      ],
+      "ml": [
+        "60 വയസ്സും അതിൽ കൂടുതലുമുള്ള എല്ലാ മുതിർന്ന പൗരന്മാരും."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Dedicated weekly Geriatric OPD Clinic at Primary Health Centres (PHCs) every Tuesday/designated day.",
+        "Free screening for Hypertension, Diabetes, Cataract, Arthritis, and hearing impairment.",
+        "Free walking sticks, spectacles, and assistive mobility devices under camp programs.",
+        "10-bedded dedicated Geriatric Wards in District Hospitals."
+      ],
+      "ta": [
+        "ஆரம்ப சுகாதார நிலையங்களில் வாராந்திர முதியோர் சிறப்பு மருத்துவ முகாம்.",
+        "ரத்த அழுத்தம், சர்க்கரை நோய், மூட்டு வலி மற்றும் கண்புரை இலவச பரிசோதனை.",
+        "மாவட்ட தலைமை மருத்துவமனைகளில் முதியோர்களுக்கான பிரத்யேக படுக்கை வசதி."
+      ],
+      "te": [
+        "ప్రాథమిక ఆరోగ్య కేంద్రాల్లో వారపు వృద్ధుల క్లినిక్ మరియు ఉచిత మందులు.",
+        "రక్తపోటు, మధుమేహం మరియు కీళ్ల నొప్పుల పరీక్షలు ఉచితం."
+      ],
+      "ml": [
+        "പിഎച്ച്സികളിൽ പ്രതിവാര വയോജന ക്ലിനിക്കുകളും സൗജന്യ മരുന്നുകളും.",
+        "രക്തസമ്മർദ്ദം, പ്രമേഹം, തിമിരം എന്നിവയ്ക്കുള്ള സൗജന്യ പരിശോധന."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar Card or Senior Citizen ID card or Voter ID for age verification"
+      ],
+      "ta": [
+        "வயதை உறுதிப்படுத்த ஆதார் அட்டை அல்லது வாக்காளர் அடையாள அட்டை"
+      ],
+      "te": [
+        "వయస్సు ధృవీకరణ కోసం ఆధార్ లేదా ఓటరు కార్డు"
+      ],
+      "ml": [
+        "പ്രായം തെളിയിക്കുന്ന ആധാർ അല്ലെങ്കിൽ വോട്ടർ കാർഡ്"
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "Walk in directly to your local Primary Health Centre (PHC) on weekly Geriatric Clinic day."
+      ],
+      "ta": [
+        "வாராந்திர முதியோர் சிறப்பு மருத்துவ நாளில் உங்கள் அருகிலுள்ள ஆரம்ப சுகாதார நிலையத்தை அணுகவும்."
+      ],
+      "te": [
+        "వారపు వృద్ధుల క్లినిక్ రోజున సమీపంలోని పిహెచ్‌సికి వెళ్ళండి."
+      ],
+      "ml": [
+        "പ്രത്യേക വയോജന ദിനത്തിൽ അടുത്തുള്ള പിഎച്ച്സി സന്ദർശിക്കുക."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "Primary Health Centres (PHC), Community Health Centres (CHC), and District Hospitals | Portal: mohfw.gov.in"
+      ],
+      "ta": [
+        "அரசு ஆரம்ப சுகாதார நிலையம் (PHC), CHC மற்றும் மாவட்ட அரசு தலைமை மருத்துவமனைகள் | இணையதளம்: mohfw.gov.in"
+      ],
+      "te": [
+        "ప్రాథమిక ఆరోగ్య కేంద్రాలు (PHC) మరియు జిల్లా ఆసుపత్రులు | పోర్టల్: mohfw.gov.in"
+      ],
+      "ml": [
+        "പ്രാഥമിക ആരോഗ്യ കേന്ദ്രങ്ങൾ (PHC), ജില്ലാ ആശുപത്രികൾ | വെബ്‌സൈറ്റ്: mohfw.gov.in"
+      ]
+    },
+    "state": "National",
+    "official_source": "Ministry of Health and Family Welfare (MoHFW), Government of India",
+    "official_url": "https://mohfw.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "nphce",
+      "national programme health care elderly",
+      "senior citizen clinic",
+      "geriatric care phc",
+      "60+ elderly free checkup",
+      "physiotherapy senior citizen"
+    ],
+    "keywords_ta": [
+      "முதியோர் நல்வாழ்வு தேசிய திட்டம்",
+      "NPHCE",
+      "முதியோர் சிறப்பு சிகிச்சை",
+      "60 வயது இலவச பரிசோதனை",
+      "ஆரம்ப சுகாதார முதியோர் முகாம்"
+    ],
+    "keywords_tanglish": [
+      "nphce scheme",
+      "senior citizen free checkup",
+      "muthiyor clinic",
+      "60 years old scheme"
+    ],
+    "keywords_te": [
+      "వృద్ధుల ఆరోగ్య సంరక్షణ జాతీయ కార్యక్రమం",
+      "NPHCE",
+      "సీనియర్ సిటిజన్ క్లినిక్",
+      "60 ఏళ్లు పైబడిన ఉచిత వైద్యం"
+    ],
+    "keywords_ml": [
+      "മുതിർന്ന പൗരന്മാരുടെ ആരോഗ്യ സംരക്ഷണ പദ്ധതി",
+      "NPHCE",
+      "വയോജന ക്ലിനിക്",
+      "60 വയസ്സിന് മുകളിലുള്ളവരുടെ ചികിത്സ"
+    ]
+  }
+]

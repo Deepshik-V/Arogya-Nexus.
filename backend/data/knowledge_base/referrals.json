@@ -1,0 +1,46 @@
+[
+  {
+    "id": "rural-health-referral-pathway",
+    "category": "referrals",
+    "title_en": "Rural Healthcare Hierarchy & Emergency Referral Pathways",
+    "title_ta": "கிராமப்புற சுகாதார கட்டமைப்பு மற்றும் வழிகாட்டுதல் நெறிமுறைகள்",
+    "keywords_en": ["asha", "asha worker", "vhn", "phc", "primary health centre", "sub centre", "chc", "community health centre", "108 ambulance", "104 helpline", "referral"],
+    "keywords_ta": ["ஆஷா பணியாளர்", "கிராம சுகாதார செவிலியர்", "ஆரம்ப சுகாதார நிலையம்", "PHC", "108 ஆம்புலன்ஸ்", "104 உதவி எண்"],
+    "keywords_tanglish": ["asha", "vhn", "phc", "maruthuvamanai", "108 ambulance", "104 helpline", "doctor appointment"],
+    "safe_home_care": {
+      "en": [
+        "Reach out to your local ASHA worker or Village Health Nurse (VHN) for initial health guidance, pregnancy registration, and childhood immunization tracking.",
+        "Dial 104 (24x7 Government Health Helpline) for free medical advice and information on nearby government facilities."
+      ],
+      "ta": [
+        "முதற்கட்ட வழிகாட்டுதல், கர்ப்ப கால பதிவு மற்றும் தடுப்பூசி விபரங்களுக்கு உள்ளூர் ஆஷா பணியாளர் அல்லது கிராம சுகாதார செவிலியரை அணுகவும்.",
+        "இலவச அரசு மருத்துவ ஆலோசனைக்கு 104 என்ற 24 மணி நேர உதவி எண்ணை அழைக்கலாம்."
+      ]
+    },
+    "when_to_visit_phc": {
+      "en": [
+        "Sub-Centre / Ayushman Arogya Mandir: For basic NCD screenings (BP, sugar), maternal checkups, and standard oral medications.",
+        "Primary Health Centre (PHC): For consultation with a Medical Officer (MBBS doctor), laboratory blood/urine tests, delivery services, and minor ailments.",
+        "Community Health Centre (CHC) & District Hospital: For specialist care (surgeon, gynecologist, pediatrician), X-rays, ultrasound, and inpatient admissions."
+      ],
+      "ta": [
+        "துணை சுகாதார நிலையம்: அடிப்படை BP, சுகர் பரிசோதனை மற்றும் மருந்துகளுக்கு.",
+        "ஆரம்ப சுகாதார நிலையம் (PHC): எம்பிபிஎஸ் மருத்துவர் பரிசோதனை, ரத்த பரிசோதனைகள் மற்றும் பிரசவ சேவைகளுக்கு.",
+        "வட்டார மற்றும் மாவட்ட தலைமை மருத்துவமனை: அறுவை சிகிச்சை, பிரத்யேக நிபுணர் சிகிச்சை மற்றும் உள்நோயாளி சிகிச்சைகளுக்கு."
+      ]
+    },
+    "emergency_red_flags": {
+      "en": [
+        "In life-threatening emergencies (accidents, acute heart attack, snakebite, unconsciousness, severe labor pains), dial 108 immediately for a free emergency ambulance."
+      ],
+      "ta": [
+        "உயிர் காக்கும் அவசர நிலைகளில் உடனே 108 அவசர ஆம்புலன்ஸ் எண்ணை அழைக்கவும்."
+      ]
+    },
+    "related_schemes": ["108 Free Emergency Response Service", "104 Health Information Helpline", "National Rural Health Mission (NRHM)"],
+    "source": "Ministry of Health and Family Welfare (MoHFW) - Indian Public Health Standards (IPHS)",
+    "source_url": "https://nhm.gov.in/",
+    "last_verified": "2026-08-20",
+    "disclaimer": "Emergency services can be accessed 24 hours a day across India through toll-free number 108."
+  }
+]

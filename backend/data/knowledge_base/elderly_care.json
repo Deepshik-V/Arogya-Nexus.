@@ -1,0 +1,56 @@
+[
+  {
+    "id": "elderly-hypertension-diabetes",
+    "category": "elderly_care",
+    "title_en": "Elderly Care: Hypertension, Diabetes & Fall Prevention",
+    "title_ta": "முதியோர் பராமரிப்பு: ரத்த அழுத்தம், சர்க்கரை நோய் மற்றும் நலவாழ்வு",
+    "keywords_en": ["elderly", "old age", "high blood pressure", "hypertension", "diabetes", "sugar", "bp", "joint pain", "fall risk", "walking balance"],
+    "keywords_ta": ["முதியோர்", "வயதானவர்கள்", "ரத்த அழுத்தம்", "சர்க்கரை நோய்", "மூட்டு வலி", "மயக்கம்"],
+    "keywords_tanglish": ["muthiyor", "sugar", "bp", "vayasanavanga", "mootu vali", "blood pressure", "diabetes"],
+    "safe_home_care": {
+      "en": [
+        "Take prescribed chronic medications consistently at the same time daily; never stop medicines abruptly.",
+        "Reduce dietary salt (< 1 teaspoon/day) and processed snacks; reduce refined sugar.",
+        "Ensure adequate lighting at home, clear walking paths of clutter, and install grab bars/mats in bathrooms to prevent falls.",
+        "Engage in gentle daily physical activity (e.g. 20-30 minutes of mild walking) and stay well-hydrated."
+      ],
+      "ta": [
+        "மருத்துவர் பரிந்துரைத்த ரத்த அழுத்தம் மற்றும் சர்க்கரை நோய் மாத்திரைகளை தினமும் குறித்த நேரத்தில் உட்கொள்ளவும்.",
+        "உணவில் உப்பின் அளவை குறைக்கவும், அதிக சர்க்கரை மற்றும் எண்ணெய் பண்டங்களை தவிர்க்கவும்.",
+        "வீட்டில் வெளிச்சம் சீராக இருக்கட்டும்; முதியவர்கள் கீழே விழுவதை தடுக்க குளியலறை மற்றும் நடக்கும் வழிகளை வழுக்காமல் பார்த்துக் கொள்ளவும்.",
+        "தினமும் 20-30 நிமிடங்கள் மிதமான நடைபயிற்சி மேற்கொள்ளவும்."
+      ]
+    },
+    "when_to_visit_phc": {
+      "en": [
+        "Monthly routine blood pressure and blood sugar monitoring at the local Ayushman Arogya Mandir / PHC.",
+        "Refilling prescribed free essential medications under government NCD programmes.",
+        "Annual eye (cataract/retinopathy) and foot sensation checks."
+      ],
+      "ta": [
+        "மாதாந்திர ரத்த அழுத்தம் (BP) மற்றும் ரத்த சர்க்கரை அளவை ஆரம்ப சுகாதார நிலையத்தில் பரிசோதித்துக் கொள்ள.",
+        "அரசு இலவச தொற்றா நோய் (NCD) மருந்துகளை தவறாமல் பெற்றுக் கொள்ள.",
+        "ஆண்டுக்கு ஒருமுறை கண் மற்றும் பாத பரிசோதனை செய்ய."
+      ]
+    },
+    "emergency_red_flags": {
+      "en": [
+        "Sudden weakness or numbness in face, arm, or leg (especially one side of body - FAST stroke signs).",
+        "Sudden difficulty speaking, slurred speech, or confusion.",
+        "Severe dizziness, sudden blackouts, or head injury following a fall.",
+        "Severe chest pressure radiating to left arm or jaw."
+      ],
+      "ta": [
+        "திடீரென முகம் அல்லது உடலின் ஒரு பக்கம் செயலிழப்பது அல்லது பலவீனமடைவது (பக்கவாதம்/ஸ்ட்ரோக் அறிகுறி).",
+        "திடீரென பேச்சு குழறுதல் அல்லது பேச முடியாமல் போதல்.",
+        "கடுமையான தலைச்சுற்றல் அல்லது மயங்கி கீழே விழுதல்.",
+        "நெஞ்சை அழுத்தும் வலி இடது கை அல்லது தாடைக்கு பரவுதல்."
+      ]
+    },
+    "related_schemes": ["National Programme for Healthcare of the Elderly (NPHCE)", "Ayushman Bharat - PMJAY (Senior Citizens Coverage)", "Makkalai Thedi Maruthuvam (Tamil Nadu)"],
+    "source": "Ministry of Health and Family Welfare (MoHFW) - NPHCE Operational Guidelines",
+    "source_url": "https://main.mohfw.gov.in/",
+    "last_verified": "2026-08-20",
+    "disclaimer": "Do not adjust prescription dosages without consulting a licensed physician or PHC Medical Officer."
+  }
+]

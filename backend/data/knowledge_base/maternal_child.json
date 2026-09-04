@@ -1,0 +1,108 @@
+[
+  {
+    "id": "antenatal-care-pregnancy",
+    "category": "maternal_child",
+    "title_en": "Antenatal Care (ANC) & Pregnancy Health Guidance",
+    "title_ta": "கர்ப்பகால பராமரிப்பு மற்றும் தாய்-சேய் நலம்",
+    "keywords_en": ["pregnancy", "pregnant", "antenatal", "maternal care", "baby kicking", "morning sickness", "iron tablet", "ifa", "trimester"],
+    "keywords_ta": ["கர்ப்பம்", "கர்ப்பிணி", "பிரசவம்", "தாய் நலம்", "தாய்ப்பால்", "இரும்புச்சத்து மாத்திரை"],
+    "keywords_tanglish": ["garbham", "pregnant", "prasavam", "thaimar", "thaai nalam", "iron tablet", "delivery"],
+    "safe_home_care": {
+      "en": [
+        "Attend at least 4 mandatory ANC checkups at the nearest Sub-Centre / PHC.",
+        "Take daily Iron & Folic Acid (IFA) tablets and Calcium tablets as prescribed after the first trimester.",
+        "Eat iron- and protein-rich foods: green leafy vegetables, lentils/pulses, eggs, seasonal fruits, milk.",
+        "Ensure adequate rest: at least 8 hours of night sleep and 2 hours of daytime rest on the left side."
+      ],
+      "ta": [
+        "ஆரம்ப சுகாதார நிலையம் அல்லது கிராம சுகாதார செவிலியரிடம் (VHN) குறைந்தது 4 முறை முறையான பரிசோதனை செய்து கொள்ளவும்.",
+        "மருத்துவர் பரிந்துரைத்த இரும்புச்சத்து மற்றும் கால்சியம் மாத்திரைகளை தவறாமல் உட்கொள்ளவும்.",
+        "பசலைக்கீரை, முருங்கைக்கீரை, பருப்பு வகைகள், முட்டை, பால் போன்ற சத்தான உணவுகளை சாப்பிடவும்.",
+        "இரவில் 8 மணி நேர தூக்கமும், பகலில் இடதுபுறமாக சாய்ந்து 2 மணி நேர ஓய்வும் அவசியம்."
+      ]
+    },
+    "when_to_visit_phc": {
+      "en": [
+        "For routine monthly ANC checkup, blood pressure check, and hemoglobin testing.",
+        "Tetanus (Td) immunization doses during pregnancy.",
+        "Mild swelling in feet that goes away after elevating legs."
+      ],
+      "ta": [
+        "மாதாந்திர ரத்த அழுத்தம், ரத்த சோகை (Hb) மற்றும் சிறுநீர் பரிசோதனைகளுக்கு.",
+        "தனுர்வாத தடுப்பூசி (Td) போடுவதற்கு.",
+        "வழக்கமான வளர்ச்சி கண்காணிப்பிற்கு PHC செல்லவும்."
+      ]
+    },
+    "emergency_red_flags": {
+      "en": [
+        "Vaginal bleeding or leakage of clear watery fluid before expected delivery date.",
+        "Severe, persistent headache with blurred vision or severe swelling in face and hands (signs of pre-eclampsia).",
+        "Decreased or absent fetal movements (baby kicks).",
+        "Severe abdominal pain or high fever."
+      ],
+      "ta": [
+        "யோனி வழியே ரத்தப்போக்கு அல்லது பனிக்குட நீர் உடைதல்.",
+        "கடுமையான தலைவலி, பார்வை மங்குதல், முகம் மற்றும் கைகளில் தீவிர வீக்கம்.",
+        "குழந்தையின் அசைவு குறைதல் அல்லது அசைவு நின்ற நிலை.",
+        "கடுமையான அடிவயிற்று வலி."
+      ]
+    },
+    "related_schemes": ["Janani Suraksha Yojana (JSY)", "Pradhan Mantri Matru Vandana Yojana (PMMVY)", "PMSMA (Pradhan Mantri Surakshit Matritva Abhiyan)", "Dr. Muthulakshmi Reddy Maternity Benefit Scheme (Tamil Nadu)"],
+    "source": "MoHFW / NHM - Maternal Health Division Clinical Guidelines",
+    "source_url": "https://nhm.gov.in/",
+    "last_verified": "2026-08-20",
+    "disclaimer": "All pregnant mothers must be registered with the local Village Health Nurse (VHN) / ASHA for institutional delivery planning."
+  },
+  {
+    "id": "childhood-immunization-nutrition",
+    "category": "maternal_child",
+    "title_en": "Universal Childhood Immunization & Early Nutrition",
+    "title_ta": "குழந்தைகளுக்கான தேசிய தடுப்பூசி திட்டம் மற்றும் ஊட்டச்சத்து",
+    "keywords_en": ["child vaccination", "baby immunization", "vaccine", "breastfeeding", "baby growth", "polio drops", "measles vaccine"],
+    "keywords_ta": ["குழந்தை தடுப்பூசி", "தாய்ப்பால்", "போலியோ", "குழந்தை வளர்ச்சி", "தடுப்பூசி அட்டை"],
+    "keywords_tanglish": ["kuzhanthai thaduppoosi", "vaccine", "thaai paal", "polio", "baby nutrition"],
+    "safe_home_care": {
+      "en": [
+        "Exclusive breastfeeding for the first 6 months of life (no water, honey, or artificial milk).",
+        "Introduce clean, soft complementary foods (mashed rice, dhal, banana, ragi porridge) starting at 6 months while continuing breastfeeding.",
+        "Keep the child's Mother-Child Protection (MCP) card safe and updated after every vaccination."
+      ],
+      "ta": [
+        "முதல் 6 மாதங்களுக்கு தாய்ப்பால் மட்டுமே புகட்ட வேண்டும் (தண்ணீர் கூட தேவையில்லை).",
+        "6 மாதங்கள் முடிந்த பின் தாய்ப்பாலுடன் சேர்த்து பருப்பு சாதம், ராகி கூழ், மசித்த வாழைப்பழம் போன்ற இணை உணவுகளை ஆரம்பிக்கவும்.",
+        "தாய்-சேய் பாதுகாப்பு அட்டையை (MCP Card) பத்திரமாக வைத்து தடுப்பூசி விபரங்களை பதிவு செய்யவும்."
+      ]
+    },
+    "when_to_visit_phc": {
+      "en": [
+        "At birth: BCG, OPV-0, Hepatitis B-0.",
+        "At 6, 10, 14 weeks: Pentavalent, OPV, Rotavirus, PCV, fIPV.",
+        "At 9-12 months: MR (Measles-Rubella) 1st dose, PCV Booster, Vitamin A.",
+        "At 16-24 months: MR 2nd dose, DPT booster, OPV booster."
+      ],
+      "ta": [
+        "பிறந்தவுடன்: BCG, OPV, ஹெபடைடிஸ் B.",
+        "6, 10, 14 வாரங்களில்: பென்டாவலன்ட், போலியோ, ரோட்டாவைரஸ் தடுப்பூசிகள்.",
+        "9 மாதத்தில்: தட்டம்மை-ரூபெல்லா (MR) மற்றும் வைட்டமின் A சொட்டு மருந்து.",
+        "16-24 மாதங்களில்: பூஸ்டர் தடுப்பூசிகள்."
+      ]
+    },
+    "emergency_red_flags": {
+      "en": [
+        "Child is unable to drink or breastfeed.",
+        "Vomits everything taken.",
+        "Convulsions (fits), extreme lethargy, or chest indrawing while breathing."
+      ],
+      "ta": [
+        "குழந்தை தாய்ப்பால் குடிக்க முடியாமல் போதல்.",
+        "குடித்த அனைத்தையும் வாந்தி எடுத்தல்.",
+        "வலிப்பு அல்லது மூச்சு விடும் போது நெஞ்சு கூடு உள்ளே இழுத்தல்."
+      ]
+    },
+    "related_schemes": ["Mission Indradhanush (Universal Immunization Programme)", "Rashtriya Bal Swasthya Karyakram (RBSK)", "POSHAN Abhiyaan"],
+    "source": "Ministry of Health and Family Welfare (MoHFW) - Universal Immunization Schedule",
+    "source_url": "https://main.mohfw.gov.in/",
+    "last_verified": "2026-08-20",
+    "disclaimer": "Always consult the Village Health Nurse or Primary Health Centre Medical Officer for individual vaccination timelines."
+  }
+]

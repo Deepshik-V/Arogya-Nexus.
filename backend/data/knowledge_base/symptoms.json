@@ -1,0 +1,1094 @@
+[
+  {
+    "id": "fever-headache-adult",
+    "category": "symptoms_guidance",
+    "title_en": "Acute Fever and Headache Management",
+    "title_ta": "காய்ச்சல் மற்றும் தலைவலி மேலாண்மை",
+    "title_te": "జ్వరం మరియు తలనొప్పి సంరక్షణ",
+    "title_ml": "പനിയും തലവേദനയും - സുരക്ഷിത പരിചരണം",
+    "keywords_en": [
+      "fever",
+      "headache",
+      "high temperature",
+      "chills",
+      "body ache",
+      "shivering",
+      "viral fever"
+    ],
+    "keywords_ta": [
+      "காய்ச்சல்",
+      "தலைவலி",
+      "உடம்பு வலி",
+      "குளிர் காய்ச்சல்",
+      "அசதி"
+    ],
+    "keywords_te": [
+      "జ్వరం",
+      "తలనొప్పి",
+      "ఒళ్ళు నొప్పులు",
+      "చలి జ్వరం",
+      "తీవ్ర జ్వరం"
+    ],
+    "keywords_ml": [
+      "പനി",
+      "തലവേദന",
+      "ശരീരവേദന",
+      "വിറയൽ",
+      "തളർച്ച"
+    ],
+    "keywords_tanglish": [
+      "kaichal",
+      "thalavali",
+      "udambu vali",
+      "fever",
+      "kulir",
+      "thala vali"
+    ],
+    "what_it_indicates": {
+      "en": "Usually indicates an acute viral infection, common cold, flu, seasonal infection, or inflammatory response.",
+      "ta": "பொதுவாக வைரஸ் தொற்று, சளி, காய்ச்சல் அல்லது பருவகால தொற்று காரணமாக ஏற்படுகிறது.",
+      "te": "సాధారణంగా వైరల్ ఇన్ఫెక్షన్, జలుబు, ఫ్లూ లేదా శోథ ప్రతిస్పందన వల్ల వస్తుంది.",
+      "ml": "സാധാരണയായി വൈറൽ അണുബാധ, ജലദോഷം, പനി അല്ലെങ്കിൽ സീസണൽ അണുബാധ മൂലം ഉണ്ടാകുന്നു."
+    },
+    "safe_home_care": {
+      "en": [
+        "Complete physical rest in a well-ventilated, comfortable room.",
+        "Drink adequate clean fluids (boiled water, ORS, lemon water, buttermilk, light kanji / broth) to prevent dehydration.",
+        "Apply lukewarm water sponging on forehead, neck, and armpits if body temperature is high.",
+        "Wear light, loose cotton clothing."
+      ],
+      "ta": [
+        "நன்கு காற்றோட்டமுள்ள அறையில் முழுமையான ஓய்வு எடுக்கவும்.",
+        "சுத்தமான காய்ச்சிய நீர், ORS, எலுமிச்சை சாறு, மோர், அரிசி கஞ்சி போன்ற திரவங்களை அதிகம் பருகவும்.",
+        "நெற்றியில் மிதமான வெதுவெதுப்பான நீரில் நனைத்த துணியால் ஒத்தடம் கொடுக்கவும்.",
+        "மெல்லிய, தளர்வான பருத்தி ஆடைகளை அணியவும்."
+      ],
+      "te": [
+        "గాలి వెలుతురు ఉండే గదిలో పూర్తి విశ్రాంతి తీసుకోండి.",
+        "కాచి చల్లార్చిన నీరు, ORS, మజ్జిగ, నిమ్మరసం వంటి ద్రవాలు సమృద్ధిగా తాగండి.",
+        "నుదురు మరియు మెడపై గోరువెచ్చని నీటి గుడ్డతో అద్దండి.",
+        "తేలికపాటి కాటన్ దుస్తులు ధరించండి."
+      ],
+      "ml": [
+        "നല്ല വായുസഞ്ചാരമുള്ള മുറിയിൽ പൂർണ്ണ വിശ്രമം എടുക്കുക.",
+        "തിളപ്പിച്ചാറിയ വെള്ളം, ഒ.ആർ.എസ്, മോര്, കഞ്ഞിവെള്ളം തുടങ്ങിയ ദ്രവഭക്ഷണങ്ങൾ ധാരാളം കുടിക്കുക.",
+        "നെറ്റിയിൽ ഇളംചൂടുവെള്ളത്തിൽ മുക്കിയ തുണി ഉപയോഗിച്ച് ഒപ്പുക.",
+        "കനംകുറഞ്ഞ പരുത്തി വസ്ത്രങ്ങൾ ധരിക്കുക."
+      ]
+    },
+    "what_to_avoid": {
+      "en": [
+        "Do NOT self-prescribe antibiotics without a doctor prescription.",
+        "Avoid heavy, oily, or unhygienic street food.",
+        "Avoid ice-cold baths or extreme cold exposure.",
+        "Do not engage in heavy physical exertion."
+      ],
+      "ta": [
+        "மருத்துவர் பரிந்துரைக்காமல் சுயமாக ஆன்டிபயாடிக் மாத்திரைகளை எடுக்க வேண்டாம்.",
+        "எண்ணெய் அதிகமான, காரமான மற்றும் சுகாதாரமற்ற உணவுகளைத் தவிர்க்கவும்.",
+        "மிகக் குளிர்ந்த நீரில் குளிப்பதைத் தவிர்க்கவும்.",
+        "கடினமான உடல் உழைப்பில் ஈடுபட வேண்டாம்."
+      ],
+      "te": [
+        "వైద్యుని సలహా లేకుండా యాంటీబయాటిక్స్ వాడకండి.",
+        "నూనె మరియు కారంతో కూడిన ఆహారాలు నివారించండి.",
+        "మరీ చల్లని నీటితో స్నానం చేయవద్దు."
+      ],
+      "ml": [
+        "ഡോക്ടറുടെ നിർദ്ദേശമില്ലാതെ ആന്റിബയോട്ടിക്കുകൾ കഴിക്കരുത്.",
+        "എണ്ണയും എരിവും കൂടുതലുള്ള ഭക്ഷണങ്ങൾ ഒഴിവാക്കുക.",
+        "ഐസ് വെള്ളത്തിൽ കുളിക്കുന്നത് ഒഴിവാക്കുക."
+      ]
+    },
+    "warning_signs": {
+      "en": [
+        "High fever persisting beyond 3 days despite home care.",
+        "Severe unbearable headache with neck stiffness.",
+        "Persistent vomiting, severe dehydration, or dark colored urine.",
+        "Chest pain, difficulty breathing, or extreme lethargy."
+      ],
+      "ta": [
+        "3 நாட்களுக்கு மேலாக காய்ச்சல் தொடர்ந்தால்.",
+        "கழுத்து விறைப்புடன் கூடிய கடுமையான தலைவலி.",
+        "தொடர் வாந்தி மற்றும் திரவங்களை குடிக்க முடியாத நிலை.",
+        "மூச்சுத்திணறல் அல்லது அதீத சோர்வு."
+      ],
+      "te": [
+        "3 రోజులకు మించి జ్వరం తగ్గకపోతే.",
+        "మెడ బిగుసుకుపోవడం మరియు భరించలేని తలనొప్పి.",
+        "నిరంతర వాంతులు మరియు తీవ్రమైన బలహీనత.",
+        "శ్వాస తీసుకోవడంలో ఇబ్బంది."
+      ],
+      "ml": [
+        "3 ദിവസത്തിൽ കൂടുതൽ നീണ്ടുനിൽക്കുന്ന പനി.",
+        "കഴുത്തു തിരിക്കാൻ പറ്റാത്ത വിധത്തിലുള്ള കഠിനമായ തലവേദന.",
+        "തുടർച്ചയായ ഛർദ്ദിയും കടുത്ത ക്ഷീണവും.",
+        "ശ്വാസതടസ്സം."
+      ]
+    },
+    "when_to_visit_phc": {
+      "en": [
+        "Fever lasting more than 48-72 hours.",
+        "Presence of persistent body ache, joint pain, or rash (for dengue/chikungunya/malaria test at PHC)."
+      ],
+      "ta": [
+        "காய்ச்சல் 2-3 நாட்களுக்கு மேல் நீடித்தால் ரத்த பரிசோதனை செய்ய ஆரம்ப சுகாதார நிலையத்தை (PHC) அணுகவும்."
+      ],
+      "te": [
+        "జ్వరం 2-3 రోజులకు మించి ఉంటే ప్రాథమిక ఆరోగ్య కేంద్రాన్ని (PHC) సంప్రదించండి."
+      ],
+      "ml": [
+        "പനി 2-3 ദിവസത്തിൽ കൂടുതൽ നീണ്ടുനിന്നാൽ അടുത്തുള്ള പിഎച്ച്സി സന്ദർശിക്കുക."
+      ]
+    },
+    "emergency_action": {
+      "en": "If accompanied by confusion, unconsciousness, severe breathlessness, or seizures, immediately dial 108 Emergency Ambulance.",
+      "ta": "சுயநினைவின்மை, கடுமையான மூச்சுத்திணறல் அல்லது வலிப்பு ஏற்பட்டால் உடனடியாக 108 அவசர ஆம்புலன்ஸை அழைக்கவும்.",
+      "te": "మూర్ఛ, అపస్మారక స్థితి లేదా తీవ్ర శ్వాస సమస్య ఉంటే వెంటనే 108 అంబులెన్స్‌కు కాల్ చేయండి.",
+      "ml": "അബോധാവസ്ഥയോ കടുത്ത ശ്വാസതടസ്സമോ ഉണ്ടായാൽ ഉടൻ 108 ആംബുലൻസ് വിളിക്കുക."
+    },
+    "source": "Ministry of Health and Family Welfare (MoHFW) - Standard Treatment Guidelines for PHCs",
+    "source_url": "https://mohfw.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "This guidance is for supportive self-care only and does not replace professional medical diagnosis."
+  },
+  {
+    "id": "acute-diarrhea-dehydration",
+    "category": "symptoms_guidance",
+    "title_en": "Acute Diarrhea and Dehydration Management",
+    "title_ta": "வயிற்றுப்போக்கு மற்றும் நீர்ச்சத்து குறைபாடு மேலாண்மை",
+    "title_te": "విరేచనాలు మరియు నిర్జలీకరణ నివారణ",
+    "title_ml": "വയറിളക്കവും നിർജ്ജലീകരണവും - പരിചരണം",
+    "keywords_en": [
+      "diarrhea",
+      "loose stools",
+      "stomach upset",
+      "vomiting",
+      "dehydration",
+      "loose motion",
+      "watery stool"
+    ],
+    "keywords_ta": [
+      "வயிற்றுப்போக்கு",
+      "பேதி",
+      "வாந்தி",
+      "நீர்ச்சத்து குறைவு",
+      "வயிறு வலி"
+    ],
+    "keywords_te": [
+      "విరేచనాలు",
+      "వాంతులు",
+      "కడుపు నొప్పి",
+      "నిర్జలీకరణం",
+      "నీళ్ల విరేచనాలు"
+    ],
+    "keywords_ml": [
+      "വയറിളക്കം",
+      "ഛർദ്ദി",
+      "നിർജ്ജലീകരണം",
+      "വയറുവേദന"
+    ],
+    "keywords_tanglish": [
+      "vayitru pokku",
+      "loose motion",
+      "vanti",
+      "vomiting",
+      "vayiru vali",
+      "bedhi"
+    ],
+    "what_it_indicates": {
+      "en": "Often caused by contaminated water/food, gastroenteritis, viral/bacterial intestinal infections.",
+      "ta": "பாதிக்கப்பட்ட குடிநீர், உணவு அல்லது குடல் வைரஸ் தொற்று காரணமாக ஏற்படுகிறது.",
+      "te": "కలుషిత నీరు, ఆహారం లేదా గ్యాస్ట్రోఎంటరైటిస్ ఇన్ఫెక్షన్ వల్ల వస్తుంది.",
+      "ml": "മലിനമായ വെള്ളം, ആഹാരം അല്ലെങ്കിൽ വയറ്റിലെ അണുബാധ കാരണം ഉണ്ടാകുന്നു."
+    },
+    "safe_home_care": {
+      "en": [
+        "Start Oral Rehydration Salts (ORS) solution immediately after every loose motion.",
+        "Drink tender coconut water, salted rice gruel (kanji), and clean boiled water.",
+        "Eat small frequent easily digestible meals (mashed bananas, curd rice, boiled potatoes).",
+        "Maintain strict hand hygiene with soap and water."
+      ],
+      "ta": [
+        "ஒவ்வொரு முறை கழிவறை சென்று வந்ததும் உடனடியாக ORS கரைசல் குடிக்கவும்.",
+        "இளநீர், உப்பு சேர்த்த அரிசி கஞ்சி, காய்ச்சிய குடிநீர் அதிகம் பருகவும்.",
+        "தயிர் சாதம், மசித்த வாழைப்பழம் போன்ற எளிய உணவுகளை உட்கொள்ளவும்.",
+        "கைகளை சோப்பு போட்டு சுத்தமாக கழுவவும்."
+      ],
+      "te": [
+        "ప్రతి విరేచనం తర్వాత ORS ద్రావణం తాగండి.",
+        "కొబ్బరి నీరు, ఉప్పు గంజి, కాచి చల్లార్చిన నీరు తాగండి.",
+        "పెరుగు అన్నం, అరటిపండు వంటి తేలికపాటి ఆహారం తినండి."
+      ],
+      "ml": [
+        "ഓരോ തവണ വയറ്റിളകുമ്പോഴും ഒ.ആർ.എസ് ലായനി കുടിക്കുക.",
+        "ഇളനീർ, കഞ്ഞിവെള്ളം എന്നിവ ധാരാളം നൽകുക.",
+        "തൈര് സാദം, ഏത്തപ്പഴം എന്നിവ നൽകുക."
+      ]
+    },
+    "what_to_avoid": {
+      "en": [
+        "Do NOT take unprescribed anti-motility drugs or unverified antibiotics.",
+        "Avoid sugary carbonated drinks, oily foods, and raw unpeeled fruits.",
+        "Do not stop eating or starve."
+      ],
+      "ta": [
+        "மருத்துவர் பரிந்துரையின்றி மாத்திரைகளை உட்கொள்ள வேண்டாம்.",
+        "குளிர்பானங்கள், அதிக இனிப்பு மற்றும் எண்ணெய் உணவுகளைத் தவிர்க்கவும்.",
+        "உணவு உண்பதை முழுமையாக நிறுத்த வேண்டாம்."
+      ],
+      "te": [
+        "సొంతంగా విరేచనాల మందులు వాడకండి.",
+        "కూల్ డ్రింక్స్ మరియు నూనె పదార్థాలు నివారించండి."
+      ],
+      "ml": [
+        "സ്വയം ചികിത്സിച്ചു മരുന്നുകൾ കഴിക്കരുത്.",
+        "സോഫ്റ്റ് ഡ്രിങ്കുകൾ, എണ്ണപ്പലഹാരങ്ങൾ എന്നിവ ഒഴിവാക്കുക."
+      ]
+    },
+    "warning_signs": {
+      "en": [
+        "Blood or mucus in stools (dysentery).",
+        "Severe dehydration (dry mouth, sunken eyes, no urination for >6-8 hours).",
+        "Inability to retain any liquids due to persistent vomiting.",
+        "High fever or severe abdominal cramps."
+      ],
+      "ta": [
+        "மலத்தில் ரத்தம் அல்லது சீழ் வெளியேறுதல்.",
+        "கண்கள் குழிவிழுதல், நாவறட்சி, 8 மணி நேரத்திற்கு மேல் சிறுநீர் வராமை.",
+        "தொடர் வாந்தியால் திரவங்களை குடிக்க முடியாத நிலை."
+      ],
+      "te": [
+        "మలంలో రక్తం పడటం.",
+        "6-8 గంటలకు పైగా మూత్రం రాకపోవడం, తీవ్ర నిర్జలీకరణం.",
+        "నిరంతర వాంతులు."
+      ],
+      "ml": [
+        "മലത്തിൽ രക്തം കാണുക.",
+        "കടുത്ത നിർജ്ജലീകരണം (കണ്ണുകൾ കുഴിയുക, മൂത്രം പോകാതിരിക്കുക).",
+        "തുടർച്ചയായ ഛർദ്ദി."
+      ]
+    },
+    "when_to_visit_phc": {
+      "en": [
+        "Diarrhea lasting more than 24-48 hours, or affecting infants/elderly."
+      ],
+      "ta": [
+        "வயிற்றுப்போக்கு 24 மணி நேரத்திற்கு மேல் நீடித்தால் ஆரம்ப சுகாதார நிலையத்திற்கு செல்லவும்."
+      ],
+      "te": [
+        "విరేచనాలు 24 గంటల కంటే ఎక్కువ ఉంటే ప్రాథమిక ఆరోగ్య కేంద్రానికి వెళ్లండి."
+      ],
+      "ml": [
+        "24 മണിക്കൂറിലധികം വയറിളക്കം നീണ്ടുനിന്നാൽ പിഎച്ച്സിയിൽ കാണിക്കുക."
+      ]
+    },
+    "emergency_action": {
+      "en": "If child/adult is unresponsive, floppy, or in severe hypovolemic shock, dial 108 Emergency Ambulance immediately.",
+      "ta": "மயக்கம் அல்லது சுயநினைவற்ற நிலையில் இருந்தால் உடனடியாக 108 ஆம்புலன்ஸை அழைக்கவும்.",
+      "te": "స్పృహ తప్పిపోతే వెంటనే 108 అంబులెన్స్‌కు కాల్ చేయండి.",
+      "ml": "അബോധാവസ്ഥയിലായാൽ ഉടൻ 108 ആംബുലൻസ് വിളിക്കുക."
+    },
+    "source": "WHO & National Health Mission (NHM) Diarrhea Control Guidelines",
+    "source_url": "https://nhm.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "This guidance is for supportive self-care only."
+  },
+  {
+    "id": "cough-cold-respiratory",
+    "category": "symptoms_guidance",
+    "title_en": "Cough, Cold and Respiratory Supportive Care",
+    "title_ta": "இருமல், சளி மற்றும் சுவாச நல வழிகாட்டுதல்",
+    "title_te": "దగ్గు, జలుబు మరియు శ్వాసకోశ సంరక్షణ",
+    "title_ml": "ചുമയും ജലദോഷവും - സുരക്ഷിത പരിചരണം",
+    "keywords_en": [
+      "cough",
+      "cold",
+      "runny nose",
+      "sore throat",
+      "sneezing",
+      "congestion",
+      "phlegm",
+      "dry cough"
+    ],
+    "keywords_ta": [
+      "இருமல்",
+      "சளி",
+      "தொண்டை வலி",
+      "மூக்கடைப்பு",
+      "வறட்டு இருமல்",
+      "கபம்"
+    ],
+    "keywords_te": [
+      "దగ్గు",
+      "జలుబు",
+      "గొంతు నొప్పి",
+      "ముక్కు దిబ్బడ",
+      "కఫం"
+    ],
+    "keywords_ml": [
+      "ചുമ",
+      "ജലദോഷം",
+      "തൊണ്ടവേദന",
+      "മൂക്കടപ്പ്",
+      "കഫക്കെട്ട്"
+    ],
+    "keywords_tanglish": [
+      "irumal",
+      "sali",
+      "thondai vali",
+      "mookadaipu",
+      "cough",
+      "cold"
+    ],
+    "what_it_indicates": {
+      "en": "Usually indicates an upper respiratory viral infection, seasonal allergies, or mild bronchitis.",
+      "ta": "பொதுவாக மேல் சுவாசக்குழாய் வைரஸ் தொற்று அல்லது பருவகால ஒவ்வாமையால் ஏற்படுகிறது.",
+      "te": "శ్వాసకోశ వైరల్ ఇన్ఫెక్షన్ లేదా అలెర్జీ వల్ల వస్తుంది.",
+      "ml": "ശ്വസനനാളത്തിലെ വൈറൽ അണുബാധ അല്ലെങ്കിൽ അലർജി കാരണം ഉണ്ടാകുന്നു."
+    },
+    "safe_home_care": {
+      "en": [
+        "Warm water gargling with a pinch of salt 3-4 times daily for sore throat relief.",
+        "Steam inhalation with plain warm water to relieve nasal congestion.",
+        "Drink warm fluids (warm water, ginger-tulsi herbal tea, pepper soup / rasam).",
+        "Keep throat moist and avoid dust/smoke exposure."
+      ],
+      "ta": [
+        "வெதுவெதுப்பான உப்பு நீரில் தினமும் 3-4 முறை தொண்டை கொப்பளிக்கவும்.",
+        "மூக்கடைப்பு நீங்க வெந்நீர் ஆவி பிடிக்கவும்.",
+        "சூடான மிளகு ரசம், இஞ்சி-துளசி கசாயம், வெந்நீர் பருகவும்.",
+        "தூசி மற்றும் புகை படுவதைத் தவிர்க்கவும்."
+      ],
+      "te": [
+        "గోరువెచ్చని ఉప్పు నీటితో గొంతు పుక్కిలించండి.",
+        "ఆవిరి పట్టండి.",
+        "అల్లం టీ, మిరియాల చారు, వేడి నీరు తాగండి."
+      ],
+      "ml": [
+        "ഉപ്പുവെള്ളം കവിൾക്കൊള്ളുക.",
+        "ആവി പിടിക്കുക.",
+        "ചുക്കുകാപ്പി, ചൂടുവെള്ളം എന്നിവ കുടിക്കുക."
+      ]
+    },
+    "what_to_avoid": {
+      "en": [
+        "Avoid cold beverages, ice creams, and smoking/chulha smoke.",
+        "Do NOT self-medicate with heavy cough syrups without consultation."
+      ],
+      "ta": [
+        "குளிர்ந்த நீர், ஐஸ்கிரீம் மற்றும் புகைபிடிப்பதைத் தவிர்க்கவும்.",
+        "சுயமாக இருமல் மருந்துகளை அதிக அளவில் குடிக்க வேண்டாம்."
+      ],
+      "te": [
+        "చల్లని పానీయాలు మరియు ధూమపానం నివారించండి."
+      ],
+      "ml": [
+        "തണുത്ത വെള്ളവും പുകവലിയും ഒഴിവാക്കുക."
+      ]
+    },
+    "warning_signs": {
+      "en": [
+        "Severe shortness of breath, wheezing, or chest tightness.",
+        "Coughing up blood or rust-colored sputum.",
+        "Persistent high fever >3 days.",
+        "Stridor or barking cough in young children."
+      ],
+      "ta": [
+        "கடுமையான மூச்சுத்திணறல் அல்லது நெஞ்சுப் பகுதியில் இழுப்பு.",
+        "இருமலில் ரத்தம் வெளியேறுதல்.",
+        "தொடர் அதிக காய்ச்சல்."
+      ],
+      "te": [
+        "తీవ్ర శ్వాస సమస్య, ఆయాసం.",
+        "దగ్గులో రక్తం పడటం."
+      ],
+      "ml": [
+        "ശ്വാസംമുട്ടൽ, കിതപ്പ്.",
+        "ചുമയ്ക്കുമ്പോൾ രക്തം വരിക."
+      ]
+    },
+    "when_to_visit_phc": {
+      "en": [
+        "Cough persisting for more than 2 weeks (requires Sputum AFB test for Tuberculosis screening at PHC)."
+      ],
+      "ta": [
+        "இருமல் 2 வாரங்களுக்கு மேல் நீடித்தால் காசநோய் (TB) பரிசோதனை செய்ய ஆரம்ப சுகாதார நிலையத்தை அணுகவும்."
+      ],
+      "te": [
+        "దగ్గు 2 వారాల కంటే ఎక్కువ ఉంటే క్షయ (టీబీ) పరీక్ష కోసం పిహెచ్‌సికి వెళ్ళండి."
+      ],
+      "ml": [
+        "ചുമ 2 ആഴ്ചയിലധികം നീണ്ടുനിന്നാൽ ടിബി പരിശോധനയ്ക്കായി പിഎച്ച്സി സന്ദർശിക്കുക."
+      ]
+    },
+    "emergency_action": {
+      "en": "If severe difficulty breathing, blue lips, or choking, dial 108 Emergency Ambulance immediately.",
+      "ta": "கடுமையான மூச்சுத்திணறல் அல்லது உதடுகள் நீல நிறமானால் உடனடியாக 108 அழைக்கவும்.",
+      "te": "తీవ్రమైన ఊపిరాడకపోతే వెంటనే 108 కాల్ చేయండి.",
+      "ml": "കടുത്ത ശ്വാസതടസ്സമുണ്ടായാൽ ഉടൻ 108 വിളിക്കുക."
+    },
+    "source": "National Tuberculosis Elimination Program (NTEP) & MoHFW Respiratory Guidelines",
+    "source_url": "https://mohfw.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "This guidance is for supportive self-care only."
+  },
+  {
+    "id": "headache-migraine-care",
+    "category": "symptoms_guidance",
+    "title_en": "Headache and Migraine Supportive Care",
+    "title_ta": "தலைவலி மற்றும் ஒற்றைத் தலைவலி மேலாண்மை",
+    "title_te": "తలనొప్పి మరియు మైగ్రేన్ సంరక్షణ",
+    "title_ml": "തലവേദനയും മൈഗ്രേനും - സുരക്ഷിത പരിചരണം",
+    "keywords_en": [
+      "headache",
+      "head pain",
+      "tension headache",
+      "migraine",
+      "severe headache",
+      "head ache",
+      "forehead pain",
+      "throbbing head pain",
+      "cluster headache",
+      "head hurts"
+    ],
+    "keywords_ta": [
+      "தலைவலி",
+      "ஒற்றைத் தலைவலி",
+      "தலை வலி",
+      "தலையிடி",
+      "நெற்றி வலி"
+    ],
+    "keywords_te": [
+      "తలనొప్పి",
+      "మైగ్రేన్",
+      "తీవ్ర తలనొప్పి",
+      "తల నొప్పి",
+      "నుదురు నొప్పి"
+    ],
+    "keywords_ml": [
+      "തലവേദന",
+      "മൈഗ്രേൻ",
+      "കടുത്ത തലവേദന",
+      "തല വേദന"
+    ],
+    "keywords_tanglish": [
+      "thalavali",
+      "thala vali",
+      "thalai vali",
+      "headache",
+      "head pain",
+      "migraine",
+      "othai thalavali"
+    ],
+    "what_it_indicates": {
+      "en": "Commonly relates to muscle tension, lack of sleep, dehydration, stress, sinus congestion, eye strain, or viral illness.",
+      "ta": "பொதுவாக தசை இறுக்கம், தூக்கமின்மை, நீர்ச்சத்து குறைவு, மன அழுத்தம், சைனஸ் அல்லது அதிக நேரம் திரை பார்ப்பதால் ஏற்படுகிறது.",
+      "te": "సాధారణంగా కండరాల ఒత్తిడి, నిద్రలేమి, నిర్జలీకరణం, ఒత్తిడి, సైనస్ లేదా కంటి అలసట వల్ల వస్తుంది.",
+      "ml": "സാധാരണയായി പേശീവലിവ്, ഉറക്കക്കുറവ്, നിർജ്ജലീകരണം, മാനസിക സമ്മർദ്ദം, സൈനസ് അല്ലെങ്കിൽ കണ്ണിന്റെ ആയാസം മൂലം ഉണ്ടാകുന്നു."
+    },
+    "safe_home_care": {
+      "en": [
+        "Rest in a quiet, darkened room with minimal noise and screen exposure.",
+        "Drink adequate clean water or oral fluids to reverse mild dehydration.",
+        "Apply a cool, damp cloth or gentle cold pack across the forehead or back of the neck.",
+        "Gently massage temples, neck, and shoulder muscles to ease tension."
+      ],
+      "ta": [
+        "அமைதியான, இருண்ட அறையில் ஓய்வெடுக்கவும்; செல்போன் மற்றும் கணினி திரைகளை தவிர்க்கவும்.",
+        "போதுமான அளவு சுத்தமான குடிநீர் அருந்தி நீர்ச்சத்தை பேணவும்.",
+        "நெற்றியில் அல்லது கழுத்தின் பின்புறத்தில் குளிர்ந்த நீரில் நனைத்த துணியை வைக்கவும்.",
+        "கழுத்து மற்றும் நெற்றிப் பகுதியில் மென்மையாக மசாஜ் செய்யவும்."
+      ],
+      "te": [
+        "నిశ్శబ్దమైన, చీకటి గదిలో విశ్రాంతి తీసుకోండి; ఫోన్ లేదా స్క్రీన్ చూడటం ఆపండి.",
+        "పుష్కలంగా శుభ్రమైన నీరు తాగండి.",
+        "నుదురు లేదా మెడ వెనుక చల్లటి తడి గుడ్డను ఉంచండి.",
+        "మెడ మరియు నుదుటి భాగంలో సున్నితంగా మర్దన చేయండి."
+      ],
+      "ml": [
+        "ശബ്ദവും വെളിച്ചവും കുറഞ്ഞ ശാന്തമായ മുറിയിൽ വിശ്രമിക്കുക.",
+        "ധാരാളം ശുദ്ധജലം കുടിക്കുക.",
+        "നെറ്റിയിലോ കഴുത്തിന് പിന്നിലോ തണുത്ത തുണി വയ്ക്കുക.",
+        "കഴുത്തിലെ പേശികൾ പതുക്കെ മസാജ് ചെയ്യുക."
+      ]
+    },
+    "what_to_avoid": {
+      "en": [
+        "Avoid skipping meals or prolonged fasting.",
+        "Avoid excessive tea, coffee, or energy drinks.",
+        "Do not take repetitive unprescribed painkillers without medical evaluation.",
+        "Avoid sudden bright lights and loud sounds."
+      ],
+      "ta": [
+        "உணவைத் தவிர்க்கவோ அல்லது பட்டினி கிடக்கவோ கூடாது.",
+        "அதிகப்படியான காபி, டீ குடிப்பதைத் தவிர்க்கவும்.",
+        "மருத்துவர் ஆலோசனையின்றி தொடர்ச்சியாக வலி நிவாரணி மாத்திரைகளை உட்கொள்ள வேண்டாம்.",
+        "அதிக வெளிச்சம் மற்றும் இரைச்சலைத் தவிர்க்கவும்."
+      ],
+      "te": [
+        "భోజనం మానేయడం నివారించండి.",
+        "కాఫీ, టీ అధికంగా తీసుకోవద్దు.",
+        "వైద్యుని సలహా లేకుండా తరచుగా పెయిన్ కిల్లర్స్ వాడవద్దు.",
+        "తీవ్రమైన వెలుతురును నివారించండి."
+      ],
+      "ml": [
+        "ഭക്ഷണം കഴിക്കാതിരിക്കരുത്.",
+        "ചായ, കാപ്പി എന്നിവ അമിതമായി കുടിക്കരുത്.",
+        "ഡോക്ടറുടെ നിർദ്ദേശമില്ലാതെ വേദനാസംഹാരികൾ പതിവായി കഴിക്കരുത്.",
+        "കൂടുതൽ വെളിച്ചവും ശബ്ദവും ഒഴിവാക്കുക."
+      ]
+    },
+    "warning_signs": {
+      "en": [
+        "Sudden, explosive, worst headache of your life ('thunderclap' headache).",
+        "Headache with high fever, neck stiffness, and confusion (suspected meningitis).",
+        "Headache accompanied by weakness, numbness on one side of face/body, or speech difficulty.",
+        "Headache following a recent direct head injury or accident."
+      ],
+      "ta": [
+        "வாழ்நாளில் இல்லாத அளவுக்கு திடீரென ஏற்படும் தாங்க முடியாத வெடிக்கும் தலைவலி.",
+        "கழுத்து விறைப்பு, அதிக காய்ச்சல் மற்றும் குழப்பத்துடன் கூடிய தலைவலி.",
+        "முகத்தின் அல்லது உடலின் ஒரு பக்கத்தில் உணர்வின்மை, பலவீனம் அல்லது பேச இயலாமை.",
+        "தலையில் பலத்த அடிபட்ட பிறகு ஏற்படும் தலைவலி."
+      ],
+      "te": [
+        "జీవితంలో ఎన్నడూ లేని విధంగా అకస్మాత్తుగా వచ్చే తీవ్రమైన తలనొప్పి.",
+        "తీవ్ర జ్వరం, మెడ బిగుసుకుపోవడం మరియు గందరగోళంతో కూడిన తలనొప్పి.",
+        "ఒక వైపు ముఖం లేదా శరీర బలహీనత, మాట్లాడటంలో ఇబ్బంది.",
+        "తలకి దెబ్బ తగిలిన తర్వాత వచ్చే తలనొప్పి."
+      ],
+      "ml": [
+        "പെട്ടെന്ന് ഉണ്ടാകുന്ന അസഹനീയമായ കഠിന തലവേദന.",
+        "കടുത്ത പനി, കഴുത്ത് തിരിക്കാൻ പറ്റാത്ത അവസ്ഥ, ആശയക്കുഴപ്പം.",
+        "മുഖത്തോ ശരീരത്തിന്റെ ഒരു വശത്തോ ഉണ്ടാകുന്ന ബലഹീനത, സംസാരിക്കാൻ ബുദ്ധിമുട്ട്.",
+        "തലയ്ക്ക് ക്ഷതമേറ്റ ശേഷമുള്ള തലവേദന."
+      ]
+    },
+    "when_to_visit_phc": {
+      "en": [
+        "Headache persisting beyond 48-72 hours despite rest and hydration.",
+        "Increasing frequency or severity of headaches interfering with daily routines."
+      ],
+      "ta": [
+        "ஓய்வு மற்றும் தண்ணீர் குடித்த பிறகும் 48-72 மணி நேரத்திற்கு மேல் நீடிக்கும் தலைவலி.",
+        "அன்றாட பணிகளை பாதிக்கக்கூடிய தொடர் கடுமையான தலைவலி."
+      ],
+      "te": [
+        "విశ్రాంతి తీసుకున్నప్పటికీ 48-72 గంటలకు మించి తలనొప్పి తగ్గకపోతే.",
+        "రోజువారీ పనులకు ఆటంకం కలిగించే విధంగా తరచుగా తలనొప్పి వస్తుంటే."
+      ],
+      "ml": [
+        "48-72 മണിക്കൂറിൽ കൂടുതൽ തലവേദന തുടരുകയാണെങ്കിൽ.",
+        "ദൈനംദിന കാര്യങ്ങളെ ബാധിക്കുന്ന വിധത്തിൽ തലവേദന ആവർത്തിക്കുകയാണെങ്കിൽ."
+      ]
+    },
+    "emergency_action": {
+      "en": "If accompanied by sudden one-sided body weakness, facial drooping, loss of consciousness, or seizures, immediately dial 108 Emergency Ambulance.",
+      "ta": "உடலின் ஒரு பக்கம் செயலிழப்பு, முகக் கோணல், மயக்கம் அல்லது வலிப்பு ஏற்பட்டால் உடனடியாக 108 அவசர ஆம்புலன்ஸை அழைக்கவும்.",
+      "te": "శరీరం ఒకవైపు చచ్చుబడటం, స్పృహ కోల్పోవడం లేదా మూర్ఛ వస్తే వెంటనే 108 కి కాల్ చేయండి.",
+      "ml": "ശരീരത്തിന്റെ ഒരു വശം തളരുകയോ ബോധം നഷ്ടപ്പെടുകയോ ചെയ്താൽ ഉടൻ 108 വിളിക്കുക."
+    },
+    "source": "National Health Portal (NHP) India - Headache Clinical Guidelines",
+    "source_url": "https://www.nhp.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "This guidance is for supportive self-care only and does not replace professional clinical evaluation."
+  },
+  {
+    "id": "stomach-pain-gastric",
+    "category": "symptoms_guidance",
+    "title_en": "Stomach Pain, Gastritis and Indigestion Care",
+    "title_ta": "வயிற்று வலி, அஜீரணம் மற்றும் வாயுத்தொல்லை மேலாண்மை",
+    "title_te": "కడుపు నొప్పి, గ్యాస్ట్రిక్ మరియు అజీర్తి సంరక్షణ",
+    "title_ml": "വയറുവേദനയും ദഹനക്കേടും - സുരക്ഷിത പരിചരണം",
+    "keywords_en": [
+      "stomach pain",
+      "stomach ache",
+      "abdominal pain",
+      "belly pain",
+      "gastric",
+      "gastritis",
+      "acid reflux",
+      "indigestion",
+      "heartburn",
+      "stomach hurts",
+      "tummy ache"
+    ],
+    "keywords_ta": [
+      "வயிற்று வலி",
+      "வயிறு வலி",
+      "அஜீரணம்",
+      "வாயுத்தொல்லை",
+      "நெஞ்செரிச்சல்",
+      "வயிறு உப்புசம்"
+    ],
+    "keywords_te": [
+      "కడుపు నొప్పి",
+      "కడుపు మంట",
+      "గ్యాస్ట్రిక్",
+      "అజీర్తి",
+      "కడుపు ఉబ్బరం"
+    ],
+    "keywords_ml": [
+      "വയറുവേദന",
+      "വയറു വേദന",
+      "ഗ്യാസ്",
+      "ദഹനക്കേട്",
+      "നെഞ്ചെരിച്ചിൽ"
+    ],
+    "keywords_tanglish": [
+      "vayiru vali",
+      "vayi vali",
+      "stomach pain",
+      "stomach ache",
+      "gastric problem",
+      "nenju erichal",
+      "gas problem"
+    ],
+    "what_it_indicates": {
+      "en": "Commonly relates to mild gastritis, indigestion, acid reflux, dietary irritation, gas bloating, or stress-related gut spasms.",
+      "ta": "பொதுவாக அஜீரணம், வாயுத் தேக்கம், காரமான உணவால் ஏற்படும் அமிலத்தன்மை அல்லது வயிற்று தசைப்பிடிப்பு காரணமாக ஏற்படுகிறது.",
+      "te": "సాధారణంగా అజీర్తి, గ్యాస్, ఎసిడిటీ లేదా కారమైన ఆహారం వల్ల వచ్చే కడుపు మంట వల్ల వస్తుంది.",
+      "ml": "സാധാരണയായി ദഹനക്കേട്, ഗ്യാസ്ട്രബിൾ, അസിഡിറ്റി അല്ലെങ്കിൽ എരിവുള്ള ഭക്ഷണം കാരണം ഉണ്ടാകുന്നു."
+    },
+    "safe_home_care": {
+      "en": [
+        "Sip warm water or light cumin / ginger water slowly.",
+        "Eat small, bland, easily digestible meals such as rice gruel (kanji), curd rice, or bananas.",
+        "Avoid lying flat immediately after eating; sit upright for at least 30-45 minutes.",
+        "Apply a warm water bottle or warm compress gently over the abdomen."
+      ],
+      "ta": [
+        "வெதுவெதுப்பான சீரகத் தண்ணீர் அல்லது சுடுதண்ணீரை சிறுக சிறுக குடிக்கவும்.",
+        "அரிசி கஞ்சி, தயிர் சாதம், வாழைப்பழம் போன்ற எளிதில் செரிக்கும் எளிய உணவுகளை உண்ணவும்.",
+        "சாப்பிட்டவுடன் உடனடியாக படுக்க வேண்டாம்; 30-45 நிமிடங்கள் நிமிர்ந்து உட்காரவும்.",
+        "வயிற்றுப் பகுதியில் மிதமான வெந்நீர் ஒத்தடம் கொடுக்கவும்."
+      ],
+      "te": [
+        "గోరువెచ్చని జీలకర్ర నీరు లేదా మంచి నీరు కొద్దికొద్దిగా తాగండి.",
+        "గంజి, పెరుగు అన్నం, అరటిపండు వంటి తేలికపాటి ఆహారం తినండి.",
+        "తిన్న వెంటనే పడుకోవద్దు; 30 నిమిషాలు కూర్చోండి.",
+        "కడుపుపై గోరువెచ్చని కాపడం పెట్టండి."
+      ],
+      "ml": [
+        "ചൂടുവെള്ളമോ ജീരകവെള്ളമോ സാവധാനം കുടിക്കുക.",
+        "കഞ്ഞിവെള്ളം, തൈര് സാദം പോലുള്ള ലളിതമായ ഭക്ഷണം കഴിക്കുക.",
+        "ഭക്ഷണം കഴിച്ചയുടൻ കിടക്കരുത്.",
+        "വയറ്റിൽ ചൂടുവെള്ളം തടവുക."
+      ]
+    },
+    "what_to_avoid": {
+      "en": [
+        "Avoid oily, deep-fried, highly spiced, and street food.",
+        "Avoid aerated carbonated sodas, alcohol, and smoking.",
+        "Do NOT consume NSAID pain relievers (like ibuprofen) on an empty stomach without a prescription.",
+        "Do not overeat or eat late at night."
+      ],
+      "ta": [
+        "அதிக காரம், எண்ணெய் மற்றும் வறுத்த உணவுகளைத் தவிர்க்கவும்.",
+        "குளிர்பானங்கள், சோடா மற்றும் ஆல்கஹால் குடிப்பதைத் தவிர்க்கவும்.",
+        "மருத்துவர் பரிந்துரையின்றி வலி நிவாரணி மாத்திரைகளை சுயமாக சாப்பிட வேண்டாம்.",
+        "இரவு தாமதமாக அதிக உணவு உண்பதைத் தவிர்க்கவும்."
+      ],
+      "te": [
+        "నూనె, కారం మరియు వేయించిన ఆహారాలను నివారించండి.",
+        "కూల్ డ్రింక్స్ మరియు సోడా తాగవద్దు.",
+        "సొంతంగా పెయిన్ కిల్లర్ మందులు వేసుకోవద్దు.",
+        "రాత్రి పూట భారీ భోజనం చేయవద్దు."
+      ],
+      "ml": [
+        "എണ്ണയും എരിവും കൂടുതലുള്ള ഭക്ഷണങ്ങൾ ഒഴിവാക്കുക.",
+        "ശീതളപാനീയങ്ങൾ ഒഴിവാക്കുക.",
+        "സ്വയം വേദനസംഹാരികൾ കഴിക്കരുത്.",
+        "രാത്രി വൈകി ഭക്ഷണം കഴിക്കുന്നത് ഒഴിവാക്കുക."
+      ]
+    },
+    "warning_signs": {
+      "en": [
+        "Sudden, excruciating, unbearable abdominal pain that makes walking impossible.",
+        "Rigid, hard, board-like abdomen with severe tenderness.",
+        "Vomiting blood or dark coffee-ground material, or passing black tarry stools.",
+        "Stomach pain accompanied by persistent high fever, yellowing of eyes (jaundice), or severe dizziness."
+      ],
+      "ta": [
+        "நடக்க முடியாத அளவுக்கு திடீரென தோன்றும் தாங்க முடியாத தீவிர வயிற்று வலி.",
+        "வயிறு பலகையைப் போல விறைப்பாகவும், தொட்டால் கடுமையான வலியுடனும் இருத்தல்.",
+        "வாந்தியில் ரத்தம் வருதல் அல்லது தார் போன்ற கறுப்பு மலம் வெளியேறுதல்.",
+        "வயிற்று வலியுடன் தீவிர காய்ச்சல், கண்கள் மஞ்சளாதல் அல்லது தீவிர மயக்கம்."
+      ],
+      "te": [
+        "నడవలేని విధంగా అకస్మాత్తుగా వచ్చే తీవ్రమైన భరించలేని కడుపు నొప్పి.",
+        "కడుపు బిగుసుకుపోయి గట్టిపడటం.",
+        "వాంతిలో రక్తం పడటం లేదా నల్లటి మలం రావడం.",
+        "తీవ్ర జ్వరం లేదా కళ్ళు పచ్చబడటం."
+      ],
+      "ml": [
+        "നടക്കാൻ പറ്റാത്ത വിധത്തിലുള്ള കഠിനമായ വയറുവേദന.",
+        "വയർ വലിഞ്ഞു മുറുകി കല്ലുപോലെയാവുക.",
+        "ഛർദ്ദിയിൽ രക്തം വരിക അല്ലെങ്കിൽ കറുത്ത മലം പോവുക.",
+        "കടുത്ത പനി അല്ലെങ്കിൽ കണ്ണിൽ മഞ്ഞനിറം കാണുക."
+      ]
+    },
+    "when_to_visit_phc": {
+      "en": [
+        "Stomach pain persisting beyond 24-48 hours.",
+        "Pain localized specifically to the lower right abdomen (potential appendicitis).",
+        "Pain accompanied by inability to keep any fluids or food down."
+      ],
+      "ta": [
+        "வயிற்று வலி 24-48 மணி நேரத்திற்கு மேல் நீடித்தால்.",
+        "வயிற்றின் வலது கீழ் பகுதியில் மட்டும் தீவிர வலி ஏற்பட்டால் (குடல்வால் அழற்சி/அப்பெண்டிசைடிஸ் அறிகுறி).",
+        "தொடர் வாந்தியால் எந்த திரவத்தையும் குடிக்க முடியாத நிலை."
+      ],
+      "te": [
+        "కడుపు నొప్పి 24-48 గంటలకు మించి ఉంటే.",
+        "కడుపులో కుడివైపు కింది భాగంలో తీవ్రమైన నొప్పి ఉంటే.",
+        "ఏమీ తినలేక నిరంతరం వాంతులు అవుతుంటే."
+      ],
+      "ml": [
+        "24-48 മണിക്കൂറിൽ കൂടുതൽ വയറുവേദന തുടരുകയാണെങ്കിൽ.",
+        "വയറിന്റെ വലതുഭാഗത്ത് താഴെയായി കഠിനമായ വേദന വന്നാൽ.",
+        "വെള്ളം പോലും കുടിക്കാൻ പറ്റാത്ത വിധം ഛർദ്ദി ഉണ്ടായാൽ."
+      ]
+    },
+    "emergency_action": {
+      "en": "If there is severe collapse, rigid abdomen with shock, or persistent vomiting of fresh blood, immediately call 108 Emergency Ambulance.",
+      "ta": "மயக்கம், ரத்த வாந்தி அல்லது அதிர்ச்சி நிலை ஏற்பட்டால் உடனடியாக 108 அவசர ஆம்புலன்ஸை அழைக்கவும்.",
+      "te": "స్పృహ కోల్పోవడం, రక్తం వాంతి కావడం జరిగితే వెంటనే 108 కి కాల్ చేయండి.",
+      "ml": "രക്തം ഛർദ്ദിക്കുകയോ അബോധാവസ്ഥയിലാവുകയോ ചെയ്താൽ ഉടൻ 108 വിളിക്കുക."
+    },
+    "source": "Ministry of Health and Family Welfare (MoHFW) - Abdominal Pain PHC Guidelines",
+    "source_url": "https://mohfw.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "This guidance is for supportive self-care only."
+  },
+  {
+    "id": "dizziness-vertigo-fatigue",
+    "category": "symptoms_guidance",
+    "title_en": "Dizziness, Lightheadedness and Vertigo Supportive Care",
+    "title_ta": "மயக்கம், தலைச்சுற்றல் மற்றும் சோர்வு மேலாண்மை",
+    "title_te": "తలతిరుగుడు, అలసట మరియు కళ్ళు తిరగడం సంరక్షణ",
+    "title_ml": "തലകറക്കവും ക്ഷീണവും - സുരക്ഷിത പരിചരണം",
+    "keywords_en": [
+      "dizziness",
+      "dizzy",
+      "feeling dizzy",
+      "lightheaded",
+      "lightheadedness",
+      "vertigo",
+      "giddiness",
+      "feeling faint",
+      "room spinning",
+      "unsteady"
+    ],
+    "keywords_ta": [
+      "மயக்கம்",
+      "தலைச்சுற்றல்",
+      "தலை சுத்துது",
+      "கண் இருட்டுதல்",
+      "சோர்வு"
+    ],
+    "keywords_te": [
+      "తలతిరుగుడు",
+      "కళ్ళు తిరగడం",
+      "నీరసం",
+      "అలసట",
+      "మత్తుగా ఉండటం"
+    ],
+    "keywords_ml": [
+      "തലകറക്കം",
+      "തല കറങ്ങുന്നു",
+      "ക്ഷീണം",
+      "തളർച്ച",
+      "കണ്ണിൽ ഇരുട്ട് കയറുക"
+    ],
+    "keywords_tanglish": [
+      "thalasuthu",
+      "thala suthudhu",
+      "mayakkam",
+      "dizzy",
+      "dizziness",
+      "sorvu",
+      "vertigo"
+    ],
+    "what_it_indicates": {
+      "en": "Commonly relates to dehydration, low blood sugar (fasting), sudden standing up (orthostatic hypotension), inner ear imbalance, lack of sleep, or physical exhaustion.",
+      "ta": "பொதுவாக நீர்ச்சத்து குறைவு, பசி/குறைந்த சர்க்கரை அளவு, திடீரென எழுந்து நிற்பது, உள் காது சமநிலையின்மை அல்லது அதீத உடல் சோர்வு காரணமாக ஏற்படுகிறது.",
+      "te": "సాధారణంగా నిర్జలీకరణం, రక్తంలో చక్కెర తగ్గడం, అకస్మాత్తుగా లేచి నిలబడటం లేదా అధిక శారీరక శ్రమ వల్ల వస్తుంది.",
+      "ml": "സാധാരണയായി നിർജ്ജലീകരണം, രക്തത്തിലെ പഞ്ചസാരയുടെ അളവ് കുറയുന്നത്, പെട്ടെന്ന് എഴുന്നേറ്റു നിൽക്കുന്നത് അല്ലെങ്കിൽ കടുത്ത ക്ഷീണം എന്നിവ കാരണം ഉണ്ടാകുന്നു."
+    },
+    "safe_home_care": {
+      "en": [
+        "Sit or lie down immediately with the head slightly elevated to prevent falls and injury.",
+        "Sip clean water, ORS solution, or tender coconut water to restore hydration and electrolytes.",
+        "If you have missed a meal, eat a light snack with natural carbohydrates (fruit, biscuit, or light porridge).",
+        "Change postures slowly; sit on the edge of the bed for 1-2 minutes before standing up."
+      ],
+      "ta": [
+        "கீழே விழுந்து காயம் ஏற்படாமல் இருக்க உடனடியாக உட்காரவும் அல்லது படுக்கவும்.",
+        "ORS கரைசல், இளநீர் அல்லது சுத்தமான தண்ணீர் பருகி உடலுக்கு நீர்ச்சத்து அளிக்கவும்.",
+        "உணவு சாப்பிடாமல் இருந்திருந்தால், பழம், பிஸ்கட் அல்லது எளிய கஞ்சி சாப்பிடவும்.",
+        "படுக்கையிலிருந்து திடீரென எழாமல், முதலில் உட்கார்ந்து 1-2 நிமிடங்கள் கழித்து மெதுவாக எழவும்."
+      ],
+      "te": [
+        "కింద పడకుండా వెంటనే కూర్చోండి లేదా పడుకోండి.",
+        "ORS ద్రావణం, కొబ్బరి నీరు లేదా మంచి నీరు తాగండి.",
+        "ఆహారం తీసుకోకపోతే పండ్లు లేదా బిస్కెట్ వంటివి తినండి.",
+        "పడుకుని లేచేటప్పుడు నెమ్మదిగా లేవండి."
+      ],
+      "ml": [
+        "വീഴാതെ ഇരിക്കാൻ ഉടൻ തന്നെ ഇരിക്കുകയോ കിടക്കുകയോ ചെയ്യുക.",
+        "ഒ.ആർ.എസ്, ഇളനീർ അല്ലെങ്കിൽ ശുദ്ധജലം കുടിക്കുക.",
+        "ഭക്ഷണം കഴിച്ചിട്ടില്ലെങ്കിൽ പഴങ്ങളോ ലഘുഭക്ഷണമോ കഴിക്കുക.",
+        "കിടക്കയിൽ നിന്ന് പെട്ടെന്ന് എഴുന്നേൽക്കാതെ പതുക്കെ എഴുന്നേൽക്കുക."
+      ]
+    },
+    "what_to_avoid": {
+      "en": [
+        "Do NOT drive, ride two-wheelers, or operate machinery while feeling dizzy.",
+        "Do not stand up abruptly from sitting or lying positions.",
+        "Avoid dehydration, skipping meals, or direct prolonged sun exposure.",
+        "Avoid sudden, jerky head movements."
+      ],
+      "ta": [
+        "மயக்கம் அல்லது தலைச்சுற்றல் இருக்கும்போது வாகனம் ஓட்டுவதையோ இயந்திரங்களை இயக்குவதையோ தவிர்க்கவும்.",
+        "திடீரென வேகமாக எழுந்திருக்க வேண்டாம்.",
+        "நீண்ட நேரம் வெயிலில் நிற்பதையும், உணவை தவிர்ப்பதையும் தவிர்க்கவும்.",
+        "தலையை வேகமாக அசைக்க வேண்டாம்."
+      ],
+      "te": [
+        "తలతిరుగుడు ఉన్నప్పుడు వాహనాలు నడపవద్దు.",
+        "అకస్మాత్తుగా వేగంగా లేవవద్దు.",
+        "ఎండలో ఎక్కువసేపు తిరగవద్దు.",
+        "తలని వేగంగా తిప్పవద్దు."
+      ],
+      "ml": [
+        "തലകറക്കമുള്ളപ്പോൾ വാഹനം ഓടിക്കരുത്.",
+        "പെട്ടെന്ന് വേഗത്തിൽ എഴുന്നേൽക്കരുത്.",
+        "വെയിൽ കൊള്ളുന്നത് ഒഴിവാക്കുക.",
+        "തല പെട്ടെന്ന് വെട്ടിക്കുന്നത് ഒഴിവാക്കുക."
+      ]
+    },
+    "warning_signs": {
+      "en": [
+        "Dizziness accompanied by chest pain, shortness of breath, or palpitations.",
+        "Dizziness with slurred speech, facial drooping, or weakness/numbness in arm or leg (suspected stroke).",
+        "Sudden complete loss of consciousness (syncope) or blackouts.",
+        "Dizziness following a head injury or accompanied by continuous vomiting."
+      ],
+      "ta": [
+        "நெஞ்சு வலி, மூச்சுத்திணறல் அல்லது இதய படபடப்புடன் கூடிய மயக்கம்.",
+        "பேசுவதில் தடுமாற்றம், முகக் கோணல் அல்லது கை, கால்களில் பலவீனம் ஏற்படுதல் (பக்கவாத அறிகுறி).",
+        "திடீரென முழுமையாக சுயநினைவு இழந்து மயங்கி விழுதல்.",
+        "தலையில் அடிபட்ட பிறகு ஏற்படும் தலைச்சுற்றல் அல்லது தொடர் வாந்தி."
+      ],
+      "te": [
+        "గుండె నొప్పి, శ్వాస ఆడకపోవడం లేదా గుండె దడతో కూడిన తలతిరుగుడు.",
+        "మాట తడబడటం, ముఖం వంకరపోవడం, చేయి లేదా కాలు బలహీనపడటం.",
+        "స్పృహ తప్పి కింద పడిపోవడం.",
+        "తలకి దెబ్బ తగిలిన తర్వాత వచ్చే తలతిరుగుడు."
+      ],
+      "ml": [
+        "നെഞ്ചുവേദന, ശ്വാസതടസ്സം അല്ലെങ്കിൽ നെഞ്ചിടിപ്പ് എന്നിവയോടൊപ്പമുള്ള തലകറക്കം.",
+        "സംസാരിക്കാൻ ബുദ്ധിമുട്ട്, മുഖം കോടുക, കൈകാലുകൾക്ക് തളർച്ച (പക്ഷാഘാത ലക്ഷണങ്ങൾ).",
+        "ബോധം നഷ്ടപ്പെടുക.",
+        "തലയ്ക്ക് പരിക്കേറ്റ ശേഷമുള്ള തലകറക്കം."
+      ]
+    },
+    "when_to_visit_phc": {
+      "en": [
+        "Dizziness recurring frequently across several days.",
+        "Persistent spinning sensation (vertigo) with ear ringing or hearing changes.",
+        "Persistent lightheadedness in elderly individuals or diabetics."
+      ],
+      "ta": [
+        "பல நாட்களாக தலைச்சுற்றல் மீண்டும் மீண்டும் ஏற்பட்டால்.",
+        "காது இரைச்சலுடன் கூடிய தொடர் சுழல் மயக்கம் (வெர்டிகோ).",
+        "முதியவர்கள் அல்லது சர்க்கரை நோயாளிகளுக்கு ஏற்படும் தொடர் சோர்வு."
+      ],
+      "te": [
+        "తరచుగా తలతిరుగుడు వస్తుంటే.",
+        "చెవులలో శబ్దాలు వస్తూ తల తిరుగుతుంటే.",
+        "వృద్ధులలో లేదా డయాబెటిస్ ఉన్నవారిలో నిరంతరం నీరసం ఉంటే."
+      ],
+      "ml": [
+        "പല ദിവസങ്ങളിലായി തലകറക്കം ആവർത്തിക്കുകയാണെങ്കിൽ.",
+        "ചെവിയിൽ മൂളിച്ചയോടെയുള്ള കടുത്ത തലകറക്കം.",
+        "പ്രായമായവരിലോ പ്രമേഹരോഗികളിലോ ഉള്ള വിട്ടുമാറാത്ത ക്ഷീണം."
+      ]
+    },
+    "emergency_action": {
+      "en": "If accompanied by sudden chest pain, loss of speech, one-sided paralysis, or patient remains unconscious, dial 108 Emergency Ambulance immediately.",
+      "ta": "நெஞ்சு வலி, பேச்சு இழப்பு, ஒரு பக்கம் பக்கவாதம் அல்லது சுயநினைவின்மை நீடித்தால் உடனடியாக 108 ஆம்புலன்ஸை அழைக்கவும்.",
+      "te": "ఛాతీ నొప్పి, పక్షవాతం లేదా స్పృహ రాకపోతే వెంటనే 108 కి కాల్ చేయండి.",
+      "ml": "നെഞ്ചുവേദന, സംസാരിക്കാൻ കഴിയായ്ക, പക്ഷാഘാതം എന്നിവയുണ്ടായാൽ ഉടൻ 108 വിളിക്കുക."
+    },
+    "source": "National Health Portal (NHP) India - Dizziness and Syncope Guidelines",
+    "source_url": "https://www.nhp.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "This guidance is for supportive self-care only."
+  },
+  {
+    "id": "minor-burns-first-aid",
+    "category": "symptoms_guidance",
+    "title_en": "Minor Burns and Scalds First-Aid Care",
+    "title_ta": "சிறு தீக்காயங்கள் மற்றும் சூட்டுப்புண் முதலுதவி",
+    "title_te": "చిన్న కాలిన గాయాలు మరియు ప్రథమ చికిత్స",
+    "title_ml": "ചെറിയ പൊള്ളലുകൾ - പ്രഥമശുശ്രൂഷ",
+    "keywords_en": [
+      "minor burn",
+      "burn",
+      "scald",
+      "hot water burn",
+      "steam burn",
+      "superficial burn",
+      "first degree burn",
+      "oil burn",
+      "cooking burn",
+      "theekaayam"
+    ],
+    "keywords_ta": [
+      "தீக்காயம்",
+      "சூட்டுப்புண்",
+      "வெந்நீர் காயம்",
+      "எண்ணெய் தீக்காயம்",
+      "தீ புண்"
+    ],
+    "keywords_te": [
+      "కాలిన గాయం",
+      "వేడి నీటి గాయం",
+      "చిన్న కాలిన గాయాలు",
+      "నూనె గాయం"
+    ],
+    "keywords_ml": [
+      "പൊള്ളൽ",
+      "ചൂടുവെള്ളം വീണു പൊള്ളിയത്",
+      "ചെറിയ പൊള്ളൽ",
+      "തീപ്പൊള്ളൽ"
+    ],
+    "keywords_tanglish": [
+      "theekaayam",
+      "thee kaayam",
+      "sootu kaayam",
+      "burn",
+      "minor burn",
+      "hot water burn"
+    ],
+    "what_it_indicates": {
+      "en": "Superficial epidermal thermal injury caused by brief contact with hot liquid, steam, hot surfaces, or oil, resulting in redness, mild swelling, and localized burning pain.",
+      "ta": "சூடான நீர், நீராவி, சூடான பாத்திரம் அல்லது எண்ணெய் படுவதால் தோலின் மேற்பகுதியில் ஏற்படும் சிவத்தல், லேசான வீக்கம் மற்றும் எரிச்சலுடன் கூடிய காயம்.",
+      "te": "వేడి నీరు, ఆవిరి లేదా వేడి వస్తువు తగలడం వల్ల చర్మంపై వచ్చే ఎరుపు, మంట మరియు చిన్న వాపు.",
+      "ml": "ചൂടുവെള്ളം, നീരാവി അല്ലെങ്കിൽ ചൂടുള്ള വസ്തുക്കൾ തട്ടി ചർമ്മത്തിൽ ഉണ്ടാകുന്ന ചുവപ്പും നീറ്റലും."
+    },
+    "safe_home_care": {
+      "en": [
+        "Immediately hold the burned area under gently running cool tap water for 10 to 20 minutes (never ice).",
+        "Gently remove any rings, watches, or loose clothing near the burned area before swelling starts.",
+        "Gently pat the area dry with a clean, lint-free cloth.",
+        "Cover the burn loosely with a sterile non-stick dressing or clean, dry cotton cloth to protect from dust and friction."
+      ],
+      "ta": [
+        "காயம் பட்ட இடத்தை உடனடியாக 10-20 நிமிடங்கள் ஓடும் குளிர்ந்த குழாய் நீரில் காட்டவும் (ஐஸ் பயன்படுத்த வேண்டாம்).",
+        "வீக்கம் வருவதற்கு முன் காயம் பட்ட இடத்திலுள்ள மோதிரம், கைக்கடிகாரம் அல்லது ஆடைகளை மெதுவாக அகற்றவும்.",
+        "சுத்தமான மென்மையான துணியால் காயத்தை மெதுவாக ஒற்றி உலர்த்தவும்.",
+        "தூசி படாமல் இருக்க சுத்தமான ஒட்டாத கட்டுத்துணியால் தளர்வாக மூடவும்."
+      ],
+      "te": [
+        "గాయం అయిన భాగాన్ని వెంటనే 10-20 నిమిషాలు కుళాయి నీటి కింద ఉంచండి (ఐస్ వాడవద్దు).",
+        "వాపు రాకముందే ఉంగరాలు, గడియారాలు తొలగించండి.",
+        "శుభ్రమైన గుడ్డతో తేమను తుడవండి.",
+        "శుభ్రమైన బ్యాండేజ్ లేదా గుడ్డతో వదులుగా కప్పండి."
+      ],
+      "ml": [
+        "പൊള്ളലേറ്റ ഭാഗം ഉടൻ തന്നെ 10-20 മിനിറ്റ് പൈപ്പിലെ തണുത്ത വെള്ളത്തിൽ കാണിക്കുക (ഐസ് ഉപയോഗിക്കരുത്).",
+        "വീക്കം ഉണ്ടാകുന്നതിന് മുമ്പ് മോതിരം, വാച്ച് എന്നിവ മാറ്റുക.",
+        "വൃത്തിയുള്ള തുണികൊണ്ട് മൃദുവായി ഒപ്പിയെടുക്കുക.",
+        "പൊടി അടിക്കാതിരിക്കാൻ വൃത്തിയുള്ള തുണികൊണ്ട് മൂടുക."
+      ]
+    },
+    "what_to_avoid": {
+      "en": [
+        "Do NOT apply ice, ice water, toothpaste, butter, oil, turmeric, or raw egg on the burn.",
+        "Do NOT break or puncture any fluid-filled blisters (intact skin protects against infection).",
+        "Do not peel away clothing that is firmly stuck to the burn.",
+        "Avoid using fluffy cotton wool directly on open burn surfaces."
+      ],
+      "ta": [
+        "தீக்காயத்தின் மீது ஐஸ், டூத்பேஸ்ட், வெண்ணெய், எண்ணெய், மஞ்சள் அல்லது முட்டையின் வெள்ளைக்கரு பூச வேண்டாம்.",
+        "தோலில் ஏற்படும் கொப்புளங்களை ஒருபோதும் உடைக்கவோ குத்தவோ கூடாது.",
+        "காயத்தில் ஒட்டிக்கொண்ட ஆடைகளை பலவந்தமாக இழுக்க வேண்டாம்.",
+        "காயத்தின் மீது பஞ்சை நேரடியாக வைக்க வேண்டாம்."
+      ],
+      "te": [
+        "గాయంపై ఐస్, టూత్‌పేస్ట్, వెన్న, నూనె, పసుపు పూయవద్దు.",
+        "పొక్కులను పగలగొట్టవద్దు.",
+        "గాయానికి అతుక్కుపోయిన బట్టలను లాగవద్దు.",
+        "దూదిని నేరుగా గాయంపై పెట్టవద్దు."
+      ],
+      "ml": [
+        "ഐസ്, ടൂത്ത് പേസ്റ്റ്, വെണ്ണ, എണ്ണ, മഞ്ഞൾ എന്നിവ പൊള്ളലിൽ പുരട്ടരുത്.",
+        "പൊള്ളലേറ്റ കുമിളകൾ പൊട്ടിക്കരുത്.",
+        "പൊള്ളലിൽ പറ്റിപ്പിടിച്ച വസ്ത്രങ്ങൾ ബലമായി വലിച്ചെടുക്കരുത്.",
+        "പഞ്ഞി നേരിട്ട് മുറിവിൽ വയ്ക്കരുത്."
+      ]
+    },
+    "warning_signs": {
+      "en": [
+        "Burns covering an area larger than 3 inches (the size of the patient's palm).",
+        "Burns on sensitive areas: face, hands, feet, groin, major joints, or eyes.",
+        "Deep burns where the skin looks white, waxy, leathery, charred, or numb.",
+        "Signs of infection developing after 24-48 hours: increasing redness, pus discharge, swelling, or fever."
+      ],
+      "ta": [
+        "உள்ளங்கையின் அளவை விட பெரிய தீக்காயம்.",
+        "முகம், கைகள், கால்கள், மூட்டுகள் அல்லது கண்களில் ஏற்படும் தீக்காயம்.",
+        "தோல் வெளுத்து, கருகி அல்லது மரத்துப்போகும் ஆழமான தீக்காயம்.",
+        "காயம் சீழ்பிடித்தல், அதிக வீக்கம் அல்லது காய்ச்சல் போன்ற தொற்று அறிகுறிகள்."
+      ],
+      "te": [
+        "అరచేతి కంటే పెద్దదైన కాలిన గాయం.",
+        "ముఖం, చేతులు, కాళ్ళు లేదా కళ్ళపై కాలిన గాయాలు.",
+        "చర్మం తెల్లగా, గట్టిగా మారడం లేదా స్పర్శ లేకపోవడం.",
+        "గాయంలో చీము పట్టడం, వాపు లేదా జ్వరం రావడం."
+      ],
+      "ml": [
+        "കൈപ്പത്തിയേക്കാൾ വലിപ്പമുള്ള പൊള്ളൽ.",
+        "മുഖം, കൈകൾ, കാലുകൾ, കണ്ണുകൾ എന്നിവിടങ്ങളിലെ പൊള്ളൽ.",
+        "ചർമ്മം വെളുക്കുകയോ കരിയുകയോ സ്പർശനശേഷി നഷ്ടപ്പെടുകയോ ചെയ്യുന്ന ആഴത്തിലുള്ള പൊള്ളൽ.",
+        "ചീവറ്റുക, കടുത്ത പനി തുടങ്ങിയ അണുബാധ ലക്ഷണങ്ങൾ."
+      ]
+    },
+    "when_to_visit_phc": {
+      "en": [
+        "Any burn larger than a coin or with persistent blister formation.",
+        "Burns in infants, children, elderly, or individuals with diabetes.",
+        "Burns that do not show signs of healing after 3-5 days."
+      ],
+      "ta": [
+        "நாணயத்தை விட பெரிய கொப்புளங்கள் ஏற்பட்டால்.",
+        "குழந்தைகள், முதியவர்கள் அல்லது சர்க்கரை நோயாளிகளுக்கு ஏற்படும் தீக்காயம்.",
+        "3-5 நாட்களுக்கு பிறகும் குணமாகாத புண்கள்."
+      ],
+      "te": [
+        "పెద్ద పొక్కులు ఏర్పడినప్పుడు.",
+        "చిన్నపిల్లలు, వృద్ధులు లేదా షుగర్ ఉన్నవారికి కాలినప్పుడు.",
+        "3-5 రోజుల్లో మానని గాయాలు."
+      ],
+      "ml": [
+        "വലിയ കുമിളകൾ ഉണ്ടായാൽ.",
+        "കുട്ടികൾ, പ്രായമായവർ, പ്രമേഹരോഗികൾ എന്നിവർക്ക് പൊള്ളലേറ്റാൽ.",
+        "3-5 ദിവസത്തിനകം ഭേദമാകാത്ത പൊള്ളൽ."
+      ]
+    },
+    "emergency_action": {
+      "en": "For severe, large chemical burns, electrical burns, burns covering face/chest with breathing difficulty, immediately dial 108 Emergency Ambulance.",
+      "ta": "பெரிய ரசாயன தீக்காயம், மின்சார விபத்து அல்லது மூச்சுத்திணறலுடன் கூடிய தீக்காயத்திற்கு உடனடியாக 108 அழைக்கவும்.",
+      "te": "రసాయన లేదా విద్యుత్ కాలిన గాయాలు, ఊపిరాడకపోతే వెంటనే 108 కి కాల్ చేయండి.",
+      "ml": "വൈദ്യുതി, രാസവസ്തുക്കൾ എന്നിവ മൂലമുള്ള കടുത്ത പൊള്ളലിന് ഉടൻ 108 വിളിക്കുക."
+    },
+    "source": "National Health Mission (NHM) & MoHFW First Aid Treatment Guidelines",
+    "source_url": "https://mohfw.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "This guidance is for supportive self-care only."
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "event_type": "OFFICIAL_GAZETTE_UPDATE",
+  "source_domain": "cmchistn.com",
+  "official_source": "Government of Tamil Nadu, Health & Family Welfare Department",
+  "official_url": "https://www.cmchistn.com/",
+  "retrieved_at": "2026-08-24T22:30:00Z",
+  "scheme_id": "cmchis-tamil-nadu",
+  "extracted_data": {
+    "scheme_name": {
+      "en": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)",
+      "ta": "முதலமைச்சரின் விரிவான மருத்துவக் காப்பீட்டுத் திட்டம்"
+    },
+    "state": "Tamil Nadu",
+    "annual_income_ceiling": 120000,
+    "coverage_amount": 500000,
+    "target_beneficiaries": "Families holding valid Tamil Nadu Smart Family Cards with annual family income up to ₹1,20,000.",
+    "new_empanelled_procedures": [
+      "Specialized paediatric cardiac intervention packages",
+      "Enhanced renal dialysis supportive procedures"
+    ],
+    "verification_status": "OFFICIALLY_GAZETTED",
+    "gazette_reference": "TN-GO-MS-2026-HEALTH-08"
+  }
+}

@@ -1,0 +1,259 @@
+[
+  {
+    "id": "acute-chest-pain-cardiac",
+    "category": "emergency_protocols",
+    "title_en": "Acute Severe Chest Pain & Suspected Heart Attack",
+    "title_ta": "கடுமையான நெஞ்சு வலி மற்றும் மாரடைப்பு அவசர சிகிச்சை",
+    "title_te": "తీవ్రమైన గుండె నొప్పి మరియు గుండెపోటు అత్యవసర సంరక్షణ",
+    "title_ml": "കഠിനമായ നെഞ്ചുവേദനയും ഹൃദയാഘാതവും - അടിയന്തിര പ്രോട്ടോക്കോൾ",
+    "keywords_en": [
+      "chest pain",
+      "heart attack",
+      "crushing chest pain",
+      "cardiac emergency",
+      "left arm pain",
+      "sweating chest tightness"
+    ],
+    "keywords_ta": [
+      "நெஞ்சு வலி",
+      "மாரடைப்பு",
+      "இதய வலி",
+      "நெஞ்சு அழுத்தம்",
+      "அதிக வியர்வை"
+    ],
+    "keywords_te": [
+      "గుండె నొప్పి",
+      "గుండెపోటు",
+      "ఛాతీ నొప్పి",
+      "ఎడమ చేయి నొప్పి",
+      "విపరీతమైన చెమటలు"
+    ],
+    "keywords_ml": [
+      "നെഞ്ചുവേദന",
+      "ഹൃദയാഘാതം",
+      "നെഞ്ചിൽ ഭാരം",
+      "ഇടതുകൈ വേദന",
+      "കടുത്ത വിയർപ്പ്"
+    ],
+    "keywords_tanglish": [
+      "nenju vali",
+      "maradaipu",
+      "chest pain",
+      "heart attack",
+      "nenju erichal"
+    ],
+    "what_it_indicates": {
+      "en": "CRITICAL MEDICAL EMERGENCY: May indicate acute coronary syndrome, myocardial infarction (heart attack), or acute cardiovascular event.",
+      "ta": "மிக முக்கியமான அவசர நிலை: மாரடைப்பு அல்லது கடுமையான இதய தமனி அடைப்பாக இருக்கலாம்.",
+      "te": "అత్యవసర పరిస్థితి: గుండెపోటు లేదా తీవ్రమైన గుండె సమస్య అయ్యే అవకాశం ఉంది.",
+      "ml": "അടിയന്തിര മെഡിക്കൽ സാഹചര്യം: ഹൃദയാഘാതത്തിനുള്ള സാധ്യത വളരെ കൂടുതലാണ്."
+    },
+    "immediate_safe_steps": {
+      "en": [
+        "IMMEDIATELY CALL 108 EMERGENCY AMBULANCE.",
+        "Have the person sit down in a semi-reclined 'W-position' (knees bent, back supported) to ease strain on the heart.",
+        "Loosen tight clothing around neck and waist.",
+        "Keep the patient calm and quiet; do not allow walking or exertion.",
+        "If previously prescribed Sorbitrate / Aspirin by their cardiologist, assist them in taking it as prescribed."
+      ],
+      "ta": [
+        "உடனடியாக 108 அவசர ஆம்புலன்ஸை அழைக்கவும்.",
+        "நோயாளியை படுக்க வைக்காமல், சாய்ந்த நிலையில் (W-Position) அமர வைக்கவும்.",
+        "கழுத்து மற்றும் இடுப்பு பகுதியிலுள்ள இறுக்கமான ஆடைகளைத் தளர்த்தவும்.",
+        "நோயாளியை நடக்க விடாதீர்கள்; அமைதியாக இருக்கச் செய்யவும்."
+      ],
+      "te": [
+        "వెంటనే 108 అత్యవసర అంబులెన్స్‌కు కాల్ చేయండి.",
+        "రోగిని నడవనివ్వకండి, కూర్చోబెట్టండి.",
+        "బిగుతుగా ఉన్న దుస్తులను వదులు చేయండి.",
+        "ప్రశాంతంగా ఉంచండి."
+      ],
+      "ml": [
+        "ഉടൻ തന്നെ 108 അത്യാഹിത ആംബുലൻസ് വിളിക്കുക.",
+        "രോഗിയെ കിടത്താതെ ചാരിയിരുത്തുക.",
+        "ഇറുകിയ വസ്ത്രങ്ങൾ അയക്കുക.",
+        "രോഗിയെ നടത്തിക്കരുത്, പരിഭ്രാന്തി ഒഴിവാക്കുക."
+      ]
+    },
+    "what_to_avoid": {
+      "en": [
+        "Do NOT allow the person to walk, drive, or exert themselves.",
+        "Do NOT give heavy food or water if feeling dizzy/nauseous.",
+        "Do NOT wait or assume it is simple gas trouble."
+      ],
+      "ta": [
+        "நோயாளியை நடக்கவோ அல்லது வாகனம் ஓட்டவோ அனுமதிக்காதீர்கள்.",
+        "இது வெறும் வாய்வுப் பிடிப்பு என்று அலட்சியமாக இருக்க வேண்டாம்."
+      ],
+      "te": [
+        "రోగిని నడవనివ్వవద్దు లేదా వాహనం నడపనివ్వవద్దు.",
+        "గ్యాస్ సమస్య అని నిర్లక్ష్యం చేయకండి."
+      ],
+      "ml": [
+        "രോഗിയെ നടത്തിക്കരുത്.",
+        "സാധാരണ ഗ്യാസ് ട്രബിൾ ആണെന്ന് കരുതി സമയം കളയരുത്."
+      ]
+    },
+    "emergency_red_flags": {
+      "en": [
+        "Pain radiating to left arm, shoulder, jaw, neck, or back.",
+        "Profuse cold sweating, dizziness, fainting, or breathlessness.",
+        "Crushing, squeezing sensation like a heavy weight on the chest."
+      ],
+      "ta": [
+        "வலி இடது கை, தோள்பட்டை, தாடை அல்லது முதுகுக்கு பரவுதல்.",
+        "அதிக குளிர் வியர்வை, மயக்கம், மூச்சுத்திணறல்.",
+        "நெஞ்சில் பாராங்கல் வைத்தது போன்ற அழுத்தம்."
+      ],
+      "te": [
+        "నొప్పి ఎడమ చేయి, దవడ లేదా వీపుకు పాకడం.",
+        "తీవ్రమైన చెమటలు, కళ్లు తిరగడం, శ్వాస అందకపోవడం."
+      ],
+      "ml": [
+        "വേദന ഇടതുകൈ, താടിയെല്ല്, പുറം എന്നിവിടങ്ങളിലേക്ക് പടരുക.",
+        "കടുത്ത വിയർപ്പ്, തലകറക്കം, ശ്വാസതടസ്സം."
+      ]
+    },
+    "emergency_action": {
+      "en": "DIAL 108 IMMEDIATELY. Rush to the nearest hospital with an ECG facility.",
+      "ta": "உடனடியாக 108 அழைக்கவும். ECG வசதியுள்ள அருகிலுள்ள மருத்துவமனைக்கு விரைந்து செல்லவும்.",
+      "te": "వెంటనే 108 కి కాల్ చేయండి. ఈసీజీ సదుపాయం ఉన్న ఆసుపత్రికి తరలించండి.",
+      "ml": "ഉടൻ 108 വിളിക്കുക. ഇ.സി.ജി സൗകര്യമുള്ള അടുത്തുള്ള ആശുപത്രിയിൽ എത്തിക്കുക."
+    },
+    "source": "Cardiological Society of India (CSI) & STEMI India Emergency Protocols",
+    "source_url": "https://mohfw.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Emergency Protocol: Seek immediate medical care."
+  },
+  {
+    "id": "snakebite-first-aid",
+    "category": "emergency_protocols",
+    "title_en": "Snakebite Emergency First Aid Protocol",
+    "title_ta": "பாம்புக்கடி அவசர முதலுதவி நெறிமுறை",
+    "title_te": "పాము కాటు అత్యవసర ప్రథమ చికిత్స",
+    "title_ml": "പാമ്പുകടി - അടിയന്തിര പ്രഥമശുശ്രൂഷാ പ്രോട്ടോക്കോൾ",
+    "keywords_en": [
+      "snakebite",
+      "snake bite",
+      "poisonous snake",
+      "venom",
+      "cobra",
+      "viper",
+      "krait",
+      "fang marks"
+    ],
+    "keywords_ta": [
+      "பாம்புக்கடி",
+      "விஷக்கடி",
+      "பாம்பு கடி",
+      "நல்ல பாம்பு",
+      "கட்டுவிரியன்",
+      "சுருட்டை"
+    ],
+    "keywords_te": [
+      "పాము కాటు",
+      "విషపూరిత పాము",
+      "పాము విషం",
+      "తాచుపాము",
+      "కట్లపాము"
+    ],
+    "keywords_ml": [
+      "പാമ്പുകടി",
+      "വിഷപ്പാമ്പ്",
+      "അണലി",
+      "ശങ്കുവരയൻ",
+      "മൂർഖൻ"
+    ],
+    "keywords_tanglish": [
+      "paambu kadi",
+      "visha kadi",
+      "snake bite",
+      "paambu visham"
+    ],
+    "what_it_indicates": {
+      "en": "TIME-CRITICAL EMERGENCY: Envenomation from venomous snake (Cobra, Krait, Russell's Viper, Saw-scaled Viper).",
+      "ta": "உயிர் காக்கும் அவசர நிலை: விஷப் பாம்பு கடியால் விஷம் உடலில் பரவும் அபாயம்.",
+      "te": "ప్రాణాంతక అత్యవసర పరిస్థితి: విషపూరిత పాము కాటు వల్ల విషం శరీరంలోకి చేరే ప్రమాదం.",
+      "ml": "ജീവൻരക്ഷാ അടിയന്തിര സാഹചര്യം: വിഷബാധയേൽക്കാനുള്ള സാധ്യത."
+    },
+    "immediate_safe_steps": {
+      "en": [
+        "KEEP THE PERSON CALM AND COMPLETELY STILL. Anxiety increases heart rate and speeds up venom spread.",
+        "Immobilize the bitten limb using a splint or sling (like a fractured bone) below heart level.",
+        "Remove rings, watches, tight bangles, or footwear before swelling starts.",
+        "RUSH IMMEDIATELY TO GOVERNMENT HOSPITAL WITH ANTI-SNAKE VENOM (ASV)."
+      ],
+      "ta": [
+        "பாதிக்கப்பட்டவரை பதற்றப்படாமல் முற்றிலும் அசையாமல் வைத்திருக்கவும். ஓடவோ நடக்கவோ கூடாது.",
+        "கடிபட்ட கை அல்லது காலை அசைக்காமல் மரக்கட்டை வைத்து கட்டவும்.",
+        "மோதிரம், வளையல், காலணி போன்ற இறுக்கமான பொருட்களை உடனே அகற்றவும்.",
+        "உடனடியாக Anti-Snake Venom (ASV) விஷ முறிவு மருந்து உள்ள அரசு மருத்துவமனைக்கு அழைத்துச் செல்லவும்."
+      ],
+      "te": [
+        "బాధితుడిని ప్రశాంతంగా, కదలకుండా ఉంచండి.",
+        "కాటు వేసిన కాలు లేదా చేయి కదలకుండా కర్ర సహాయంతో కట్టండి.",
+        "ఉంగరాలు, గాజులు, గట్టి దుస్తులు తొలగించండి.",
+        "వెంటనే యాంటీ స్నేక్ వీనం (ASV) ఉన్న ప్రభుత్వ ఆసుపత్రికి తరలించండి."
+      ],
+      "ml": [
+        "രോഗിയെ പരിഭ്രാന്തനാക്കാതെ പൂർണ്ണമായും അനങ്ങാതെ ഇരുത്തുക.",
+        "കടിയേറ്റ കൈയോ കാലോ അനക്കാതെ വെക്കുക.",
+        "മോതിരം, വളകൾ എന്നിവ ഉടൻ ഊരി മാറ്റുക.",
+        "ആന്റി സ്നേക്ക് വെനം (ASV) ഉള്ള സർക്കാർ ആശുപത്രിയിലേക്ക് ഉടൻ എത്തിക്കുക."
+      ]
+    },
+    "what_to_avoid": {
+      "en": [
+        "DO NOT cut, slash, or bleed the wound.",
+        "DO NOT suck venom with mouth or suction device.",
+        "DO NOT tie tight arterial tourniquets (causes tissue gangrene).",
+        "DO NOT apply ice, herbal pastes, potassium permanganate, or electric shocks.",
+        "DO NOT waste time visiting traditional healers / quacks."
+      ],
+      "ta": [
+        "கடித்த இடத்தில் கத்தியால் வெட்டவோ ரத்தத்தை உறிஞ்சவோ கூடாது.",
+        "மிக இறுக்கமாக கயிறு அல்லது துணி கொண்டு கட்டக் கூடாது.",
+        "பச்சை இலை, மூலிகை சாறு பூசக் கூடாது.",
+        "நாட்டு வைத்தியம் செய்து பொன்னான நேரத்தை வீணடிக்காதீர்கள்."
+      ],
+      "te": [
+        "గాయాన్ని కోయడం లేదా రక్తం పీల్చడం చేయవద్దు.",
+        "గట్టిగా తాడు కట్టవద్దు (రక్త ప్రసరణ ఆగిపోతుంది).",
+        "నాటు వైద్యుల వద్దకు వెళ్లి సమయం వృధా చేయవద్దు."
+      ],
+      "ml": [
+        "മുറിവിൽ കീറുകയോ വായകൊണ്ട് വിഷം വലിച്ചെടുക്കുകയോ ചെയ്യരുത്.",
+        "വളരെ മുറുക്കി കെട്ടരുത്.",
+        "പച്ചമരുന്ന് പ്രയോഗം നടത്തി സമയം കളയരുത്."
+      ]
+    },
+    "emergency_red_flags": {
+      "en": [
+        "Drooping eyelids (ptosis), difficulty speaking, swallowing, or breathing (Neurotoxic).",
+        "Bleeding from gums, nose, vomit, or puncture site (Hemotoxic).",
+        "Rapidly spreading swelling and severe pain."
+      ],
+      "ta": [
+        "கண் இமைகள் தொங்குதல், பேச அல்லது விழுங்க இயலாமை, மூச்சுத்திணறல்.",
+        "ஈறுகளில் ரத்தக்கசிவு, கடுமையான வீக்கம்."
+      ],
+      "te": [
+        "కనురెప్పలు వాలిపోవడం, మాట్లాడటం కష్టమవ్వడం, చిగుళ్ల నుండి రక్తం కారడం."
+      ],
+      "ml": [
+        "കൺപോളകൾ തൂങ്ങുക, സംസാരിക്കാനും ശ്വാസമെടുക്കാനും ബുദ്ധിമുട്ട്.",
+        "മോണയിൽ നിന്ന് രക്തസ്രാവം, അതിവേഗം പടരുന്ന വീക്കം."
+      ]
+    },
+    "emergency_action": {
+      "en": "CALL 108 IMMEDIATELY. Anti-Snake Venom (ASV) is available 100% FREE in all Government Taluk & District Hospitals.",
+      "ta": "உடனடியாக 108 அழைக்கவும். அனைத்து அரசு மருத்துவமனைகளிலும் விஷ முறிவு மருந்து (ASV) முற்றிலும் இலவசமாக உள்ளது.",
+      "te": "వెంటనే 108 కాల్ చేయండి. అన్ని ప్రభుత్వ ఆసుపత్రులలో పాము విష విరుగుడు మందు (ASV) ఉచితంగా లభిస్తుంది.",
+      "ml": "ഉടൻ 108 വിളിക്കുക. എല്ലാ താലൂക്ക്/ജില്ലാ സർക്കാർ ആശുപത്രികളിലും പാമ്പുവിഷത്തിനുള്ള മറുമരുന്ന് (ASV) സൗജന്യമാണ്."
+    },
+    "source": "National Snakebite Protocol & World Health Organization (WHO) Guidelines",
+    "source_url": "https://mohfw.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Critical Emergency First Aid Protocol."
+  }
+]
