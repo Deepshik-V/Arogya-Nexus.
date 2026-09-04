@@ -18,6 +18,7 @@ export const TRANSLATIONS = {
 
     // Auth
     login: "Login",
+    continueWithoutLogin: "Continue without login",
     createAccount: "Create Account",
     email: "Email Address",
     password: "Password",
@@ -280,6 +281,7 @@ export const TRANSLATIONS = {
 
     // Auth
     login: "உள்நுழைவு",
+    continueWithoutLogin: "உள்நுழையாமல் தொடரவும்",
     createAccount: "கணக்கு உருவாக்கவும்",
     email: "மின்னஞ்சல் முகவரி",
     password: "கடவுச்சொல்",
@@ -542,6 +544,7 @@ export const TRANSLATIONS = {
 
     // Auth
     login: "లాగిన్",
+    continueWithoutLogin: "లాగిన్ లేకుండా కొనసాగించండి",
     createAccount: "ఖాతా సృష్టించండి",
     email: "ఇమెయిల్ చిరునామా",
     password: "పాస్‌వర్డ్",
@@ -804,6 +807,7 @@ export const TRANSLATIONS = {
 
     // Auth
     login: "ലോഗിൻ",
+    continueWithoutLogin: "ലോഗിൻ ചെയ്യാതെ തുടരുക",
     createAccount: "അക്കൗണ്ട് സൃഷ്ടിക്കുക",
     email: "ഇമെയിൽ വിലാസം",
     password: "പാസ്‌വേഡ്",

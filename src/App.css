@@ -399,6 +399,37 @@
   cursor: not-allowed;
 }
 
+.btn-guest-auth {
+  width: 100%;
+  padding: 11px 16px;
+  border-radius: var(--radius-md);
+  background: var(--bg-surface-elevated, #f8fafc);
+  color: var(--text-primary, #0f172a);
+  border: 1px solid var(--border-color, #cbd5e1);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+  min-height: 44px;
+  margin-top: 6px;
+}
+
+.btn-guest-auth:hover {
+  background: var(--bg-hover, #f1f5f9);
+  border-color: var(--accent-primary, #0284c7);
+  color: var(--accent-primary, #0284c7);
+  transform: translateY(-1px);
+}
+
+.btn-guest-auth:focus-visible {
+  outline: 2px solid var(--accent-primary, #0284c7);
+  outline-offset: 2px;
+}
+
 .auth-secondary-actions {
   display: flex;
   flex-direction: column;

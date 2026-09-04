@@ -397,6 +397,13 @@ function App() {
   // Authentication State (Starts strictly in English)
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [authUser, setAuthUser] = useState(null);
+  const [isGuest, setIsGuest] = useState(() => {
+    try {
+      return sessionStorage.getItem("arogya_guest_session") === "true";
+    } catch {
+      return false;
+    }
+  });
   const [authMode, setAuthMode] = useState("login"); // "login" | "signup"
   const [authForm, setAuthForm] = useState({ name: "", email: "", password: "", confirmPassword: "" });
   const [authError, setAuthError] = useState("");
@@ -486,6 +493,17 @@ function App() {
 
   // Check existing session on mount
   useEffect(() => {
+    try {
+      if (sessionStorage.getItem("arogya_guest_session") === "true") {
+        setIsGuest(true);
+        setAuthUser({ name: "Guest Citizen", email: "", isGuest: true, role: "guest" });
+        setIsAuthenticated(true);
+        return;
+      }
+    } catch (e) {
+      console.warn("Guest session check error:", e);
+    }
+
     const token = localStorage.getItem("arogya_auth_token");
     if (!token) return;
 
@@ -497,6 +515,7 @@ function App() {
         return res.json();
       })
       .then((data) => {
+        setIsGuest(false);
         setAuthUser(data.user);
         setIsAuthenticated(true);
         if (data.user.profile && Object.keys(data.user.profile).length > 0) {
@@ -681,6 +700,10 @@ function App() {
         throw new Error(errorMsg);
       }
 
+      try {
+        sessionStorage.removeItem("arogya_guest_session");
+      } catch {}
+      setIsGuest(false);
       localStorage.setItem("arogya_auth_token", data.session_token);
       setAuthUser(data.user);
       setIsAuthenticated(true);
@@ -756,7 +779,29 @@ function App() {
     setResetToken("");
   };
 
+  // Continue without login (Guest Session)
+  const handleContinueWithoutLogin = () => {
+    try {
+      sessionStorage.setItem("arogya_guest_session", "true");
+    } catch {}
+    setIsGuest(true);
+    setAuthUser({
+      name: "Guest Citizen",
+      email: "",
+      isGuest: true,
+      role: "guest",
+    });
+    setAuthError("");
+    setAuthSuccessNotice("");
+    setIsAuthenticated(true);
+    setActiveView("home");
+  };
+
   const handleLogout = () => {
+    try {
+      sessionStorage.removeItem("arogya_guest_session");
+    } catch {}
+    setIsGuest(false);
     const token = localStorage.getItem("arogya_auth_token");
     if (token) {
       fetch(`${API_BASE_URL}/api/auth/logout`, {
@@ -776,6 +821,8 @@ function App() {
   const handleProfileUpdate = async (nextProfile) => {
     setProfile(nextProfile);
     localStorage.setItem("arogya_patient_profile", JSON.stringify(nextProfile));
+
+    if (isGuest) return; // Guest sessions store clinical criteria in localStorage, zero backend account modification
 
     const token = localStorage.getItem("arogya_auth_token");
     if (!token) return;
@@ -1103,6 +1150,18 @@ function App() {
             <button type="submit" className="btn-primary-auth" disabled={authBusy}>
               {authBusy ? t("verifying", selectedLang) : authMode === "login" ? t("login", selectedLang) : t("createAccount", selectedLang)}
             </button>
+
+            {authMode === "login" && (
+              <button
+                type="button"
+                id="continue-without-login-btn"
+                className="btn-guest-auth"
+                onClick={handleContinueWithoutLogin}
+              >
+                <span>👤</span>
+                <span>{t("continueWithoutLogin", selectedLang) || "Continue without login"}</span>
+              </button>
+            )}
 
             <div className="auth-secondary-actions">
               {authMode === "login" && (
