@@ -1,0 +1,13 @@
+services:
+  arogya-nexus:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: arogya-nexus-app
+    ports:
+      - "8000:8000"
+    environment:
+      - SARVAM_API_KEY=${SARVAM_API_KEY:-}
+      - LLM_API_KEY=${LLM_API_KEY:-}
+      - AUTH_SECRET=${AUTH_SECRET:-production-secret-key}
+    restart: unless-stopped
