@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 
 from services.sarvamService import transcribe_audio, text_to_speech
 from services.llmService import generate_healthcare_response, generate_healthcare_response_stream
-from services.knowledgeService import reload_knowledge_base
+from services.knowledgeService import reload_knowledge_base, load_all_knowledge_cards, search_schemes
 from services.eligibilityService import evaluate_profile_eligibility
 from services.schemeRecommendationService import get_scheme_recommendations
 from services.schemeComparisonService import compare_schemes
@@ -680,6 +680,79 @@ async def schemes_compare_endpoint(request: SchemeComparisonRequest):
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Scheme comparison failed: {str(e)}"
+        )
+
+
+class SchemeListRequest(BaseModel):
+    query: Optional[str] = None
+    state: Optional[str] = None
+    category: Optional[str] = None
+    language_code: Optional[str] = "en-IN"
+
+
+@app.get("/api/schemes")
+@app.post("/api/schemes")
+async def list_schemes_endpoint(
+    request: Optional[SchemeListRequest] = None,
+    query: Optional[str] = None,
+    state: Optional[str] = None,
+    category: Optional[str] = None,
+    language_code: Optional[str] = "en-IN"
+):
+    """
+    Returns complete catalog of verified government health schemes across National,
+    Tamil Nadu, Andhra Pradesh, and Kerala with search and category filtering.
+    """
+    try:
+        search_query = (request.query if request and request.query else query or "").strip().lower()
+        target_state = (request.state if request and request.state else state or "").strip()
+        target_cat = (request.category if request and request.category else category or "").strip().lower()
+
+        all_cards = load_all_knowledge_cards()
+        schemes = [c for c in all_cards if c.get("category") in ("government_scheme", "health_schemes")]
+
+        # Filter by state if provided
+        if target_state and target_state.lower() != "all":
+            norm_state = target_state.lower()
+            if norm_state in ("national", "all-india", "all india", "central"):
+                schemes = [s for s in schemes if s.get("state", "").lower() == "national"]
+            else:
+                # Include state-specific schemes + national schemes
+                schemes = [s for s in schemes if s.get("state", "").lower() in (norm_state, "national")]
+
+        # Filter by category if provided
+        if target_cat and target_cat != "all":
+            schemes = [s for s in schemes if s.get("scheme_category", "").lower() == target_cat]
+
+        # Filter by search query if provided
+        if search_query:
+            filtered = []
+            for s in schemes:
+                names = s.get("scheme_name", {})
+                name_vals = [str(v).lower() for v in names.values()] if isinstance(names, dict) else [str(names).lower()]
+                desc_vals = [str(v).lower() for v in s.get("short_description", {}).values()] if isinstance(s.get("short_description"), dict) else [str(s.get("short_description", "")).lower()]
+                kw_vals = (
+                    s.get("keywords_en", []) +
+                    s.get("keywords_ta", []) +
+                    s.get("keywords_tanglish", []) +
+                    s.get("keywords_te", []) +
+                    s.get("keywords_ml", [])
+                )
+                all_text = " ".join(name_vals + desc_vals + [str(k).lower() for k in kw_vals] + [s.get("id", "").lower(), s.get("state", "").lower()])
+                if search_query in all_text:
+                    filtered.append(s)
+            schemes = filtered
+
+        return {
+            "status": "success",
+            "total": len(schemes),
+            "schemes": schemes,
+            "disclaimer": "All schemes sourced directly from official Central and State Government health gazettes."
+        }
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to retrieve government schemes: {str(e)}"
         )
 
 

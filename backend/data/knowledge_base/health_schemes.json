@@ -2418,5 +2418,311 @@
       "വയോജന ക്ലിനിക്",
       "60 വയസ്സിന് മുകളിലുള്ളവരുടെ ചികിത്സ"
     ]
+  },
+  {
+    "id": "pmsma-pradhan-mantri-surakshit-matritva",
+    "category": "government_scheme",
+    "scheme_category": "maternal_child",
+    "title_en": "Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)",
+    "title_ta": "பிரதான் மந்திரி சுரக்ஷித் மாத்ரித்வா அபியான் (PMSMA)",
+    "title_te": "ప్రధాన మంత్రి సురక్షిత మాతృత్వ అభియాన్ (PMSMA)",
+    "title_ml": "പ്രധാൻ മന്ത്രി സുരക്ഷിത് മാതൃത്വ അഭിയാൻ (PMSMA)",
+    "scheme_name": {
+      "en": "Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)",
+      "ta": "பிரதான் மந்திரி சுரக்ஷித் மாத்ரித்வா அபியான் (PMSMA)",
+      "te": "ప్రధాన మంత్రి సురక్షిత మాతృత్వ అభియాన్ (PMSMA)",
+      "ml": "പ്രധാൻ മന്ത്രി സുരക്ഷിത് മാതൃത്വ അഭിയാൻ (PMSMA)"
+    },
+    "short_description": {
+      "en": "Guaranteed comprehensive, free antenatal care and high-risk pregnancy screening by OBGYN specialists on the 9th of every month across India.",
+      "ta": "ஒவ்வொரு மாதமும் 9-ஆம் தேதி அனைத்து கர்ப்பிணி தாய்மார்களுக்கும் இலவச சிறப்பு தாய்மை பரிசோதனை மற்றும் ஸ்கேன் வசதி.",
+      "te": "ప్రతి నెలా 9వ తేదీన గర్భిణీ స్త్రీలకు ఉచిత ప్రత్యేక ప్రసవ పూర్వ పరీక్షలు మరియు అల్ట్రాసౌండ్ సేవలు.",
+      "ml": "എല്ലാ മാസവും 9-ാം തീയതി ഗർഭിണികൾക്ക് സൗജന്യ വിദഗ്ദ്ധ പരിശോധനയും അൾട്രാസൗണ്ട് സേവനങ്ങളും."
+    },
+    "purpose": {
+      "en": "Ensure quality antenatal care, identify high-risk pregnancies early (gestational diabetes, hypertension, anemia), and prevent maternal and infant mortality.",
+      "ta": "கர்ப்பிணிப் பெண்களுக்கு தரமான மகப்பேறுக்கு முந்தைய பராமரிப்பை உறுதிசெய்து, தாய் மற்றும் சிசு இறப்பு விகிதத்தை குறைத்தல்.",
+      "te": "గర్భిణులలో సమస్యలను ముందుగానే గుర్తించి, సురక్షిత ప్రసవాన్ని అందించడం.",
+      "ml": "ഗർഭകാലത്തെ അപകടസാധ്യതകൾ നേരത്തെ കണ്ടെത്തി സുരക്ഷിതമായ പ്രസവം ഉറപ്പാക്കുക."
+    },
+    "eligibility": {
+      "en": [
+        "All pregnant women in their 2nd and 3rd trimesters (after 12 weeks of pregnancy).",
+        "Applicable universally to urban and rural pregnant women regardless of income.",
+        "Priority tracking for high-risk pregnancies (red sticker on Mother and Child Protection Card)."
+      ],
+      "ta": [
+        "கர்ப்பத்தின் 2-வது மற்றும் 3-வது பருவத்தில் உள்ள அனைத்து கர்ப்பிணி தாய்மார்கள் (12 வாரங்களுக்கு மேல்).",
+        "வருமான வரம்பின்றி அனைத்து கிராமப்புற மற்றும் நகர்ப்புற பெண்களுக்கு பொருந்தும்.",
+        "அபாயகரமான கர்ப்ப அறிகுறிகள் உள்ள தாய்மார்களுக்கு உடனடி சிறப்பு சிகிச்சை."
+      ],
+      "te": [
+        "గర్భం దాల్చిన 12 వారాల తర్వాత ఉన్న గర్భిణీ స్త్రీలందరూ అర్హులు.",
+        "ఆదాయ పరిమితి లేకుండా అందరికీ ఉచిత సేవలు."
+      ],
+      "ml": [
+        "രണ്ടാമത്തെയും മൂന്നാമത്തെയും ത്രിമാസത്തിലുള്ള എല്ലാ ഗർഭിണികൾക്കും അർഹതയുണ്ട്."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Free comprehensive clinical checkup by Gynecologists / Medical Officers on the 9th of every month.",
+        "Free diagnostic blood tests, urine tests, and Ultrasound (USG) screening.",
+        "Free Iron & Folic Acid (IFA) and Calcium supplementation.",
+        "Individual counseling on nutrition, high-risk danger signs, and birth planning."
+      ],
+      "ta": [
+        "மாதந்தோறும் 9-ஆம் தேதி மகளிர் மருத்துவ நிபுணரின் இலவச முழுமையான மருத்துவப் பரிசோதனை.",
+        "இலவச ரத்தப் பரிசோதனை, சிறுநீர் பரிசோதனை மற்றும் அல்ட்ராசவுண்ட் ஸ்கேன்.",
+        "இலவச இரும்புச்சத்து, போலிக் அமிலம் மற்றும் கால்சியம் மாத்திரைகள்.",
+        "ஊட்டச்சத்து மற்றும் அபாய எச்சரிக்கை அறிகுறிகள் குறித்த தனிநபர் ஆலோசனை."
+      ],
+      "te": [
+        "ప్రతి నెలా 9వ తేదీన గైనకాలజిస్ట్ చేత ఉచిత పరీక్షలు.",
+        "ఉచిత రక్త, మూత్ర పరీక్షలు మరియు అల్ట్రాసౌండ్ స్కానింగ్.",
+        "ఉచిత ఐరన్ మరియు కాల్షియం మందులు."
+      ],
+      "ml": [
+        "എല്ലാ മാസവും 9-ന് സൗജന്യ ഗൈനക്കോളജിസ്റ്റ് പരിശോധനയും സ്കാനിംഗും മരുന്നുകളും."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "Mother and Child Protection (MCP) Card / RCH ID",
+        "Aadhaar Card or valid Government Photo ID"
+      ],
+      "ta": [
+        "தாய் சேய் பாதுகாப்பு அட்டை (MCP Card) / RCH எண்",
+        "ஆதார் அட்டை அல்லது அரசு அடையாள அட்டை"
+      ],
+      "te": [
+        "తల్లి మరియు పిల్లల రక్షణ (MCP) కార్డు",
+        "ఆధార్ కార్డు"
+      ],
+      "ml": [
+        "എം.സി.പി കാർഡ് (Mother and Child Protection Card)",
+        "ആധാർ കാർഡ്"
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "Register your pregnancy at the nearest PHC or Sub-Centre with your Village Health Nurse (VHN) / ANM.",
+        "Visit your nearest Government Hospital, CHC, or designated PMSMA clinic on the 9th of any month."
+      ],
+      "ta": [
+        "அருகிலுள்ள ஆரம்ப சுகாதார நிலையத்தில் உங்கள் கிராம சுகாதார செவிலியரிடம் கர்ப்பத்தை பதிவு செய்யவும்.",
+        "எந்த மாதத்திலும் 9-ஆம் தேதி அரசு மருத்துவமனை அல்லது CHC-யில் நடைபெறும் PMSMA முகாமிற்கு செல்லவும்."
+      ],
+      "te": [
+        "గ్రామ ఆరోగ్య కార్యకర్త వద్ద పేరు నమోదు చేసుకుని, ప్రతి నెలా 9న సమీప ఆసుపత్రిని సందర్శించండి."
+      ],
+      "ml": [
+        "അടുത്തുള്ള പി.എച്ച്.സി-യിൽ രജിസ്റ്റർ ചെയ്ത് മാസത്തിലെ 9-ാം തീയതി ക്ലിനിക്കിൽ പങ്കെടുക്കുക."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "Designated Government Hospitals, Community Health Centres (CHC), and Urban PHCs | Portal: pmsma.mohfw.gov.in"
+      ],
+      "ta": [
+        "அரசு மருத்துவமனைகள், வட்டார சுகாதார நிலையங்கள் (CHC), நகர்ப்புற PHC | இணையதளம்: pmsma.mohfw.gov.in"
+      ],
+      "te": [
+        "ప్రభుత్వ ఆసుపత్రులు మరియు కమ్యూనిటీ హెల్త్ సెంటర్లు (CHC) | పోర్టల్: pmsma.mohfw.gov.in"
+      ],
+      "ml": [
+        "സർക്കാർ ആശുപത്രികൾ, കമ്മ്യൂണിറ്റി ഹെൽത്ത് സെന്ററുകൾ (CHC) | പോർട്ടൽ: pmsma.mohfw.gov.in"
+      ]
+    },
+    "state": "National",
+    "official_source": "Ministry of Health and Family Welfare (MoHFW), Government of India",
+    "official_url": "https://pmsma.mohfw.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "pmsma",
+      "pradhan mantri surakshit matritva abhiyan",
+      "pregnancy checkup 9th month",
+      "free ultrasound pregnant",
+      "anc antenatal care",
+      "high risk pregnancy screening"
+    ],
+    "keywords_ta": [
+      "PMSMA",
+      "சுரக்ஷித் மாத்ரித்வா அபியான்",
+      "கர்ப்பிணி 9 ஆம் தேதி பரிசோதனை",
+      "இலவச ஸ்கேன் கர்ப்பிணி",
+      "தாய்மை நலம் முகாம்"
+    ],
+    "keywords_tanglish": [
+      "pmsma scheme",
+      "pregnant free scan",
+      "9th date pregnancy checkup",
+      "prasavam scan",
+      "mother child care"
+    ],
+    "keywords_te": [
+      "ప్రధాన మంత్రి సురక్షిత మాతృత్వ అభియాన్",
+      "PMSMA",
+      "గర్భిణీ స్త్రీల ఉచిత స్కానింగ్",
+      "9వ తేదీ గర్భధారణ పరీక్ష"
+    ],
+    "keywords_ml": [
+      "പ്രധാൻ മന്ത്രി സുരക്ഷിത് മാതൃത്വ അഭിയാൻ",
+      "PMSMA",
+      "ഗർഭിണികളുടെ സൗജന്യ സ്കാനിംഗ്"
+    ]
+  },
+  {
+    "id": "nhm-free-healthcare-services",
+    "category": "government_scheme",
+    "scheme_category": "preventive_care",
+    "title_en": "National Health Mission (NHM) Free Healthcare Services",
+    "title_ta": "தேசிய சுகாதார இயக்கம் (NHM) இலவச சுகாதார சேவைகள்",
+    "title_te": "జాతీయ ఆరోగ్య మిషన్ (NHM) ఉచిత ఆరోగ్య సేవలు",
+    "title_ml": "ദേശീയ ആരോഗ്യ ദൗത്യം (NHM) സൗജന്യ ആരോഗ്യ സേവനങ്ങൾ",
+    "scheme_name": {
+      "en": "National Health Mission (NHM) Free Universal Services",
+      "ta": "தேசிய சுகாதார இயக்கம் (NHM) இலவச சுகாதார சேவைகள்",
+      "te": "జాతీయ ఆరోగ్య మిషన్ (NHM) ఉచిత ఆరోగ్య సేవలు",
+      "ml": "ദേശീയ ആരോഗ്യ ദൗത്യം (NHM) സൗജന്യ ആരോഗ്യ സേവനങ്ങൾ"
+    },
+    "short_description": {
+      "en": "Universal free essential medicines, free diagnostic laboratory tests, and free emergency referral transport across rural Sub-Centres, PHCs, and CHCs.",
+      "ta": "கிராமப்புற ஆரம்ப சுகாதார நிலையங்களில் இலவச மருந்துகள், இலவச இரத்த/சிறுநீர் பரிசோதனைகள் மற்றும் இலவச ஆம்புலன்ஸ் வசதி.",
+      "te": "ప్రాథమిక ఆరోగ్య కేంద్రాలలో ఉచిత మందులు, ఉచిత రోగ నిర్ధారణ పరీక్షలు మరియు అత్యవసర రవాణా.",
+      "ml": "സർക്കാർ പ്രാഥമികാരോഗ്യ കേന്ദ്രങ്ങളിൽ സൗജന്യ മരുന്നുകളും പരിശോധനകളും അടിയന്തര ആംബുലൻസ് സൗകര്യങ്ങളും."
+    },
+    "purpose": {
+      "en": "Provide accessible, affordable, and accountable universal healthcare to rural and vulnerable populations with zero out-of-pocket expenses at primary healthcare facilities.",
+      "ta": "கிராமப்புற மக்களுக்கு எந்தவொரு கட்டணமும் இன்றி ஆரம்ப சுகாதார சேவைகள், மருந்துகள் மற்றும் பரிசோதனைகளை தடையின்றி வழங்குதல்.",
+      "te": "గ్రామీణ పేద ప్రజలకు ప్రాథమిక ఆరోగ్య కేంద్రాలలో ఉచిత చికిత్స, మందులు మరియు పరీక్షలు అందించడం.",
+      "ml": "ഗ്രാമീണ മേഖലകളിലെ ജനങ്ങൾക്ക് സൗജന്യവും മികച്ചതുമായ പ്രാഥമിക ആരോഗ്യ സേവനങ്ങൾ ലഭ്യമാക്കുക."
+    },
+    "eligibility": {
+      "en": [
+        "Open to all Indian citizens visiting public health facilities (HWC, Sub-Centre, PHC, CHC, District Hospital).",
+        "Universal entitlement with zero fees for outpatient consultations and essential national formulary medicines."
+      ],
+      "ta": [
+        "அரசு ஆரம்ப சுகாதார நிலையம், துணை நிலையம் அல்லது அரசு மருத்துவமனைக்கு வரும் அனைத்து குடிமக்களுக்கும் இலவசம்.",
+        "எந்தவித வருமான வரம்பும் இன்றி 100% இலவச வெளிநோயாளி சிகிச்சை மற்றும் மருந்துகள்."
+      ],
+      "te": [
+        "ప్రభుత్వ ప్రాథమిక ఆరోగ్య కేంద్రాలకు వచ్చే పౌరులందరికీ ఉచిత సేవలు అందుబాటులో ఉంటాయి."
+      ],
+      "ml": [
+        "സർക്കാർ ആരോഗ്യ കേന്ദ്രങ്ങളെ ആശ്രയിക്കുന്ന എല്ലാ പൗരന്മാർക്കും സേവനങ്ങൾ സൗജന്യമാണ്."
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Free Essential Drugs Initiative: Access to essential generic medicines at no cost.",
+        "Free Diagnostic Service Initiative: Free basic blood, urine, diabetes, hypertension, and sputum screening.",
+        "Free National Dialysis Programme at District Hospitals.",
+        "Free 108 Emergency Ambulance & 102 Mother-Child Dropback Transport."
+      ],
+      "ta": [
+        "அத்தியாவசிய பொதுவான மருந்துகள் (Generic Medicines) 100% இலவசம்.",
+        "ரத்த அழுத்தம், சர்க்கரை நோய், மலேரியா, காசநோய் உள்ளிட்ட அடிப்படை பரிசோதனைகள் இலவசம்.",
+        "மாவட்ட மருத்துவமனைகளில் இலவச டயாலிசிஸ் சிகிச்சை.",
+        "108 அவசர ஆம்புலன்ஸ் மற்றும் 102 தாய்-சேய் இலவச வாகன சேவை."
+      ],
+      "te": [
+        "అన్ని రకాల ప్రాథమిక మందులు ఉచితం.",
+        "రక్త, మధుమేహ, బీపీ పరీక్షలు ఉచితంగా చేయబడతాయి.",
+        "108 అంబులెన్స్ సేవలు మరియు జిల్లా కేంద్రాలలో ఉచిత డయాలసిస్."
+      ],
+      "ml": [
+        "അത്യാവശ്യ മരുന്നുകളും ലാബ് പരിശോധനകളും സൗജന്യം.",
+        "സൗജന്യ ഡയാലിസിസ് സേവനങ്ങളും 108 ആംബുലൻസ് സൗകര്യവും."
+      ]
+    },
+    "required_documents": {
+      "en": [
+        "Any government ID (Aadhaar, Voter ID, Ration Card) for hospital registration OP slip."
+      ],
+      "ta": [
+        "மருத்துவமனை புறநோயாளி சீட்டுக்கு (OP Slip) ஆதார் அட்டை அல்லது ஏதேனும் அடையாள அட்டை."
+      ],
+      "te": [
+        "ఆధార్ కార్డు లేదా ఓటర్ కార్డు."
+      ],
+      "ml": [
+        "ആധാർ അല്ലെങ്കിൽ തിരിച്ചറിയൽ കാർഡ്."
+      ]
+    },
+    "how_to_apply": {
+      "en": [
+        "Direct walk-in to any Government Health & Wellness Centre (HWC), PHC, CHC, or Taluk Hospital.",
+        "Obtain a free OPD registration slip at the registration counter."
+      ],
+      "ta": [
+        "உங்கள் அருகிலுள்ள அரசு ஆரம்ப சுகாதார நிலையம் (PHC) அல்லது மருத்துவமனைக்கு நேரடியாக செல்லவும்.",
+        "பதிவு கவுண்டரில் இலவச OP சீட்டு பெற்று மருத்துவரை அணுகவும்."
+      ],
+      "te": [
+        "సమీపంలోని ప్రభుత్వ పిహెచ్‌సికి నేరుగా వెళ్లి ఉచిత ఒపి స్లిప్ తీసుకోండి."
+      ],
+      "ml": [
+        "നേരിട്ട് അടുത്തുള്ള സർക്കാർ ആശുപത്രിയിൽ പോയി സൗജന്യ ഒപി ടിക്കറ്റ് എടുക്കുക."
+      ]
+    },
+    "where_to_apply": {
+      "en": [
+        "All Ayushman Arogya Mandirs (Health & Wellness Centres), PHCs, CHCs, and District Hospitals across India | Portal: nhm.gov.in"
+      ],
+      "ta": [
+        "அனைத்து அரசு ஆரம்ப சுகாதார நிலையங்கள் (PHC), நலவாழ்வு மையங்கள் (HWC), அரசு மருத்துவமனைகள் | இணையதளம்: nhm.gov.in"
+      ],
+      "te": [
+        "అన్ని ప్రభుత్వ ఆరోగ్య కేంద్రాలు మరియు జిల్లా ఆసుపత్రులు | పోర్టల్: nhm.gov.in"
+      ],
+      "ml": [
+        "എല്ലാ പ്രാഥമികാരോഗ്യ കേന്ദ്രങ്ങളും സർക്കാർ ആശുപത്രികളും | പോർട്ടൽ: nhm.gov.in"
+      ]
+    },
+    "state": "National",
+    "official_source": "National Health Mission (NHM), Ministry of Health & Family Welfare, Government of India",
+    "official_url": "https://nhm.gov.in/",
+    "last_verified": "2026-08-25",
+    "disclaimer": "Final eligibility and benefit sanction must be confirmed with the official government authority.",
+    "keywords_en": [
+      "nhm",
+      "national health mission",
+      "free medicines phc",
+      "free lab tests government",
+      "ayushman arogya mandir",
+      "108 ambulance free",
+      "free dialysis"
+    ],
+    "keywords_ta": [
+      "NHM",
+      "தேசிய சுகாதார இயக்கம்",
+      "அரசு இலவச மாத்திரைகள்",
+      "இலவச ரத்த பரிசோதனை",
+      "ஆரோக்கிய மந்திர்",
+      "108 ஆம்புலன்ஸ்"
+    ],
+    "keywords_tanglish": [
+      "nhm scheme",
+      "government free medicine",
+      "phc free tablets",
+      "108 ambulance service",
+      "free sugar test"
+    ],
+    "keywords_te": [
+      "జాతీయ ఆరోగ్య మిషన్",
+      "NHM",
+      "ఉచిత మందులు",
+      "ఉచిత వైద్య పరీక్షలు",
+      "108 అంబులెన్స్"
+    ],
+    "keywords_ml": [
+      "ദേശീയ ആരോഗ്യ ദൗത്യം",
+      "NHM",
+      "സൗജന്യ മരുന്നുകൾ",
+      "സൗജന്യ ലാബ് ടെസ്റ്റുകൾ"
+    ]
   }
 ]

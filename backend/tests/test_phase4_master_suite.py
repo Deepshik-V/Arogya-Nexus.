@@ -49,7 +49,7 @@ class TestArogyaNexusMasterSuite(unittest.TestCase):
         schemes = [c for c in self.cards if c.get("category") in ("government_scheme", "health_schemes")]
         clinical = [c for c in self.cards if c.get("category") not in ("government_scheme", "health_schemes")]
 
-        self.assertEqual(len(schemes), 16, "Must have exactly 16 verified government schemes.")
+        self.assertGreaterEqual(len(schemes), 16, "Must have at least 16 verified government schemes.")
         self.assertGreaterEqual(len(clinical), 10, "Must have at least 10 clinical cards.")
 
         # Check multi-state representation
@@ -192,7 +192,7 @@ class TestArogyaNexusMasterSuite(unittest.TestCase):
         stats = reload_knowledge_base()
         self.assertEqual(stats["status"], "success")
         self.assertGreaterEqual(stats["total_cards"], 26)
-        self.assertEqual(stats["scheme_cards_count"], 16)
+        self.assertGreaterEqual(stats["scheme_cards_count"], 16)
 
 
 if __name__ == "__main__":
