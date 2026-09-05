@@ -821,6 +821,7 @@ function App() {
   const handleProfileUpdate = async (nextProfile) => {
     setProfile(nextProfile);
     localStorage.setItem("arogya_patient_profile", JSON.stringify(nextProfile));
+    setEligibilityData(null); // Invalidate cached eligibility so fresh profile details trigger immediate recalculation
 
     if (isGuest) return; // Guest sessions store clinical criteria in localStorage, zero backend account modification
 

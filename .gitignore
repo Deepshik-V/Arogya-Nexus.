@@ -31,3 +31,10 @@ dist-ssr
 # Executables and Binaries
 *.exe
 cloudflared.exe
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/

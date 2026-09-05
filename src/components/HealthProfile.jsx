@@ -1,6 +1,7 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { t } from "../translations";
-import { geocodeLocation } from "../services/aiService";
+import { geocodeLocation, getLocationHierarchy } from "../services/aiService";
+import { STATIC_HIERARCHY } from "./LocationPermissionCard";
 
 const STORAGE_KEY = "arogya_patient_profile";
 
@@ -15,6 +16,7 @@ const INITIAL_PROFILE = {
   pincode: "636001",
   latitude: 11.6508,
   longitude: 78.1402,
+  annual_income: 100000,
   income_range: "< 1.2L",
   family_size: "4",
   is_pregnant: false,
@@ -28,6 +30,7 @@ const STATE_OPTIONS = [
   { id: "Tamil Nadu", key: "stateTamilNadu" },
   { id: "Andhra Pradesh", key: "stateAndhraPradesh" },
   { id: "Kerala", key: "stateKerala" },
+  { id: "Karnataka", key: "stateKarnataka", fallback: "Karnataka" },
   { id: "National", key: "stateAllIndia" },
 ];
 
@@ -44,13 +47,44 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
   const [currentStep, setCurrentStep] = useState(1);
   const [activePreset, setActivePreset] = useState(null);
   const [savedMessage, setSavedMessage] = useState(false);
+  const [isGeocoding, setIsGeocoding] = useState(false);
+  const [customLocationMode, setCustomLocationMode] = useState(false);
+  const [hierarchy, setHierarchy] = useState(STATIC_HIERARCHY);
+
+  useEffect(() => {
+    getLocationHierarchy()
+      .then((data) => {
+        if (data && typeof data === "object" && Object.keys(data).length > 0) {
+          setHierarchy((prev) => ({ ...prev, ...data }));
+        }
+      })
+      .catch(() => {});
+  }, []);
 
   const profileSteps = [
-    { step: 1, key: "personalDetails", title: t("personalDetails", languageCode) },
-    { step: 2, key: "locationDetails", title: t("locationDetails", languageCode) },
-    { step: 3, key: "familyIncome", title: t("familyIncome", languageCode) },
-    { step: 4, key: "healthInformation", title: t("healthInformation", languageCode) },
+    { step: 1, key: "personalDetails", title: t("personalDetails", languageCode) || "Personal Details" },
+    { step: 2, key: "locationDetails", title: t("locationDetails", languageCode) || "Location Hierarchy" },
+    { step: 3, key: "familyIncome", title: t("familyIncome", languageCode) || "Financial & Family" },
+    { step: 4, key: "healthInformation", title: t("healthInformation", languageCode) || "Clinical History" },
   ];
+
+  const availableDistricts = useMemo(() => {
+    const st = profile.state || "Tamil Nadu";
+    return Object.keys(hierarchy[st] || {});
+  }, [hierarchy, profile.state]);
+
+  const availableTaluks = useMemo(() => {
+    const st = profile.state || "Tamil Nadu";
+    const dist = profile.district || "";
+    return Object.keys((hierarchy[st] || {})[dist] || {});
+  }, [hierarchy, profile.state, profile.district]);
+
+  const availableLocalities = useMemo(() => {
+    const st = profile.state || "Tamil Nadu";
+    const dist = profile.district || "";
+    const taluk = profile.taluk || "";
+    return ((hierarchy[st] || {})[dist] || {})[taluk] || [];
+  }, [hierarchy, profile.state, profile.district, profile.taluk]);
 
   const completionPercentage = useMemo(() => {
     let filled = 0;
@@ -59,13 +93,145 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
     if (profile.gender) filled++;
     if (profile.state) filled++;
     if (profile.district) filled++;
-    if (profile.income_range) filled++;
+    if (profile.income_range || profile.annual_income) filled++;
     if (profile.occupation || profile.health_conditions?.length > 0 || profile.is_pregnant || profile.has_child || profile.is_elderly) filled++;
     return Math.round((filled / totalFields) * 100);
   }, [profile]);
 
   const handleChange = (field, value) => {
     setProfile((prev) => ({ ...prev, [field]: value }));
+    setActivePreset(null);
+  };
+
+  const handleStateSelect = async (newState) => {
+    const newDistricts = Object.keys(hierarchy[newState] || {});
+    const defaultDist = newDistricts[0] || "";
+    const newTaluks = Object.keys((hierarchy[newState] || {})[defaultDist] || {});
+    const defaultTaluk = newTaluks[0] || "";
+    const newLocs = ((hierarchy[newState] || {})[defaultDist] || {})[defaultTaluk] || [];
+    const defaultLoc = newLocs[0] || "";
+
+    const updated = {
+      ...profile,
+      state: newState,
+      district: defaultDist,
+      taluk: defaultTaluk,
+      locality: defaultLoc,
+    };
+    setProfile(updated);
+    setActivePreset(null);
+
+    setIsGeocoding(true);
+    try {
+      const geo = await geocodeLocation({ state: newState, district: defaultDist, taluk: defaultTaluk, locality: defaultLoc });
+      if (geo && geo.latitude) {
+        setProfile((p) => ({ ...p, latitude: geo.latitude, longitude: geo.longitude }));
+      }
+    } catch {} finally {
+      setIsGeocoding(false);
+    }
+  };
+
+  const handleDistrictSelect = async (newDist) => {
+    const st = profile.state || "Tamil Nadu";
+    const newTaluks = Object.keys((hierarchy[st] || {})[newDist] || {});
+    const defaultTaluk = newTaluks[0] || "";
+    const newLocs = ((hierarchy[st] || {})[newDist] || {})[defaultTaluk] || [];
+    const defaultLoc = newLocs[0] || "";
+
+    const updated = {
+      ...profile,
+      district: newDist,
+      taluk: defaultTaluk,
+      locality: defaultLoc,
+    };
+    setProfile(updated);
+    setActivePreset(null);
+
+    setIsGeocoding(true);
+    try {
+      const geo = await geocodeLocation({ state: st, district: newDist, taluk: defaultTaluk, locality: defaultLoc });
+      if (geo && geo.latitude) {
+        setProfile((p) => ({ ...p, latitude: geo.latitude, longitude: geo.longitude }));
+      }
+    } catch {} finally {
+      setIsGeocoding(false);
+    }
+  };
+
+  const handleTalukSelect = async (newTaluk) => {
+    const st = profile.state || "Tamil Nadu";
+    const dist = profile.district || "";
+    const newLocs = ((hierarchy[st] || {})[dist] || {})[newTaluk] || [];
+    const defaultLoc = newLocs[0] || "";
+
+    const updated = {
+      ...profile,
+      taluk: newTaluk,
+      locality: defaultLoc,
+    };
+    setProfile(updated);
+    setActivePreset(null);
+
+    setIsGeocoding(true);
+    try {
+      const geo = await geocodeLocation({ state: st, district: dist, taluk: newTaluk, locality: defaultLoc });
+      if (geo && geo.latitude) {
+        setProfile((p) => ({ ...p, latitude: geo.latitude, longitude: geo.longitude }));
+      }
+    } catch {} finally {
+      setIsGeocoding(false);
+    }
+  };
+
+  const handleLocalitySelect = async (newLoc) => {
+    const updated = { ...profile, locality: newLoc };
+    setProfile(updated);
+    setActivePreset(null);
+
+    setIsGeocoding(true);
+    try {
+      const geo = await geocodeLocation({
+        state: profile.state,
+        district: profile.district,
+        taluk: profile.taluk,
+        locality: newLoc,
+        pincode: profile.pincode,
+      });
+      if (geo && geo.latitude) {
+        setProfile((p) => ({ ...p, latitude: geo.latitude, longitude: geo.longitude }));
+      }
+    } catch {} finally {
+      setIsGeocoding(false);
+    }
+  };
+
+  const handleAnnualIncomeChange = (rawVal) => {
+    const num = rawVal === "" ? "" : Number(rawVal);
+    let bracket = "< 1.2L";
+    if (num > 500000) bracket = "> 5.0L";
+    else if (num > 300000) bracket = "3.0L - 5.0L";
+    else if (num > 120000) bracket = "1.2L - 3.0L";
+
+    setProfile((prev) => ({
+      ...prev,
+      annual_income: num,
+      income_range: bracket,
+    }));
+    setActivePreset(null);
+  };
+
+  const handleIncomeRangeSelect = (bracket) => {
+    let impliedNum = 100000;
+    if (bracket === "1.2L - 3.0L") impliedNum = 200000;
+    else if (bracket === "3.0L - 5.0L") impliedNum = 400000;
+    else if (bracket === "> 5.0L") impliedNum = 600000;
+
+    setProfile((prev) => ({
+      ...prev,
+      income_range: bracket,
+      annual_income: impliedNum,
+    }));
     setActivePreset(null);
   };
 
@@ -89,7 +255,7 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
       setTimeout(() => {
         setSavedMessage(false);
         if (onClose) onClose();
-      }, 1000);
+      }, 900);
     } catch (error) {
       console.warn("Could not save profile:", error);
     }
@@ -120,6 +286,7 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
         pincode: "625001",
         latitude: 9.9195,
         longitude: 78.1194,
+        annual_income: 96000,
         income_range: "< 1.2L",
         family_size: "3",
         is_pregnant: true,
@@ -137,6 +304,7 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
         pincode: "517501",
         latitude: 13.6288,
         longitude: 79.4192,
+        annual_income: 84000,
         income_range: "< 1.2L",
         family_size: "4",
         has_child: true,
@@ -155,6 +323,7 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
         pincode: "641002",
         latitude: 11.0088,
         longitude: 76.9530,
+        annual_income: 72000,
         income_range: "< 1.2L",
         family_size: "2",
         is_elderly: true,
@@ -173,6 +342,7 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
         pincode: "695034",
         latitude: 8.5061,
         longitude: 76.9555,
+        annual_income: 180000,
         income_range: "1.2L - 3.0L",
         family_size: "2",
         is_elderly: true,
@@ -245,18 +415,18 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
         {currentStep === 1 && (
           <div className="form-grid-2">
             <div className="form-field col-span-2">
-              <label className="field-label" htmlFor="hp-name">{t("nameLabel", languageCode)}</label>
+              <label className="field-label" htmlFor="hp-name">{t("nameLabel", languageCode) || "Full Name"}</label>
               <input
                 id="hp-name"
                 type="text"
                 className="form-input"
                 value={profile.name || ""}
                 onChange={(e) => handleChange("name", e.target.value)}
-                placeholder="e.g. Deepshika"
+                placeholder="e.g. Citizen Name"
               />
             </div>
             <div className="form-field">
-              <label className="field-label" htmlFor="hp-age">{t("ageLabel", languageCode)}</label>
+              <label className="field-label" htmlFor="hp-age">{t("ageLabel", languageCode) || "Age"}</label>
               <input
                 id="hp-age"
                 type="number"
@@ -265,190 +435,274 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
                 className="form-input"
                 value={profile.age || ""}
                 onChange={(e) => handleChange("age", e.target.value)}
-                placeholder="e.g. 24"
+                placeholder="e.g. 28"
               />
             </div>
             <div className="form-field">
-              <label className="field-label" htmlFor="hp-gender">{t("genderLabel", languageCode)}</label>
+              <label className="field-label" htmlFor="hp-gender">{t("genderLabel", languageCode) || "Gender"}</label>
               <select
                 id="hp-gender"
                 className="form-select"
                 value={profile.gender || ""}
                 onChange={(e) => handleChange("gender", e.target.value)}
               >
-                <option value="">{t("notSpecified", languageCode)}</option>
-                <option value="female">{t("genderFemale", languageCode)}</option>
-                <option value="male">{t("genderMale", languageCode)}</option>
-                <option value="other">{t("genderOther", languageCode)}</option>
+                <option value="">{t("notSpecified", languageCode) || "Not Specified"}</option>
+                <option value="female">{t("genderFemale", languageCode) || "Female"}</option>
+                <option value="male">{t("genderMale", languageCode) || "Male"}</option>
+                <option value="other">{t("genderOther", languageCode) || "Other"}</option>
               </select>
             </div>
             <div className="form-field col-span-2">
-              <label className="field-label" htmlFor="hp-occupation">{t("occupation", languageCode)}</label>
+              <label className="field-label" htmlFor="hp-occupation">{t("occupation", languageCode) || "Occupation"}</label>
               <input
                 id="hp-occupation"
                 type="text"
                 className="form-input"
                 value={profile.occupation || ""}
                 onChange={(e) => handleChange("occupation", e.target.value)}
-                placeholder="e.g. Homemaker, Teacher, Farmer"
+                placeholder="e.g. Homemaker, Teacher, Farmer, Self-employed"
               />
             </div>
           </div>
         )}
 
-        {/* STEP 2: Location */}
+        {/* STEP 2: Administrative Location Hierarchy */}
         {currentStep === 2 && (
           <div className="form-grid-2">
             <div className="form-field col-span-2">
-              <label className="field-label" htmlFor="hp-state">{t("stateLabel", languageCode)}</label>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "6px" }}>
+                <label className="field-label" htmlFor="hp-state" style={{ margin: 0 }}>
+                  {t("stateLabel", languageCode) || "State / Jurisdiction"}
+                </label>
+                <button
+                  type="button"
+                  style={{ background: "none", border: "none", color: "var(--accent-primary)", fontSize: "0.8rem", cursor: "pointer", textDecoration: "underline" }}
+                  onClick={() => setCustomLocationMode(!customLocationMode)}
+                >
+                  {customLocationMode ? "Use Dropdowns" : "Enter Custom Area"}
+                </button>
+              </div>
               <select
                 id="hp-state"
                 className="form-select"
                 value={profile.state || "Tamil Nadu"}
-                onChange={async (e) => {
-                  const newState = e.target.value;
-                  handleChange("state", newState);
-                  try {
-                    const geo = await geocodeLocation({ state: newState, district: profile.district, taluk: profile.taluk, locality: profile.locality, pincode: profile.pincode });
-                    if (geo && geo.latitude) {
-                      setProfile((p) => ({ ...p, state: newState, latitude: geo.latitude, longitude: geo.longitude }));
-                    }
-                  } catch {}
-                }}
+                onChange={(e) => handleStateSelect(e.target.value)}
               >
                 {STATE_OPTIONS.map((st) => (
                   <option key={st.id} value={st.id}>
-                    {t(st.key, languageCode)}
+                    {t(st.key, languageCode) || st.fallback || st.id}
                   </option>
                 ))}
               </select>
             </div>
 
-            <div className="form-field">
-              <label className="field-label" htmlFor="hp-district">{t("districtLabel", languageCode)}</label>
-              <input
-                id="hp-district"
-                type="text"
-                className="form-input"
-                value={profile.district || ""}
-                onChange={(e) => handleChange("district", e.target.value)}
-                onBlur={async () => {
-                  try {
-                    const geo = await geocodeLocation({ state: profile.state, district: profile.district, taluk: profile.taluk, locality: profile.locality, pincode: profile.pincode });
-                    if (geo && geo.latitude) {
-                      setProfile((p) => ({ ...p, latitude: geo.latitude, longitude: geo.longitude }));
-                    }
-                  } catch {}
-                }}
-                placeholder="e.g. Salem, Chennai, Madurai"
-              />
-            </div>
+            {!customLocationMode ? (
+              <>
+                <div className="form-field">
+                  <label className="field-label" htmlFor="hp-district-select">
+                    {t("districtLabel", languageCode) || "District"}
+                  </label>
+                  <select
+                    id="hp-district-select"
+                    className="form-select"
+                    value={profile.district || (availableDistricts[0] || "")}
+                    onChange={(e) => handleDistrictSelect(e.target.value)}
+                  >
+                    {availableDistricts.length > 0 ? (
+                      availableDistricts.map((d) => (
+                        <option key={d} value={d}>{d}</option>
+                      ))
+                    ) : (
+                      <option value={profile.district || ""}>{profile.district || "Select District"}</option>
+                    )}
+                  </select>
+                </div>
+
+                <div className="form-field">
+                  <label className="field-label" htmlFor="hp-taluk-select">
+                    {t("talukLabel", languageCode) || "Taluk / Tehsil / Mandal"}
+                  </label>
+                  <select
+                    id="hp-taluk-select"
+                    className="form-select"
+                    value={profile.taluk || (availableTaluks[0] || "")}
+                    onChange={(e) => handleTalukSelect(e.target.value)}
+                  >
+                    {availableTaluks.length > 0 ? (
+                      availableTaluks.map((tk) => (
+                        <option key={tk} value={tk}>{tk}</option>
+                      ))
+                    ) : (
+                      <option value={profile.taluk || ""}>{profile.taluk || "General Taluk"}</option>
+                    )}
+                  </select>
+                </div>
+
+                <div className="form-field">
+                  <label className="field-label" htmlFor="hp-locality-select">
+                    {t("localityLabel", languageCode) || "Locality / Town / Village"}
+                  </label>
+                  <select
+                    id="hp-locality-select"
+                    className="form-select"
+                    value={profile.locality || (availableLocalities[0] || "")}
+                    onChange={(e) => handleLocalitySelect(e.target.value)}
+                  >
+                    {availableLocalities.length > 0 ? (
+                      availableLocalities.map((loc) => (
+                        <option key={loc} value={loc}>{loc}</option>
+                      ))
+                    ) : (
+                      <option value={profile.locality || ""}>{profile.locality || "Central Town"}</option>
+                    )}
+                  </select>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="form-field">
+                  <label className="field-label" htmlFor="hp-district-input">
+                    {t("districtLabel", languageCode) || "District"}
+                  </label>
+                  <input
+                    id="hp-district-input"
+                    type="text"
+                    className="form-input"
+                    value={profile.district || ""}
+                    onChange={(e) => handleChange("district", e.target.value)}
+                    placeholder="e.g. Salem, Chennai"
+                  />
+                </div>
+
+                <div className="form-field">
+                  <label className="field-label" htmlFor="hp-taluk-input">
+                    {t("talukLabel", languageCode) || "Taluk / Mandal"}
+                  </label>
+                  <input
+                    id="hp-taluk-input"
+                    type="text"
+                    className="form-input"
+                    value={profile.taluk || ""}
+                    onChange={(e) => handleChange("taluk", e.target.value)}
+                    placeholder="e.g. Salem Taluk"
+                  />
+                </div>
+
+                <div className="form-field">
+                  <label className="field-label" htmlFor="hp-locality-input">
+                    {t("localityLabel", languageCode) || "Locality"}
+                  </label>
+                  <input
+                    id="hp-locality-input"
+                    type="text"
+                    className="form-input"
+                    value={profile.locality || ""}
+                    onChange={(e) => handleChange("locality", e.target.value)}
+                    placeholder="e.g. Shevapet"
+                  />
+                </div>
+              </>
+            )}
 
             <div className="form-field">
-              <label className="field-label" htmlFor="hp-taluk">{t("talukLabel", languageCode)}</label>
-              <input
-                id="hp-taluk"
-                type="text"
-                className="form-input"
-                value={profile.taluk || ""}
-                onChange={(e) => handleChange("taluk", e.target.value)}
-                onBlur={async () => {
-                  try {
-                    const geo = await geocodeLocation({ state: profile.state, district: profile.district, taluk: profile.taluk, locality: profile.locality, pincode: profile.pincode });
-                    if (geo && geo.latitude) {
-                      setProfile((p) => ({ ...p, latitude: geo.latitude, longitude: geo.longitude }));
-                    }
-                  } catch {}
-                }}
-                placeholder="e.g. Salem Taluk, Omalur"
-              />
-            </div>
-
-            <div className="form-field">
-              <label className="field-label" htmlFor="hp-locality">{t("localityLabel", languageCode)}</label>
-              <input
-                id="hp-locality"
-                type="text"
-                className="form-input"
-                value={profile.locality || ""}
-                onChange={(e) => handleChange("locality", e.target.value)}
-                onBlur={async () => {
-                  try {
-                    const geo = await geocodeLocation({ state: profile.state, district: profile.district, taluk: profile.taluk, locality: profile.locality, pincode: profile.pincode });
-                    if (geo && geo.latitude) {
-                      setProfile((p) => ({ ...p, latitude: geo.latitude, longitude: geo.longitude }));
-                    }
-                  } catch {}
-                }}
-                placeholder="e.g. Shevapet, Fairlands"
-              />
-            </div>
-
-            <div className="form-field">
-              <label className="field-label" htmlFor="hp-pincode">{t("pincodeLabel", languageCode)}</label>
+              <label className="field-label" htmlFor="hp-pincode">{t("pincodeLabel", languageCode) || "Pincode"}</label>
               <input
                 id="hp-pincode"
                 type="text"
                 className="form-input"
                 value={profile.pincode || ""}
                 onChange={(e) => handleChange("pincode", e.target.value)}
-                onBlur={async () => {
-                  try {
-                    const geo = await geocodeLocation({ state: profile.state, district: profile.district, taluk: profile.taluk, locality: profile.locality, pincode: profile.pincode });
-                    if (geo && geo.latitude) {
-                      setProfile((p) => ({ ...p, latitude: geo.latitude, longitude: geo.longitude }));
-                    }
-                  } catch {}
-                }}
                 placeholder="e.g. 636001"
                 maxLength={6}
               />
             </div>
 
             <div className="form-field col-span-2">
-              <div style={{ padding: "10px 14px", background: "var(--bg-card)", border: "1px solid var(--border-color)", borderRadius: "var(--radius-md)", fontSize: "0.85rem", color: "var(--text-secondary)" }}>
-                📍 <strong>Verified Coordinates:</strong>{" "}
-                {profile.latitude && profile.longitude
-                  ? <span style={{ color: "var(--accent-primary)", fontWeight: 600 }}>{Number(profile.latitude).toFixed(4)}° N, {Number(profile.longitude).toFixed(4)}° E</span>
-                  : "Auto-detected from administrative area"}
+              <div style={{
+                padding: "12px 14px",
+                background: "var(--bg-card)",
+                border: "1px solid var(--border-color)",
+                borderRadius: "var(--radius-md)",
+                fontSize: "0.85rem",
+                color: "var(--text-secondary)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between"
+              }}>
+                <div>
+                  📍 <strong>Administrative Coordinates:</strong>{" "}
+                  {profile.latitude && profile.longitude ? (
+                    <span style={{ color: "var(--accent-primary)", fontWeight: 600 }}>
+                      {Number(profile.latitude).toFixed(4)}° N, {Number(profile.longitude).toFixed(4)}° E
+                    </span>
+                  ) : (
+                    "Determined from selected district / taluk"
+                  )}
+                </div>
+                {isGeocoding && <span style={{ fontSize: "0.8rem", color: "var(--accent-primary)" }}>Resolving...</span>}
               </div>
             </div>
           </div>
         )}
 
-        {/* STEP 3: Financial & Family */}
+        {/* STEP 3: Financial & Demographic Eligibility */}
         {currentStep === 3 && (
           <div className="form-grid-2">
-            <div className="form-field col-span-2">
-              <label className="field-label" htmlFor="hp-income">{t("incomeLabel", languageCode)}</label>
+            <div className="form-field">
+              <label className="field-label" htmlFor="hp-annual-income">
+                Annual Family Income (₹)
+              </label>
+              <input
+                id="hp-annual-income"
+                type="number"
+                min="0"
+                step="5000"
+                className="form-input"
+                value={profile.annual_income !== undefined && profile.annual_income !== null ? profile.annual_income : ""}
+                onChange={(e) => handleAnnualIncomeChange(e.target.value)}
+                placeholder="e.g. 100000"
+              />
+              <span style={{ fontSize: "0.78rem", color: "var(--text-muted)", marginTop: "4px", display: "block" }}>
+                Auto-syncs with income bracket for health scheme qualification.
+              </span>
+            </div>
+
+            <div className="form-field">
+              <label className="field-label" htmlFor="hp-income">
+                {t("incomeLabel", languageCode) || "Income Bracket"}
+              </label>
               <select
                 id="hp-income"
                 className="form-select"
                 value={profile.income_range || "< 1.2L"}
-                onChange={(e) => handleChange("income_range", e.target.value)}
+                onChange={(e) => handleIncomeRangeSelect(e.target.value)}
               >
-                <option value="< 1.2L">Below ₹1.2 Lakh</option>
+                <option value="< 1.2L">Below ₹1.2 Lakh (High Priority BPL)</option>
                 <option value="1.2L - 3.0L">₹1.2 Lakh - ₹3.0 Lakh</option>
-                <option value="3.0L - 5.0L">₹3.0 Lakh - ₹5.0 Lakh</option>
+                <option value="3.0L - 5.0L">₹3.0 Lakh - ₹5.0 Lakh (Aarogyasri Tier)</option>
                 <option value="> 5.0L">Above ₹5.0 Lakh</option>
               </select>
             </div>
+
             <div className="form-field col-span-2">
-              <label className="field-label" htmlFor="hp-family-size">{t("familySizeLabel", languageCode)}</label>
+              <label className="field-label" htmlFor="hp-family-size">
+                {t("familySizeLabel", languageCode) || "Family Size"}
+              </label>
               <select
                 id="hp-family-size"
                 className="form-select"
                 value={profile.family_size || "4"}
                 onChange={(e) => handleChange("family_size", e.target.value)}
               >
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6+">6+</option>
+                <option value="1">1 Person</option>
+                <option value="2">2 Persons</option>
+                <option value="3">3 Persons</option>
+                <option value="4">4 Persons</option>
+                <option value="5">5 Persons</option>
+                <option value="6+">6+ Persons</option>
               </select>
             </div>
+
             <div className="form-field col-span-2" style={{ marginTop: "8px" }}>
               <span className="field-label" style={{ marginBottom: "8px", display: "block" }}>
                 Special Demographic Criteria
@@ -460,7 +714,7 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
                     checked={Boolean(profile.is_pregnant)}
                     onChange={(e) => handleChange("is_pregnant", e.target.checked)}
                   />
-                  <span>{t("pregnancy", languageCode)}</span>
+                  <span>{t("pregnancy", languageCode) || "Pregnant Woman"}</span>
                 </label>
                 <label className="checkbox-pill-label">
                   <input
@@ -468,7 +722,7 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
                     checked={Boolean(profile.has_child)}
                     onChange={(e) => handleChange("has_child", e.target.checked)}
                   />
-                  <span>{t("childInFamily", languageCode)}</span>
+                  <span>{t("childInFamily", languageCode) || "Infant / Child in Family"}</span>
                 </label>
                 <label className="checkbox-pill-label col-span-2">
                   <input
@@ -476,7 +730,7 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
                     checked={Boolean(profile.is_elderly)}
                     onChange={(e) => handleChange("is_elderly", e.target.checked)}
                   />
-                  <span>{t("seniorInFamily", languageCode)}</span>
+                  <span>{t("seniorInFamily", languageCode) || "Senior Citizen (60+)"}</span>
                 </label>
               </div>
             </div>
@@ -487,14 +741,14 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
         {currentStep === 4 && (
           <div className="form-field">
             <span className="field-label" style={{ marginBottom: "12px", display: "block" }}>
-              {t("conditionsLabel", languageCode)}
+              {t("conditionsLabel", languageCode) || "Pre-existing Health Conditions"}
             </span>
             <div className="checkbox-group">
               {[
-                { id: "hypertension", labelKey: "hypertension" },
-                { id: "diabetes", labelKey: "diabetes" },
-                { id: "cardiac", labelKey: "cardiacCondition" },
-                { id: "kidney", labelKey: "kidneyCondition" },
+                { id: "hypertension", labelKey: "hypertension", fallback: "Hypertension" },
+                { id: "diabetes", labelKey: "diabetes", fallback: "Diabetes" },
+                { id: "cardiac", labelKey: "cardiacCondition", fallback: "Cardiac Condition" },
+                { id: "kidney", labelKey: "kidneyCondition", fallback: "Kidney Disease" },
               ].map((cond) => (
                 <label key={cond.id} className="checkbox-pill-label">
                   <input
@@ -502,7 +756,7 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
                     checked={(profile.health_conditions || []).includes(cond.id)}
                     onChange={() => handleConditionToggle(cond.id)}
                   />
-                  <span>{t(cond.labelKey, languageCode)}</span>
+                  <span>{t(cond.labelKey, languageCode) || cond.fallback}</span>
                 </label>
               ))}
             </div>
@@ -530,7 +784,7 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
               disabled={currentStep === 1}
               style={{ opacity: currentStep === 1 ? 0.4 : 1 }}
             >
-              ← {t("back", languageCode)}
+              ← {t("back", languageCode) || "Back"}
             </button>
             <button
               type="button"
@@ -538,14 +792,14 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
               onClick={handleClear}
               style={{ color: "var(--text-muted)" }}
             >
-              {t("clearProfile", languageCode)}
+              {t("clearProfile", languageCode) || "Reset"}
             </button>
           </div>
 
           <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
             {savedMessage && (
               <span style={{ color: "var(--success-color)", fontSize: "0.85rem", fontWeight: 600 }}>
-                ✓ {t("profileSaved", languageCode)}
+                ✓ {t("profileSaved", languageCode) || "Profile Saved"}
               </span>
             )}
             {currentStep < profileSteps.length ? (
@@ -555,7 +809,7 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
                 style={{ width: "auto", padding: "10px 20px" }}
                 onClick={() => setCurrentStep((prev) => Math.min(profileSteps.length, prev + 1))}
               >
-                {t("next", languageCode)} →
+                {t("next", languageCode) || "Next"} →
               </button>
             ) : (
               <button
@@ -563,7 +817,7 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
                 className="btn-primary-auth"
                 style={{ width: "auto", padding: "10px 24px" }}
               >
-                {t("saveProfile", languageCode)}
+                {t("saveProfile", languageCode) || "Save Profile"}
               </button>
             )}
           </div>
@@ -577,8 +831,8 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
       <div className="modal-overlay" onClick={onClose}>
         <div className="modal-dialog" onClick={(e) => e.stopPropagation()}>
           <div className="modal-header">
-            <h3 className="modal-title">{t("healthProfile", languageCode)}</h3>
-            <button type="button" className="modal-close-btn" onClick={onClose} aria-label={t("close", languageCode)}>
+            <h3 className="modal-title">{t("healthProfile", languageCode) || "Health Profile"}</h3>
+            <button type="button" className="modal-close-btn" onClick={onClose} aria-label={t("close", languageCode) || "Close"}>
               ✕
             </button>
           </div>
@@ -591,10 +845,10 @@ function HealthProfile({ onProfileChange, languageCode = "en-IN", userState = "T
   return (
     <div className="profile-summary-card" style={{ maxWidth: "800px", margin: "0 auto" }}>
       <div className="profile-card-top">
-        <h2 className="section-title">{t("healthProfile", languageCode)}</h2>
+        <h2 className="section-title">{t("healthProfile", languageCode) || "Health Profile"}</h2>
         {onClose && (
           <button type="button" className="header-action-btn" onClick={onClose}>
-            ✕ {t("close", languageCode)}
+            ✕ {t("close", languageCode) || "Close"}
           </button>
         )}
       </div>

@@ -91,6 +91,16 @@ export default function ImageAssistant({
   };
 
   const processFile = (file) => {
+    if (!file) return;
+    if (!file.type || !file.type.startsWith("image/")) {
+      setAnalysisError("Invalid file type. Please upload or capture an image (JPEG, PNG, WebP).");
+      return;
+    }
+    if (file.size > 10 * 1024 * 1024) {
+      setAnalysisError("Image file size exceeds 10MB. Please select a smaller photo or compress it.");
+      return;
+    }
+
     setSelectedFile(file);
     setAnalysisResult(null);
     setAnalysisError(null);

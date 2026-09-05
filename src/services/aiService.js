@@ -8,11 +8,24 @@
  */
 
 export const getApiBaseUrl = () => {
-  if (import.meta.env.VITE_API_URL) return import.meta.env.VITE_API_URL;
-  if (typeof window !== "undefined" && window.location?.hostname) {
-    return `${window.location.protocol}//${window.location.hostname}:8000`;
+  const envUrl = import.meta.env.VITE_API_BASE_URL || import.meta.env.VITE_API_URL;
+  if (envUrl && typeof envUrl === "string" && envUrl.trim()) {
+    return envUrl.trim().replace(/\/+$/, "");
   }
-  return "http://127.0.0.1:8000";
+
+  if (typeof window !== "undefined" && window.location) {
+    const hostname = window.location.hostname;
+    // Local development mode with separate backend port
+    if (hostname === "localhost" || hostname === "127.0.0.1") {
+      return `${window.location.protocol}//${hostname}:8000`;
+    }
+    // Deployed production environment:
+    // If frontend is hosted on the same domain or behind reverse proxy,
+    // use relative path "" so standard HTTPS port 443 routes /api/* cleanly.
+    return "";
+  }
+
+  return "";
 };
 
 export const API_BASE_URL = getApiBaseUrl();

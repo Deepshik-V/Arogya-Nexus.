@@ -132,6 +132,28 @@ def evaluate_profile_eligibility(profile: Optional[Dict[str, Any]]) -> List[Dict
     district = profile.get("district", "")
     income_val = _parse_int(profile.get("annual_income"))
     income_range = _normalize_str(profile.get("income_range") or profile.get("annual_family_income"))
+
+    # Bidirectional synchronization between numeric income and range bracket
+    if income_val is None and income_range:
+        if "< 1.2" in income_range or "below" in income_range or "<" in income_range:
+            income_val = 100000
+        elif "1.2" in income_range and "3" in income_range:
+            income_val = 200000
+        elif "3" in income_range and "5" in income_range:
+            income_val = 400000
+        elif "> 5" in income_range or "above" in income_range:
+            income_val = 600000
+
+    if income_val is not None and not income_range:
+        if income_val <= 120000:
+            income_range = "< 1.2l"
+        elif income_val <= 300000:
+            income_range = "1.2l - 3.0l"
+        elif income_val <= 500000:
+            income_range = "3.0l - 5.0l"
+        else:
+            income_range = "> 5.0l"
+
     family_size = _parse_int(profile.get("family_size"))
     is_pregnant = _parse_bool(profile.get("is_pregnant") or profile.get("pregnancy_status"))
     has_child = _parse_bool(profile.get("has_child") or profile.get("child_status"))

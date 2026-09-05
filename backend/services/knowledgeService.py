@@ -152,11 +152,19 @@ def detect_emergency(text: str) -> Tuple[bool, List[str]]:
         if not norm_trigger:
             continue
         
-        # Match as whole phrase or whole words
-        pattern = rf"(?<!\w){re.escape(norm_trigger)}(?!\w)"
-        if re.search(pattern, norm_text):
+        # For English, enforce strict whole word boundaries.
+        # For Indic scripts (Tamil \u0B80-\u0BFF, Telugu \u0C00-\u0C7F, Malayalam \u0D00-\u0D7F),
+        # words take agglutinative suffixes (e.g. -വും, -உம், -తో), so substring containment is required.
+        is_indic = any("\u0B80" <= c <= "\u0D7F" for c in norm_trigger)
+        if is_indic:
+            matched = norm_trigger in norm_text
+        else:
+            pattern = rf"(?<!\w){re.escape(norm_trigger)}(?!\w)"
+            matched = bool(re.search(pattern, norm_text))
+
+        if matched:
             # If negated or explicitly mild non-emergency query, ignore this trigger
-            if is_negated and any(k in norm_trigger for k in ["chest", "breath", "bleeding", "vali"]):
+            if is_negated and any(k in norm_trigger for k in ["chest", "breath", "bleeding", "vali", "నొప్పి", "വേദന"]):
                 continue
             if is_explicitly_mild and any(k in norm_trigger for k in ["chest pain", "head injury", "convulsion"]):
                 continue

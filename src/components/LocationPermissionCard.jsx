@@ -3,7 +3,7 @@ import { t } from "../translations";
 import { geocodeLocation, reverseGeocodeLocation, getLocationHierarchy } from "../services/aiService";
 
 // Pre-seeded fallback hierarchy to ensure immediate offline/instant rendering
-const STATIC_HIERARCHY = {
+export const STATIC_HIERARCHY = {
   "Tamil Nadu": {
     "Salem": {
       "Salem Taluk": ["Shevapet", "Suramangalam", "Hasthampatti", "Ammapet", "Gugai", "Fairlands", "Alagapuram", "Kitchipalayam"],

@@ -162,6 +162,8 @@ def test_scenarios_26_to_28_complex_multi_symptom(query):
     "Can you write a Python script or poem about love?",
 ])
 def test_scenarios_29_to_30_out_of_domain_boundaries(query):
+    # Warm up regex compilation / GC
+    classify_intent("warmup", language_code="en-IN")
     start = time.perf_counter()
     intent, meta = classify_intent(query, language_code="en-IN")
     duration_ms = (time.perf_counter() - start) * 1000

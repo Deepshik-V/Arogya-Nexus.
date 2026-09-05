@@ -200,8 +200,8 @@ function VoiceAssistant({
         for (let i = 0; i < bufferLength; i++) {
           const barHeight = Math.max(3, (dataArray[i] / 255) * height * 0.95);
           const gradient = ctx.createLinearGradient(0, height - barHeight, 0, height);
-          gradient.addColorStop(0, "#c084fc");
-          gradient.addColorStop(1, "#6d28d9");
+          gradient.addColorStop(0, "#0284c7");
+          gradient.addColorStop(1, "#0f766e");
 
           ctx.fillStyle = gradient;
           ctx.beginPath();
@@ -466,6 +466,9 @@ function VoiceAssistant({
         const audioBlob = new Blob(audioChunksRef.current, { type: mimeType || "audio/webm" });
         if (audioBlob.size > 0) {
           await processVoiceInput(audioBlob);
+        } else {
+          setCurrentState("Ready");
+          setErrorMessage(t("noSpeechDetected", selectedLang) || "No speech detected. Please speak into the microphone.");
         }
       };
 

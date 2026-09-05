@@ -9,7 +9,8 @@ from pathlib import Path
 from typing import Optional, List, Dict, Any
 
 from fastapi import FastAPI, File, Form, HTTPException, Request, UploadFile, status
-from fastapi.responses import JSONResponse, StreamingResponse
+from fastapi.responses import JSONResponse, StreamingResponse, FileResponse
+from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from dotenv import load_dotenv
@@ -40,10 +41,26 @@ app = FastAPI(
     version="3.5.0"
 )
 
-# CORS configuration for React frontend
+# Allowed Origins for CORS: Local development, Render frontends, and custom CORS_ORIGINS
+cors_origins_env = os.getenv("CORS_ORIGINS", "")
+allowed_origins = [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "http://localhost:8000",
+    "http://127.0.0.1:5173",
+    "http://127.0.0.1:3000",
+    "http://127.0.0.1:8000",
+]
+if cors_origins_env:
+    for o in cors_origins_env.split(","):
+        cleaned = o.strip()
+        if cleaned and cleaned not in allowed_origins:
+            allowed_origins.append(cleaned)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=allowed_origins,
+    allow_origin_regex=r"https://.*\.onrender\.com",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -68,7 +85,7 @@ def _hash_password(password: str) -> str:
 _demo_hash = _hash_password("Password123!")
 AUTH_USERS["demo-user-1"] = {
     "id": "demo-user-1",
-    "name": "Dr. Deepshika",
+    "name": "Healthcare Citizen",
     "email": "demo@arogyanexus.gov.in",
     "password_hash": _demo_hash,
     "created_at": time.time(),
@@ -175,6 +192,9 @@ class ProfileSaveRequest(BaseModel):
 
 @app.get("/")
 def root():
+    index_file = ROOT_DIR / "dist" / "index.html"
+    if index_file.exists():
+        return FileResponse(index_file)
     return {
         "message": "Arogya Nexus Backend is running",
         "platform": "AI-Powered Multilingual Rural Healthcare & Government Scheme Intelligence Platform",
@@ -864,3 +884,26 @@ async def image_analysis_upload(
         )
     finally:
         await file.close()
+
+
+# Static files and frontend SPA routing for single-service deployment
+DIST_DIR = ROOT_DIR / "dist"
+if DIST_DIR.exists() and (DIST_DIR / "index.html").exists():
+    assets_dir = DIST_DIR / "assets"
+    if assets_dir.exists():
+        app.mount("/assets", StaticFiles(directory=str(assets_dir)), name="assets")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    async def serve_frontend(full_path: str):
+        if full_path.startswith("api/") or full_path == "health" or full_path.startswith("docs") or full_path.startswith("openapi"):
+            raise HTTPException(status_code=404, detail="Not Found")
+        file_path = DIST_DIR / full_path
+        if file_path.is_file():
+            return FileResponse(file_path)
+        return FileResponse(DIST_DIR / "index.html")
+
+
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
