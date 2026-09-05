@@ -1065,6 +1065,145 @@
   color: #ffffff;
 }
 
+/* --- Schemes Directory Controls & Filters --- */
+.schemes-controls-panel {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.schemes-search-box {
+  flex: 1;
+  min-width: 280px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.schemes-search-box .search-icon {
+  position: absolute;
+  left: 14px;
+  font-size: 1rem;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+.schemes-search-input {
+  width: 100%;
+  padding: 12px 38px 12px 40px;
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  font-size: 0.92rem;
+  transition: all 0.2s ease;
+}
+
+.schemes-search-input:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.schemes-search-clear {
+  position: absolute;
+  right: 12px;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.schemes-search-clear:hover {
+  color: var(--text-primary);
+}
+
+.schemes-state-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.schemes-filter-label {
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.schemes-state-select {
+  padding: 11px 16px;
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  font-size: 0.88rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.schemes-state-select:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+}
+
+.schemes-category-bar {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.schemes-cat-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.84rem;
+  padding: 8px 16px;
+}
+
+.schemes-count-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.86rem;
+  color: var(--text-secondary);
+}
+
+.scheme-benefits-preview-box {
+  background: rgba(37, 99, 235, 0.04);
+  border-radius: var(--radius-md);
+  padding: 10px 14px;
+  border-left: 3px solid var(--accent-primary);
+}
+
+.national-badge {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+.state-badge {
+  background: #f5f3ff;
+  color: #6d28d9;
+  border: 1px solid #ddd6fe;
+}
+
+.schemes-empty-state {
+  padding: 56px 24px;
+  text-align: center;
+  background: var(--bg-card);
+  border: 1px dashed var(--border-subtle);
+  border-radius: var(--radius-lg);
+  margin: 12px 0;
+}
+
 /* --- 9. Emergency Assistance Section --- */
 .emergency-card {
   background: #fff5f5;

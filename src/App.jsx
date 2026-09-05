@@ -3,6 +3,7 @@ import "./App.css";
 import VoiceAssistant from "./components/VoiceAssistant";
 import HealthProfile from "./components/HealthProfile";
 import SchemeComparison from "./components/SchemeComparison";
+import SchemesDirectory from "./components/SchemesDirectory";
 import HospitalMap from "./components/HospitalMap";
 import ImageAssistant from "./components/ImageAssistant";
 import LocationPermissionCard from "./components/LocationPermissionCard";
@@ -14,6 +15,7 @@ import {
   getNearbyHospitals,
   reverseGeocodeLocation,
   API_BASE_URL,
+  VERIFIED_FALLBACK_SCHEMES,
 } from "./services/aiService";
 import { t } from "./translations";
 
@@ -1411,6 +1413,13 @@ function App() {
             </button>
             <button
               type="button"
+              className={`header-nav-btn ${activeView === "compare" ? "active" : ""}`}
+              onClick={() => setActiveView("compare")}
+            >
+              {t("compareSchemes", selectedLang) || "Compare"}
+            </button>
+            <button
+              type="button"
               className={`header-nav-btn ${activeView === "eligibility" ? "active" : ""}`}
               onClick={handleRunEligibility}
             >
@@ -1794,54 +1803,13 @@ function App() {
 
         {/* VIEW 4: DEDICATED SCHEME DIRECTORY */}
         {activeView === "schemes" && (
-          <div className="section-block">
-            <button
-              type="button"
-              className="header-action-btn"
-              style={{ width: "fit-content", marginBottom: "8px" }}
-              onClick={() => setActiveView("home")}
-            >
-              ← {t("back", selectedLang)}
-            </button>
-            <div className="section-header">
-              <h1 className="section-title">{t("govtSchemes", selectedLang)}</h1>
-            </div>
-            <div className="schemes-grid">
-              {recommendedCards.map((scheme) => {
-                const name = getSchemeTitle(scheme.scheme_name, scheme.scheme_id);
-                const desc = scheme.short_description?.[selectedLang.slice(0, 2)] || scheme.short_description?.en || "";
-                const status = scheme.eligibility_status || "Likely Eligible";
-
-                return (
-                  <article key={scheme.scheme_id} className="scheme-card">
-                    <div>
-                      <div className="scheme-badges-row">
-                        <span className="badge-state">{getLocalizedState(scheme.state || "National", selectedLang)}</span>
-                        <span className={`badge-status ${status.toLowerCase().includes("likely") ? "likely" : status.toLowerCase().includes("possibly") ? "possibly" : "info-needed"}`}>
-                          {getLocalizedStatus(status, selectedLang)}
-                        </span>
-                      </div>
-                      <h3 className="scheme-card-title">{name}</h3>
-                      <p className="scheme-card-desc">{desc}</p>
-                    </div>
-
-                    <div className="scheme-card-footer">
-                      <span className="scheme-source-text">
-                        {scheme.official_source || "National Health Mission"}
-                      </span>
-                      <button
-                        type="button"
-                        className="btn-view-details"
-                        onClick={() => setSelectedScheme(scheme)}
-                      >
-                        {t("viewDetails", selectedLang)} →
-                      </button>
-                    </div>
-                  </article>
-                );
-              })}
-            </div>
-          </div>
+          <SchemesDirectory
+            languageCode={selectedLang}
+            userState={profile.state || userState}
+            onSelectScheme={(scheme) => setSelectedScheme(scheme)}
+            onNavigateCompare={() => setActiveView("compare")}
+            onBackToHome={() => setActiveView("home")}
+          />
         )}
 
         {/* VIEW 5: DEDICATED SCHEME COMPARISON */}
@@ -2345,19 +2313,22 @@ function App() {
                 </button>
               </div>
 
-              {schemesLoading ? (
+              {schemesLoading && (!recommendedCards || recommendedCards.length === 0) ? (
                 <div style={{ padding: "32px", textAlign: "center", color: "var(--text-secondary)" }}>
                   Loading personalized scheme recommendations...
                 </div>
               ) : (
                 <div className="schemes-grid">
-                  {recommendedCards.map((scheme) => {
-                    const name = getSchemeTitle(scheme.scheme_name, scheme.scheme_id);
-                    const desc = scheme.short_description?.[selectedLang.slice(0, 2)] || scheme.short_description?.en || "";
+                  {(recommendedCards && recommendedCards.length > 0
+                    ? recommendedCards
+                    : VERIFIED_FALLBACK_SCHEMES.slice(0, 4)
+                  ).map((scheme) => {
+                    const name = getSchemeTitle(scheme.scheme_name, scheme.scheme_id || scheme.id);
+                    const desc = scheme.short_description?.[selectedLang.slice(0, 2)] || scheme.short_description?.en || (typeof scheme.short_description === "string" ? scheme.short_description : "");
                     const status = scheme.eligibility_status || "Likely Eligible";
 
                     return (
-                      <article key={scheme.scheme_id} className="scheme-card">
+                      <article key={scheme.scheme_id || scheme.id} className="scheme-card">
                         <div>
                           <div className="scheme-badges-row">
                             <span className="badge-state">{getLocalizedState(scheme.state || "National", selectedLang)}</span>
@@ -2523,37 +2494,129 @@ function App() {
             </div>
 
             <div className="modal-body">
+              {/* Short description & Purpose */}
               <div>
                 <h4 style={{ fontSize: "0.95rem", color: "var(--accent-primary)", marginBottom: "6px" }}>
-                  {t("benefits", selectedLang)}
+                  {t("healthCoverage", selectedLang) || "Overview"}
                 </h4>
                 <p style={{ fontSize: "0.9rem", color: "var(--text-secondary)", lineHeight: "1.6" }}>
-                  {selectedScheme.short_description?.[selectedLang.slice(0, 2)] || selectedScheme.short_description?.en || selectedScheme.benefits?.en?.[0] || t("healthCoverage", selectedLang)}
+                  {selectedScheme.short_description?.[selectedLang.slice(0, 2)] ||
+                    selectedScheme.short_description?.en ||
+                    (typeof selectedScheme.short_description === "string" ? selectedScheme.short_description : "") ||
+                    selectedScheme.purpose?.[selectedLang.slice(0, 2)] ||
+                    selectedScheme.purpose?.en ||
+                    t("healthCoverage", selectedLang)}
                 </p>
               </div>
 
+              {/* Benefits */}
               <div>
                 <h4 style={{ fontSize: "0.95rem", color: "var(--accent-primary)", marginBottom: "6px" }}>
-                  {t("eligibilityCriteria", selectedLang)}
+                  {t("benefits", selectedLang) || "Benefits & Financial Coverage"}
                 </h4>
-                <ul style={{ paddingLeft: "20px", fontSize: "0.9rem", color: "var(--text-secondary)", display: "flex", flexDirection: "column", gap: "6px" }}>
-                  {(selectedScheme.eligibility?.en || [selectedScheme.target_beneficiaries?.en || "Eligible citizens per annual income criteria."]).map((crit, idx) => (
-                    <li key={idx}>{crit}</li>
-                  ))}
-                </ul>
+                {(() => {
+                  const bList =
+                    selectedScheme.benefits?.[selectedLang.slice(0, 2)] ||
+                    selectedScheme.benefits?.en ||
+                    (Array.isArray(selectedScheme.benefits) ? selectedScheme.benefits : null) ||
+                    selectedScheme.key_benefits ||
+                    [];
+                  return bList.length > 0 ? (
+                    <ul style={{ paddingLeft: "20px", fontSize: "0.9rem", color: "var(--text-secondary)", display: "flex", flexDirection: "column", gap: "6px" }}>
+                      {bList.map((b, idx) => (
+                        <li key={idx}>{b}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p style={{ fontSize: "0.9rem", color: "var(--text-secondary)" }}>
+                      Cashless coverage and clinical support at all empanelled health facilities.
+                    </p>
+                  );
+                })()}
               </div>
 
+              {/* Eligibility Criteria */}
               <div>
                 <h4 style={{ fontSize: "0.95rem", color: "var(--accent-primary)", marginBottom: "6px" }}>
-                  {t("requiredDocuments", selectedLang)}
+                  {t("eligibilityCriteria", selectedLang) || "Eligibility Criteria"}
                 </h4>
-                <p style={{ fontSize: "0.9rem", color: "var(--text-secondary)" }}>
-                  Aadhaar Card, Ration Card (Smart card / BPL), Income Certificate from local revenue authority.
-                </p>
+                {(() => {
+                  const eList =
+                    selectedScheme.eligibility?.[selectedLang.slice(0, 2)] ||
+                    selectedScheme.eligibility?.en ||
+                    (Array.isArray(selectedScheme.eligibility) ? selectedScheme.eligibility : null) ||
+                    [selectedScheme.target_beneficiaries?.en || "Eligible citizens per official central/state income and regional criteria."];
+                  return (
+                    <ul style={{ paddingLeft: "20px", fontSize: "0.9rem", color: "var(--text-secondary)", display: "flex", flexDirection: "column", gap: "6px" }}>
+                      {eList.map((crit, idx) => (
+                        <li key={idx}>{crit}</li>
+                      ))}
+                    </ul>
+                  );
+                })()}
               </div>
 
-              <div style={{ padding: "12px", background: "var(--bg-card)", borderRadius: "var(--radius-md)", fontSize: "0.82rem", color: "var(--text-muted)" }}>
-                ℹ️ {t("officialConfirmationNote", selectedLang)}
+              {/* Required Documents */}
+              <div>
+                <h4 style={{ fontSize: "0.95rem", color: "var(--accent-primary)", marginBottom: "6px" }}>
+                  {t("requiredDocuments", selectedLang) || "Required Documents"}
+                </h4>
+                {(() => {
+                  const dList =
+                    selectedScheme.required_documents?.[selectedLang.slice(0, 2)] ||
+                    selectedScheme.required_documents?.en ||
+                    (Array.isArray(selectedScheme.required_documents) ? selectedScheme.required_documents : null) ||
+                    ["Aadhaar Card", "Ration Card (Smart card / BPL)", "Income Certificate from local revenue authority"];
+                  return (
+                    <ul style={{ paddingLeft: "20px", fontSize: "0.9rem", color: "var(--text-secondary)", display: "flex", flexDirection: "column", gap: "4px" }}>
+                      {dList.map((doc, idx) => (
+                        <li key={idx}>{doc}</li>
+                      ))}
+                    </ul>
+                  );
+                })()}
+              </div>
+
+              {/* How to Apply / Where to Apply */}
+              <div>
+                <h4 style={{ fontSize: "0.95rem", color: "var(--accent-primary)", marginBottom: "6px" }}>
+                  Application Guide & Where to Apply
+                </h4>
+                {(() => {
+                  const aList =
+                    selectedScheme.how_to_apply?.[selectedLang.slice(0, 2)] ||
+                    selectedScheme.how_to_apply?.en ||
+                    (Array.isArray(selectedScheme.how_to_apply) ? selectedScheme.how_to_apply : null) ||
+                    [selectedScheme.practical_next_step || "Visit your nearest Primary Health Centre (PHC) or Community Health Centre (CHC)."];
+                  const where =
+                    selectedScheme.where_to_apply?.[selectedLang.slice(0, 2)] ||
+                    selectedScheme.where_to_apply?.en ||
+                    (Array.isArray(selectedScheme.where_to_apply) ? selectedScheme.where_to_apply[0] : selectedScheme.where_to_apply);
+                  return (
+                    <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                      <ol style={{ paddingLeft: "20px", fontSize: "0.9rem", color: "var(--text-secondary)", display: "flex", flexDirection: "column", gap: "4px" }}>
+                        {aList.map((step, idx) => (
+                          <li key={idx}>{step}</li>
+                        ))}
+                      </ol>
+                      {where && (
+                        <div style={{ marginTop: "4px", fontSize: "0.85rem", color: "var(--text-muted)" }}>
+                          <strong>Location:</strong> {where}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })()}
+              </div>
+
+              {/* Verification & Official Authority */}
+              <div style={{ padding: "12px", background: "var(--bg-card)", borderRadius: "var(--radius-md)", fontSize: "0.82rem", color: "var(--text-muted)", display: "flex", flexDirection: "column", gap: "4px" }}>
+                <div>
+                  <strong>Official Authority:</strong> {selectedScheme.official_source || "Central / State Health Department"}
+                </div>
+                <div>
+                  ℹ️ {t("officialConfirmationNote", selectedLang) || "Final eligibility and benefit sanction must be confirmed with the official government authority."}
+                </div>
               </div>
             </div>
 
